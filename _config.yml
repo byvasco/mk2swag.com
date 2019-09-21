@@ -1,0 +1,23 @@
+title: MK2Swag
+email: hello@mk2swag.com
+description: >-
+  Celebrating the passion for MK2 Golfs and Jettas, from all around the world.
+baseurl: "/"
+url: "https://mk2swag.com"
+
+# Build settings
+markdown: kramdown
+plugins:
+  - jekyll-feed
+
+# Exclude from processing.
+# The following items will not be processed, by default. Create a custom list
+# to override the default setting.
+# exclude:
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/

@@ -1,0 +1,20 @@
+{%- capture main_class -%}
+  {%- if page.page_name -%}
+    page-{{ page.page_name | downcase}}
+  {%- elsif layout.page_name -%}
+    page-{{ layout.page_name | downcase}}
+  {%- else -%}
+    page
+  {%- endif -%}
+{%- endcapture -%}
+
+<!DOCTYPE html>
+<html lang="en">
+  {% include doc/head.html %}
+
+  <body>
+    <main class="{{main_class}}">
+      {{content}}
+    </main>
+  </body>
+</html>
