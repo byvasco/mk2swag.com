@@ -1,0 +1,45 @@
+/*
+ * Base
+ * Variables
+ */
+
+// Fonts
+$font-titles: 'Archivo Black';
+$font-body: 'IBM Plex Sans';
+
+$text: 450;
+$bold: 700;
+
+// Colors
+@function get-color($main, $variation: null, $palette: null) {
+  @if $palette == null {
+    $palette: $colors;
+  }
+
+  @if $variation {
+    @return map-get(map-get($palette, $main), $variation);
+  } @else {
+    @return map-get($palette, $main);
+  }
+}
+
+$colors: (
+  basic: (
+    white: #FFF,
+    black: #000
+  ),
+
+  brand: (
+    main: #2A02E2
+  ),
+
+  text: (
+    primary: #000,
+    secondary: #31394B,
+    light: #7B8292
+  ),
+
+  border: (
+    primary: #F0F0F0
+  )
+);

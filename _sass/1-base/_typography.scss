@@ -1,0 +1,62 @@
+/*
+ * Base
+ * Typography
+ */
+
+
+// Titles
+.title {
+  font-family: $font-titles;
+  text-transform: uppercase;
+
+  &-1 {
+    @extend .title;
+    @include font(42, 36, -0.6);
+  }
+
+  &-2 {
+    @extend .title;
+    @include font(34, 28, -0.5);
+  }
+
+  &-3 {
+    @extend .title;
+    @include font(26, 28, -0.6);
+  }
+
+  &-4 {
+    @extend .title;
+    @include font(18, 16, -0.42);
+  }
+
+  @include mq-after(small) {
+    &-1 {
+      @include font(60, 48, -1);
+    }
+  
+    &-2 {
+      @include font(44, 48, -0.9);
+    }
+  
+    &-3 {
+      @include font(34, 32, -0.85);
+    }
+  
+    &-4 {
+      @include font(24, 24, -0.6);
+    }
+  }
+}
+
+// Body
+.body {
+  @include font(18, 32, -0.02);
+
+  &-small {
+    @include font(16, 24, -0.02);
+  }
+}
+
+p {
+  @extend .body;
+}
