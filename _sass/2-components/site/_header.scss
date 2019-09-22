@@ -1,0 +1,29 @@
+/*
+ * Component
+ * Site - Header
+ */
+
+.header-main {
+  padding: 32px 0;
+
+  .menu-main,
+  .logo {
+    justify-self: center;
+  }
+
+  .grid {
+    grid-gap: 28px;
+  }
+
+  @include mq-after(small) {
+    padding: 40px 0;
+
+    .grid {
+      @include grid(200px 1fr, $align: center);
+    }
+
+    .menu-main {
+      justify-self: end;
+    }
+  }
+}

@@ -1,0 +1,40 @@
+---
+layout: default
+page_name: Home
+---
+
+<section class="recent-feature">
+  <div class="container-narrow">
+    {% assign feature = site.posts.first %}
+
+    <a class="recent-feature-preview" href="{{feature.url}}">
+      <figure class="feature-cover">
+        <img src="/assets/images/features/{{feature.title | remove: "’" | slugify}}/cover.jpg" alt="">
+      </figure>
+
+      <div class="feature-details">
+        <div class="feature-categories">
+          {% for category in feature.categories %}
+            <p class="feature-category label">{{category}}</p>
+          {% endfor %}
+        </div>
+        <h1 class="feature-title title-1">{{feature.title}}</h1>
+        <p class="feature-action button-text accent underlined">Read Feature</p>
+      </div>
+    </a>
+  </div>
+</section>
+
+<section class="more-features">
+  <div class="container-small">
+    {% for feature in site.posts | offset: 1 %}
+      {% include cards/feature-preview.html %}
+    {% endfor %}
+  </div>
+</section>
+
+<section class="view-more">
+  <div class="container flex-center-all">
+    <a href="/features" class="button-outline">View More Features</a>
+  </div>
+</section>

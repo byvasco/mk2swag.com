@@ -1,0 +1,17 @@
+/*
+ * Component
+ * Button Social
+ */
+
+.button-social {
+  display: inline-block;
+  @include wh(40px, 40px);
+  
+  &.facebook {
+    @include background('buttons/button-facebook.svg', $size: 100%);
+  }
+
+  &.instagram {
+    @include background('buttons/button-instagram.svg', $size: 100%);
+  }
+}

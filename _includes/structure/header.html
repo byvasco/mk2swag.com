@@ -1,0 +1,11 @@
+<header class="header-main">
+  <div class="container grid">
+    <a href="/" class="logo">MK2SWAG</a>
+
+    <nav class="menu-main">
+      {% for doc in site.data.navigation.docs %}
+        {% if doc.show %}<a href="{{doc.url}}" class="menu-link button-text">{{doc.title}}</a>{% endif %}
+      {% endfor %}
+    </nav>
+  </div>
+</header>

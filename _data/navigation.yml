@@ -1,0 +1,13 @@
+docs:
+
+- title: Recent
+  url: /
+  show: true
+
+- title: Features
+  url: /features
+  show: true
+
+- title: About
+  url: /about
+  show: true

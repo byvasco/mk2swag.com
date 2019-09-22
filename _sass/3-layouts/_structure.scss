@@ -1,0 +1,49 @@
+/*
+ * Component
+ * Logo
+ */
+
+// Main container
+.container {
+  width: 100%;
+  max-width: calc(1200px + 40px);
+  padding: 0 20px;
+  margin: auto;
+  position: relative;
+
+  &-narrow {
+    @extend .container;
+    max-width: calc(790px + 40px);
+  }
+
+  &-small {
+    @extend .container;
+    max-width: calc(586px + 40px);
+  }
+}
+
+
+// Grids structure
+.grid {
+  display: grid;
+  grid-gap: 30px;
+  
+  &-2 {
+    @extend .grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+
+// Flexbox helpers
+.flex {
+  @include flex();
+
+  &-center-hor {
+    @include flex(center);
+  }
+
+  &-center-all {
+    @include flex(center, center, column);
+  }
+}

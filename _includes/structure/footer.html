@@ -1,0 +1,14 @@
+<footer class="footer-main">
+  <div class="container flex-center-all">
+    <nav class="menu-main">
+      {% for doc in site.data.navigation.docs %}
+        {% if doc.show %}<a href="{{doc.url}}" class="menu-link button-text">{{doc.title}}</a>{% endif %}
+      {% endfor %}
+    </nav>
+
+    <div class="social-buttons">
+      <a href="https://www.facebook.com/mk2swag/" class="button-social facebook"></a>
+      <a href="https://www.instagram.com/mk2swag/" class="button-social instagram"></a>
+    </div>
+  </div>
+</footer>

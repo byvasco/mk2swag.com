@@ -1,0 +1,15 @@
+/*
+ * Component
+ * Logo
+ */
+
+.logo {
+  display: block;
+  @include wh(86px, 46px);
+  @include background('logo/logo-dark.svg', $size: 100%);
+  font-size: 0;
+
+  @include mq-after(small) {
+    @include wh(104px, 56px);
+  }
+}

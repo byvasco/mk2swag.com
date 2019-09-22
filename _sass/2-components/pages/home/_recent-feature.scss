@@ -1,0 +1,35 @@
+/*
+ * Component
+ * Recent Feature Preview
+ */
+
+.recent-feature-preview {
+  display: block;
+  position: relative;
+  @include wh(100vw, $m-width: 790px);
+
+  .feature-cover {
+    margin-bottom: -4px;
+  }
+
+  .feature-details {
+    padding: 24px 20px;
+
+    .feature-categories {
+      margin: -7px 0 8px;
+    }
+
+    .feature-title {
+      margin-bottom: 16px;
+    }
+  }
+
+  &::before {
+    content: '';
+    display: block;
+    @include wh(48px, 48px);
+    @include background('misc/stamp-new.svg', $size: 100%);
+    @include pos(-36px, 20px);
+    transform: rotate(30deg);
+  }
+}

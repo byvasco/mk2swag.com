@@ -1,0 +1,18 @@
+/*
+ * Component
+ * Button
+ */
+
+.button {
+  @extend .button-text;
+  color: get-color(basic, white);
+  background-color: get-color(basic,black);
+  padding: 13px 24px;
+
+  &-outline {
+    @extend .button;
+    background-color: get-color(basic, white);
+    color: get-color(basic, black);
+    border: 2px solid get-color(basic, black);
+  }
+}

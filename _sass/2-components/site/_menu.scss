@@ -1,0 +1,10 @@
+/*
+ * Component
+ * Menu
+ */
+
+.menu-main {
+  .menu-link:not(:first-child) {
+    margin-left: 48px;
+  }
+}
