@@ -7,7 +7,7 @@
   @extend .button-text;
   color: get-color(basic, white);
   background-color: get-color(basic,black);
-  padding: 13px 24px;
+  padding: 16px 24px;
 
   &-outline {
     @extend .button;

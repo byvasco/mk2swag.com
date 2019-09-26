@@ -7,43 +7,51 @@
 // Titles
 .title {
   font-family: $font-titles;
-  text-transform: uppercase;
 
   &-1 {
     @extend .title;
-    @include font(42, 36, -0.6);
+    @include font(42, 40, 0);
   }
 
   &-2 {
     @extend .title;
-    @include font(34, 28, -0.5);
+    @include font(38, 36, 0);
   }
 
   &-3 {
     @extend .title;
-    @include font(26, 28, -0.6);
+    @include font(32, 28, 0);
   }
 
   &-4 {
     @extend .title;
-    @include font(18, 16, -0.42);
+    @include font(28, 32, -0.1);
+  }
+  
+  &-5 {
+    text-transform: uppercase;
+    @include font(22, 24, -0.1);
   }
 
   @include mq-after(small) {
     &-1 {
-      @include font(60, 48, -1);
+      @include font(60, 56, 0);
     }
   
     &-2 {
-      @include font(44, 48, -0.9);
+      @include font(56, 56, -0.6);
     }
   
     &-3 {
-      @include font(34, 32, -0.85);
+      @include font(42, 40, -0.4);
     }
   
     &-4 {
-      @include font(24, 24, -0.6);
+      @include font(32, 32, -0.1);
+    }
+
+    &-5 {
+      @include font(24, 24, 0);
     }
   }
 }
@@ -51,6 +59,10 @@
 // Body
 .body {
   @include font(18, 32, -0.02);
+
+  &-large {
+    @include font(20, 28, 0);
+  }
 
   &-small {
     @include font(16, 24, -0.02);
@@ -61,35 +73,41 @@ p {
   @extend .body;
 }
 
+// Links
+.link {
+  font-weight: 700;
+  text-decoration: underline;
+}
+
 // Buttons
 .button-text {
   display: inline-block;
   font-family: $font-titles;
   text-transform: uppercase;
-  @include font(12, 14, 0.1);
+  @include font(12, 12, 0);
 
   &.underlined {
-    border-bottom: 2px solid transparentize(get-color(text, primary), $amount: 0.86);
+    // border-bottom: 2px solid transparentize(get-color(text, primary), $amount: 0.86);
+    border-bottom: 2px solid get-color(text, primary);
 
     &.accent {
-      border-bottom: 2px solid transparentize(get-color(brand, accent), $amount: 0.6);
+      border-bottom: 2px solid get-color(brand, accent);
     }
   }
 
+  &-small {
+    @extend .button-text;
+    @include font(12, 12, 0);
+  }
+
   @include mq-after(small) {
-    @include font(14, 14, 0.2);
+    @include font(14, 14, 0);
   }
 }
 
 // Labels
 .label {
-  display: inline-block;
-  font-family: $font-titles;
-  text-transform: uppercase;
-  @include font(10, 12, 0.09);
-  color: get-color(basic, white);
-  background-color: get-color(basic, black);
-  padding: 0 2px;
+  @extend .button-text-small;
 }
 
 // Transformers

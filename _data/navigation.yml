@@ -4,8 +4,8 @@ docs:
   url: /
   show: true
 
-- title: Features
-  url: /features
+- title: Stories
+  url: /stories
   show: true
 
 - title: About

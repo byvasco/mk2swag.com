@@ -1,26 +1,19 @@
 /*
  * Component
- * Recent Feature Preview
+ * Recent Story Preview
  */
 
-.recent-feature-preview {
+.recent-story-preview {
   display: block;
   position: relative;
   @include wh(100vw, $m-width: 790px);
+  padding: 0;
 
-  .feature-cover {
-    margin-bottom: -4px;
-  }
+  .story-details {
+    padding: 28px 20px;
 
-  .feature-details {
-    padding: 24px 20px;
-
-    .feature-categories {
-      margin: -7px 0 8px;
-    }
-
-    .feature-title {
-      margin-bottom: 16px;
+    .story-categories {
+      margin-bottom: 12px;
     }
   }
 

@@ -5,7 +5,7 @@
 
 .button-social {
   display: inline-block;
-  @include wh(40px, 40px);
+  @include wh(32px, 32px);
   
   &.facebook {
     @include background('buttons/button-facebook.svg', $size: 100%);

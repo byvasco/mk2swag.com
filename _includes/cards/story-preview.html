@@ -1,0 +1,19 @@
+{% assign story = include %}
+
+<a class="story-preview" href="{{ story.url }}">
+  <figure class="story-cover">
+    <img alt="" src="/assets/images/stories/{{story.title | remove: '’' | slugify}}/cover.jpg">
+  </figure>
+
+  <div class="story-details">
+    <div class="story-categories">
+      {% for category in story.categories %}
+        <p class="story-category label">{{ category }}</p>
+      {% endfor %}
+    </div>
+    <h2 class="story-title title-2">{{ story.title }}</h2>
+    {% if story.show_action != false %}
+      <p class="story-action button-text underlined">Read Story</p>
+    {% endif %}
+  </div>
+</a>

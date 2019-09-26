@@ -4,15 +4,26 @@
  */
 
 .footer-main {
-  padding: 40px 0;
+  position: relative;
+
+  .container {
+    padding-top: 56px;
+    padding-bottom: 56px;
+  }
 
   .menu-main {
-    margin-bottom: 32px;
+    margin-bottom: 24px;
   }
 
   .social-buttons {
     .button-social {
-      margin: 0 8px;
+      margin: 0 10px;
     }
+  }
+
+  .divider {
+    @include wh(calc(100% - 40px), 2px, 1200px);
+    @include pos(0, $left: 20px);
+    background-color: get-color(text, primary);
   }
 }

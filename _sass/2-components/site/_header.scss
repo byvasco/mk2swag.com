@@ -4,7 +4,11 @@
  */
 
 .header-main {
-  padding: 32px 0;
+  padding: 32px 0 48px;
+
+  .menu-main {
+    order: -1;
+  }
 
   .menu-main,
   .logo {
@@ -24,6 +28,7 @@
 
     .menu-main {
       justify-self: end;
+      order: 1;
     }
   }
 }

@@ -1,0 +1,36 @@
+/*
+ * Component
+ * Content
+ */
+
+.page-content {
+  .image {
+    @include wh(100%, $m-width: 380px);
+  }
+
+  .text {
+    max-width: 484px;
+    padding: 56px 0 32px;
+
+    .title {
+      margin-bottom: 16px;
+    }
+
+    p + p {
+      margin-top: 12px;
+      text-indent: 12px;
+    }
+  }
+
+  .contact {
+    padding-bottom: 80px;
+
+    * {
+      max-width: 278px;
+    }
+
+    p {
+      margin-bottom: 24px;
+    }
+  }
+}

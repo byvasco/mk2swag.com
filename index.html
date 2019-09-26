@@ -3,38 +3,40 @@ layout: default
 page_name: Home
 ---
 
-<section class="recent-feature">
+<section class="recent-story">
   <div class="container-narrow">
-    {% assign feature = site.posts.first %}
+    {% assign story = site.posts.first %}
 
-    <a class="recent-feature-preview" href="{{feature.url}}">
-      <figure class="feature-cover">
-        <img src="/assets/images/features/{{feature.title | remove: "’" | slugify}}/cover.jpg" alt="">
+    <a class="recent-story-preview story-preview" href="{{story.url}}">
+      <figure class="story-cover">
+        <img src="/assets/images/stories/{{story.title | remove: "’" | slugify}}/cover.jpg" alt="">
       </figure>
 
-      <div class="feature-details">
-        <div class="feature-categories">
-          {% for category in feature.categories %}
-            <p class="feature-category label">{{category}}</p>
+      <div class="story-details">
+        <div class="story-categories">
+          {% for category in story.categories %}
+            <p class="story-category label">{{category}}</p>
           {% endfor %}
         </div>
-        <h1 class="feature-title title-1">{{feature.title}}</h1>
-        <p class="feature-action button-text accent underlined">Read Feature</p>
+        
+        <h1 class="story-title title-1">{{story.title}}</h1>
+        
+        <p class="story-action button-text accent underlined">Read Story</p>
       </div>
     </a>
   </div>
 </section>
 
-<section class="more-features">
+<section class="more-storys">
   <div class="container-small">
-    {% for feature in site.posts | offset: 1 %}
-      {% include cards/feature-preview.html %}
+    {% for story in site.posts | offset: 1 %}
+      {% include cards/story-preview.html %}
     {% endfor %}
   </div>
 </section>
 
 <section class="view-more">
   <div class="container flex-center-all">
-    <a href="/features" class="button-outline">View More Features</a>
+    <a href="/storys" class="button-outline">View More Stories</a>
   </div>
 </section>

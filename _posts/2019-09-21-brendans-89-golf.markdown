@@ -1,27 +1,13 @@
 ---
-layout: default
+layout: story
 
 title:  "Brendan’s ’89 Golf"
 date:   2019-09-21 16:04:15 +0100
 
-categories: golf
+categories: golf story
 ---
-You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
 
-To add new posts, simply add a file in the `_posts` directory that follows the convention `YYYY-MM-DD-name-of-post.ext` and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.
+My name is Brendan, I’m from Simi Valley CA, and I own a 1989 Volkswagen Golf.
 
-Jekyll also offers powerful support for code snippets:
-
-{% highlight ruby %}
-def print_hi(name)
-  puts "Hi, #{name}"
-end
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
-{% endhighlight %}
-
-Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
-
-[jekyll-docs]: https://jekyllrb.com/docs/home
-[jekyll-gh]:   https://github.com/jekyll/jekyll
-[jekyll-talk]: https://talk.jekyllrb.com/
+I used to ride by this car on my bike every day when I was 15 years old. It never moved. The last time it had been registered was 1999. I would knock on the door every few months, trying to convince the owner to sell it to me.
+By the time I was 18, he finally agreed. I had it towed home that night.
