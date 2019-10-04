@@ -1,0 +1,45 @@
+/*
+ * Component
+ * Story - Content
+ */
+
+.story-content { 
+  h4 {
+    @extend .title-4;
+  }
+
+  p:first-child:first-letter {
+    font-family: $font-titles;
+    font-size: 60px;
+    float: left;
+    padding-top: 18px;
+    padding-right: 10px;
+  }
+
+  p + p {
+    margin-top: 12px;
+  }
+
+  p + h4 {
+    margin-top: 48px;
+  }
+
+  h4 + p {
+    margin-top: 12px;
+  }
+
+  a {
+    text-decoration: underline;
+    font-style: italic;
+  }
+  
+  @include mq-after(medium) {
+    p + h4 {
+      margin-top: 72px;
+    }
+
+    h4 + p {
+      margin-top: 20px;
+    }
+  }
+}

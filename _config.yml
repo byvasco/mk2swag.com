@@ -21,3 +21,31 @@ plugins:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+
+collections_dir: collections
+
+collections:
+  stories:
+    output: true
+    permalink: /stories/:title
+    sort_by: date
+  
+  pages:
+    output: true
+    permalink: /:title
+
+defaults:
+  -
+    scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "default"
+
+  -
+    scope:
+      path: ""
+      type: "stories"
+    values:
+      layout: "story"
+      type: "story"

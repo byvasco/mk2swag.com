@@ -26,6 +26,10 @@
       @include grid(200px 1fr, $align: center);
     }
 
+    .logo {
+      justify-self: start;
+    }
+
     .menu-main {
       justify-self: end;
       order: 1;

@@ -1,11 +1,10 @@
 ---
 layout: default
-page_name: Home
 ---
 
 <section class="recent-story">
   <div class="container-narrow">
-    {% assign story = site.posts.first %}
+    {% assign story = site.stories.last %}
 
     <a class="recent-story-preview story-preview" href="{{story.url}}">
       <figure class="story-cover">
@@ -19,7 +18,7 @@ page_name: Home
           {% endfor %}
         </div>
         
-        <h1 class="story-title title-1">{{story.title}}</h1>
+        <h1 class="story-title title-2">{{story.title}}</h1>
         
         <p class="story-action button-text accent underlined">Read Story</p>
       </div>
@@ -27,9 +26,10 @@ page_name: Home
   </div>
 </section>
 
-<section class="more-storys">
-  <div class="container-small">
-    {% for story in site.posts | offset: 1 %}
+<section class="more-stories">
+  <div class="container flex-center-all">
+    {% assign stories = site.stories | sort: 'date' | reverse %}
+    {% for story in stories | offset: 1 %}
       {% include cards/story-preview.html %}
     {% endfor %}
   </div>

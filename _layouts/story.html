@@ -1,20 +1,68 @@
 ---
 layout: default
-page_name: story
+page_title: story
 ---
 
 <header class="story-header">
-  <div class="container-small">
-    {% for category in page.categories %}
-      <p class="story-category label">{{ category }}</p>
-    {% endfor %}
+  <div class="story-intro">
+    <div class="container-small">
+      <div class="story-categories">
+        {% for category in page.categories %}
+          <a href="#" class="story-category label">{{ category }}</a>
+        {% endfor %}
+      </div>
 
-    <h1 class="story-title title-1">{{page.title}}</h1>
+      <h1 class="story-title title-1">{{page.title}}</h1>
+    </div>
+  </div>
+  
+  <div class="story-cover">
+    <div class="container-narrow">
+      <figure class="story-cover">
+        <img alt="" src="/assets/images/stories/{{page.title | remove: '’' | slugify}}/cover.jpg">
+      </figure>
+    </div>
   </div>
 </header>
 
 <section class="story-content">
   <div class="container-small">
     {{page.content}}
+  </div>
+</section>
+
+<footer class="story-footer">
+  <div class="container flex-center-all">
+    <h6 class="title title-6">Share Story</h6>
+
+    <div class="share-buttons">
+      <a href="#" class="button-share facebook">Facebook</a>
+      <a href="#" class="button-share twitter">Twitter</a>
+    </div>
+  </div>
+</footer>
+
+<section class="more-stories">
+  <div class="container-narrow">
+    <header class="section-header">
+      <h5 class="title-5">More Stories</h5>
+      <a href="/stories" class="button-text accent underlined">View All</a>
+    </header>
+
+    {% if page.next.title %}
+      {% assign story = page.next %}
+      {% include cards/story-preview.html %}
+    {% else %}
+      {% assign story = site.stories.first %}
+      {% include cards/story-preview.html %}
+    {% endif %}
+
+    {% if page.previous.title %}
+      {% assign story = page.previous %}
+      {% include cards/story-preview.html %}
+    {% else %}
+      {% assign story = site.stories.last %}
+      {% include cards/story-preview.html %}
+    {% endif %}
   </div>
 </section>

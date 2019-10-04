@@ -4,9 +4,18 @@
  */
 
 .page-header {
-  padding: 24px 0 56px;
+  padding: 56px 0 48px;
+  text-align: center;
 
   .page-intro {
     margin-top: 16px;
+  }
+
+  @include mq-after(small) {
+    padding: 120px 0;
+
+    .page-intro {
+      margin-top: 24px;
+    }
   }
 }

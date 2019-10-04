@@ -49,7 +49,7 @@ $breakpoints: (
 }
 
 // Sets display to grid
-@mixin grid($cols: null, $rows: null, $gap: 20px, $align: null) {
+@mixin grid($cols: null, $rows: null, $gap: 30px, $align: null) {
   display: grid;
   grid-gap: $gap;
   grid-template-columns: $cols;

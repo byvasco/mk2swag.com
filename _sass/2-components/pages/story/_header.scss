@@ -1,0 +1,49 @@
+/*
+ * Component
+ * Story - Header
+ */
+
+.story-header {
+  text-align: center;
+  padding: 56px 0 48px;
+
+  .story-intro {
+    margin-bottom: 32px;
+  }
+
+  .story-categories {
+    @include flex($justify: center);
+    margin-bottom: 16px;
+  }
+
+  .story-category + .story-category {
+    @include flex(center, center);
+
+    &::before {
+      content: '';
+      display: block;
+      @include wh(12px, 2px);
+      background-color: get-color(text, primary);
+      margin: 0 8px;
+    }
+  }
+
+  .story-cover {
+    .container-narrow {
+      max-width: 790px;
+      padding: 0;
+    }
+  }
+
+  @include mq-after(medium) {
+    padding: 120px 0 80px;
+
+    .story-categories {
+      margin-bottom: 24px;
+    }
+
+    .story-intro {
+      margin-bottom: 56px;
+    }
+  }
+}

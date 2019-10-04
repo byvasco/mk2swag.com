@@ -1,0 +1,12 @@
+/*
+ * Component
+ * More Stories
+ */
+
+.more-stories {
+  @include mq-after(medium) {
+    .container {
+      @include grid(1fr 1fr);
+    }
+  }
+}

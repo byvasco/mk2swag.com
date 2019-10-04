@@ -11,10 +11,7 @@
 
   .story-details {
     padding: 28px 20px;
-
-    .story-categories {
-      margin-bottom: 12px;
-    }
+    max-width: 586px;
   }
 
   &::before {
@@ -24,5 +21,20 @@
     @include background('misc/stamp-new.svg', $size: 100%);
     @include pos(-36px, 20px);
     transform: rotate(30deg);
+  }
+
+  @include mq-after(medium) {
+    .story-details {
+      margin: auto;
+      padding: 40px 0;
+
+      .story-title + .story-action {
+        margin-top: 48px;
+      }
+    }
+
+    &::before {
+      display: none;
+    }
   }
 }

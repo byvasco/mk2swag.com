@@ -1,7 +1,4 @@
 ---
-layout: default
-page_name: stories
-permalink: /stories/
 ---
 
 <header class="page-header">
@@ -11,9 +8,10 @@ permalink: /stories/
 </header>
 
 <section class="page-content">
-  <div class="container">
-    {% for story in site.posts %}
-      {% include cards/story-preview.html show_action=false %}
+  <div class="container flex-center-all">
+    {% assign stories = site.stories | sort: 'date' | reverse %}
+    {% for story in stories %}
+      {% include cards/story-preview.html %}
     {% endfor %}
   </div>
 </section>

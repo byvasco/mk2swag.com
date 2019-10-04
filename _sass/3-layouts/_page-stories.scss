@@ -1,0 +1,23 @@
+/*
+ * Layout
+ * Page - Stories
+ */
+
+.page-stories {
+  
+  @include mq-after(small) {
+    .story-preview {
+      margin-bottom: 56px;
+    }
+  }
+
+  @include mq-after(large) {
+    .page-content {
+      margin-bottom: 120px;
+      
+      .container {
+        @include grid(1fr 1fr);
+      }
+    }
+  }
+}

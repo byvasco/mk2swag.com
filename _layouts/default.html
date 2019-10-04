@@ -1,8 +1,12 @@
 {%- capture main_class -%}
-  {%- if page.page_name -%}
-    page-{{ page.page_name | downcase}}
-  {%- elsif layout.page_name -%}
-    page-{{ layout.page_name | downcase}}
+  {%- if page.url == "/" -%}
+    page-home
+  {%- elsif layout.page_title -%}
+    page-{{ layout.page_title | downcase}}
+  {%- elsif page.title -%}
+    page-{{ page.title | downcase}}
+  {%- elsif layout.title -%}
+    page-{{ layout.title | downcase}}
   {%- else -%}
     page
   {%- endif -%}

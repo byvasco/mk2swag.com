@@ -29,8 +29,15 @@
   }
   
   &-5 {
+    @extend .title;
     text-transform: uppercase;
     @include font(22, 24, -0.1);
+  }
+
+  &-6 {
+    @extend .title;
+    text-transform: uppercase;
+    @include font(16, 20, 0);
   }
 
   @include mq-after(small) {
@@ -56,9 +63,25 @@
   }
 }
 
+// Subtitles
+.subtitle {
+  font-family: $font-titles;
+  
+  &-1 {
+    @extend .subtitle;
+    @include font(20, 28, -0.3);
+  }
+
+  @include mq-after(small) {
+    &-1 {
+      @include font(24, 32, -0.3);
+    }
+  }
+}
+
 // Body
 .body {
-  @include font(18, 32, -0.02);
+  @include font(18, 32, 0);
 
   &-large {
     @include font(20, 28, 0);
@@ -107,7 +130,9 @@ p {
 
 // Labels
 .label {
-  @extend .button-text-small;
+  font-family: $font-titles;
+  text-transform: uppercase;
+  @include font(12, 12, 0);
 }
 
 // Transformers

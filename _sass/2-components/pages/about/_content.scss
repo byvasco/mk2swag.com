@@ -33,4 +33,23 @@
       margin-bottom: 24px;
     }
   }
+
+  @include mq-after(medium) {
+    .content {
+      @include grid(1fr 688px);
+    }
+
+    .text {
+      justify-self: center;
+      padding: 80px 0 100px;
+
+      .title {
+        margin-bottom: 24px;
+      }
+    }
+
+    .contact {
+      padding-bottom: 140px;
+    }
+  }
 }

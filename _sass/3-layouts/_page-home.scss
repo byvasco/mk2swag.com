@@ -9,4 +9,22 @@
     margin-left: -20px;
     margin-bottom: 24px;
   }
+
+  .view-more {
+    margin: 40px 0 80px;
+  }
+
+  @include mq-after(medium) {
+    .recent-story {
+      margin: 80px 0;
+    }
+
+    .more-stories {
+      margin-bottom: 80px;
+    }
+
+    .view-more {
+      margin: 40px 0 140px;
+    }
+  }
 }

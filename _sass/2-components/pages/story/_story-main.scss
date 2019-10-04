@@ -1,0 +1,10 @@
+/*
+ * Story Main
+ */
+
+.page-story {
+  @import 'header';
+  @import 'content';
+  @import 'footer';
+  @import 'more';
+}

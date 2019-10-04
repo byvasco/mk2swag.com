@@ -1,0 +1,13 @@
+/*
+ * Component
+ * Story - More
+ */
+
+.more-stories {
+  padding: 56px 0 80px;
+
+  .section-header {
+    padding: 28px 0;
+    @include flex(space-between, center);
+  }
+}

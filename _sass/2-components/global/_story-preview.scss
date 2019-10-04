@@ -36,4 +36,12 @@
       margin-top: 24px;
     }
   }
+
+  @include mq-after(small) {
+    .story-details {
+      .story-categories {
+        margin-bottom: 12px;
+      }
+    }
+  }
 }
