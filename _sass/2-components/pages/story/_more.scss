@@ -8,6 +8,21 @@
 
   .section-header {
     padding: 28px 0;
+    max-width: 586px;
+    margin: auto;
     @include flex(space-between, center);
+  }
+
+  .stories {
+    grid-gap: 0;
+    justify-content: center;
+  }
+
+  @include mq-after(medium) {
+    padding-bottom: 160px;
+    
+    .stories {
+      @include grid(1fr 1fr);
+    }
   }
 }

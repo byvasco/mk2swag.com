@@ -43,26 +43,28 @@ page_title: story
 </footer>
 
 <section class="more-stories">
-  <div class="container-narrow">
+  <div class="container">
     <header class="section-header">
       <h5 class="title-5">More Stories</h5>
       <a href="/stories" class="button-text accent underlined">View All</a>
     </header>
 
-    {% if page.next.title %}
-      {% assign story = page.next %}
-      {% include cards/story-preview.html %}
-    {% else %}
-      {% assign story = site.stories.first %}
-      {% include cards/story-preview.html %}
-    {% endif %}
+    <div class="stories grid">
+      {% if page.next.title %}
+        {% assign story = page.next %}
+        {% include cards/story-preview.html %}
+      {% else %}
+        {% assign story = site.stories.first %}
+        {% include cards/story-preview.html %}
+      {% endif %}
 
-    {% if page.previous.title %}
-      {% assign story = page.previous %}
-      {% include cards/story-preview.html %}
-    {% else %}
-      {% assign story = site.stories.last %}
-      {% include cards/story-preview.html %}
-    {% endif %}
+      {% if page.previous.title %}
+        {% assign story = page.previous %}
+        {% include cards/story-preview.html %}
+      {% else %}
+        {% assign story = site.stories.last %}
+        {% include cards/story-preview.html %}
+      {% endif %}
+    </div>
   </div>
 </section>
