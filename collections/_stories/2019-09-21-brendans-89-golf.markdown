@@ -1,6 +1,7 @@
 ---
-title:  "Brendan’s ’89 Golf"
+title:  Brendan’s ’89 Golf
 date:   2019-09-21 16:04:15 +0100
+intro: Large bumper 3 door spreading magic all over California.
 
 categories: Golf
 ---

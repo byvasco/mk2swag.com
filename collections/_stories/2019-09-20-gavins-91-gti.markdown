@@ -1,6 +1,7 @@
 ---
-title:  "Gavin’s ’91 GTI"
-date:   2019-09-20 16:04:15 +0100
+title: Gavin’s ’91 GTI
+date: 2019-09-20 16:04:15 +0100
+intro: 16 valves from the 90’s with its OEM look.
 
 categories: Golf
 ---

@@ -4,14 +4,18 @@
  */
 
 .header-main {
-  padding: 32px 0 48px;
+  padding: 48px 0;
 
   .menu-main {
     order: -1;
   }
 
-  .menu-main,
+  .button-menu {
+    @include pos($pos: absolute, $right: 20px, $z: 100);
+  }
+
   .logo {
+    @include pos($pos: relative, $z: 100);
     justify-self: center;
   }
 

@@ -3,38 +3,59 @@
  * Recent Story Preview
  */
 
-.recent-story-preview {
-  display: block;
+.recent-story {
   position: relative;
-  @include wh(100vw, $m-width: 790px);
-  padding: 0;
-
-  .story-details {
-    padding: 28px 20px;
-    max-width: 586px;
-  }
-
-  &::before {
-    content: '';
+  
+  &-preview {
     display: block;
-    @include wh(48px, 48px);
-    @include background('misc/stamp-new.svg', $size: 100%);
-    @include pos(-36px, 20px);
-    transform: rotate(30deg);
-  }
+    position: relative;
+    @include wh(100vw, $m-width: 870px);
+    padding: 0;
 
-  @include mq-after(medium) {
     .story-details {
-      margin: auto;
-      padding: 40px 0;
+      padding: 28px 20px;
+      max-width: 646px;
+    }
 
-      .story-title + .story-action {
-        margin-top: 48px;
-      }
+    .story-title {
+      margin: 8px 0 6px;
+    }
+
+    .story-intro {
+      margin-bottom: 24px;
     }
 
     &::before {
-      display: none;
+      content: '';
+      display: block;
+      @include wh(48px, 48px);
+      @include background('misc/stamp-new.svg', $size: 100%);
+      @include pos(-36px, 20px);
+      transform: rotate(30deg);
+    }
+  }
+
+  @include mq-after(medium) {
+    &-preview {
+      .story-details {
+        margin: auto;
+        padding: 48px 0 56px;
+
+        .story-title {
+          margin: 16px 0 12px;
+        }
+      }
+
+      &::before {
+        display: none;
+      }
+    }
+
+    .rolling {
+      @include wh(calc(100% + 60px), 138px);
+      @include background();
+      @include pos(160px, $left: -30px, $z: -1);
+      transform: rotate(-4deg);
     }
   }
 }

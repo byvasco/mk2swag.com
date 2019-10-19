@@ -1,6 +1,7 @@
 ---
-title:  "Ben’s ’87 GTI"
-date:   2019-09-19 16:04:15 +0100
+title: Ben’s ’87 GTI
+date: 2019-09-19 16:04:15 +0100
+intro: A superb build with countless mods and mad atention to detail.
 
 categories: Golf
 ---
