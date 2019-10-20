@@ -10,8 +10,9 @@
   &-preview {
     display: block;
     position: relative;
-    @include wh(100vw, $m-width: 870px);
+    @include wh(calc(100% + 40px), $m-width: 870px);
     padding: 0;
+    margin-left: -20px;
 
     .story-details {
       padding: 28px 20px;
@@ -33,6 +34,13 @@
       @include background('misc/stamp-new.svg', $size: 100%);
       @include pos(-36px, 20px);
       transform: rotate(30deg);
+    }
+  }
+
+  @include mq-after(870px) {
+    &-preview {
+      width: 100%;
+      margin-left: 0;
     }
   }
 

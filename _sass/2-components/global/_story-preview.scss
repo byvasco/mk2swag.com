@@ -44,4 +44,16 @@
       }
     }
   }
+
+  @media (hover: hover) {
+    &:hover {
+      .story-title {
+        text-decoration: underline;
+      }
+    }
+
+    .story-title:hover {
+      opacity: .7;
+    }
+  }
 }
