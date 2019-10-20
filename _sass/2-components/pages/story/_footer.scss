@@ -4,7 +4,7 @@
  */
 
 .story-footer {
-  padding: 40px 0 72px;
+  padding: 56px 0;
 
   .title {
     margin-bottom: 16px;
@@ -12,5 +12,9 @@
 
   .button-share {
     margin: 0 4px;
+  }
+
+  @include mq-after(medium) {
+    padding: 80px 0 120px;
   }
 }

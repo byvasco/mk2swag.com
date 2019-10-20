@@ -2,7 +2,7 @@ title: MK2Swag
 email: hello@mk2swag.com
 description: >-
   Celebrating the passion for MK2 Golfs and Jettas, from all around the world.
-baseurl: "/"
+baseurl: ""
 url: "https://mk2swag.com"
 
 # Build settings
@@ -54,6 +54,7 @@ defaults:
     values:
       layout: "story"
       type: "story"
+      cover: "cover.jpg"
   
   -
     scope:

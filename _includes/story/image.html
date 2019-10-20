@@ -1,3 +1,7 @@
 <figure>
-  <img src="/assets/images/stories/{{page.image_path}}/{{include.src}}" alt="">
+  <img src="/assets/images/{{page.image_path}}/{{include.src}}" alt="">
+
+  {% if include.caption %}
+  <figcaption class="body-small">{{include.caption}}</figcaption>
+  {% endif %}
 </figure>

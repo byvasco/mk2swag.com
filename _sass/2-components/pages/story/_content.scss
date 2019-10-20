@@ -40,6 +40,18 @@
   figure + h4 {
     margin-top: 56px;
   }
+
+  figcaption {
+    text-align: center;
+    padding: 8px 0;
+    color: get-color(text, light);
+  }
+
+  hr {
+    margin: 48px 0;
+    border: 0;
+    border-bottom: 1px solid get-color(border, primary);
+  }
   
   @include mq-after(medium) {
     p + h4 {

@@ -2,7 +2,7 @@
 title:  Brendan’s ’89 Golf
 date:   2019-09-21 16:04:15 +0100
 intro: Large bumper 3 door spreading magic all over California.
-image_path: "brendans-89-golf"
+image_path: stories/brendans-89-golf/
 
 categories: Golf
 ---
@@ -15,6 +15,7 @@ By the time I was 18, he finally agreed. I had it towed home that night.
 
 {% include story/image.html
   src="brendans-golf-1.jpg"
+  caption="How it looked before a fresh coat of paint"
 %}
 
 
