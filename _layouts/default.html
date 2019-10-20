@@ -23,6 +23,14 @@
       {% include structure/footer.html %}
     </main>
 
-    <script src="{{ '/assets/javascript/menu.js' | relative_url }}"></script>
+    <script src="/assets/javascript/menu.js"></script>
+    
+    {% if page.custom_js %}
+      {% for js in page.custom_js %}
+        {% capture src %}/assets/javascript/{{ js }}{% endcapture %}
+
+        <script src="{{ src }}"></script>
+      {% endfor %}
+    {% endif %}
   </body>
 </html>

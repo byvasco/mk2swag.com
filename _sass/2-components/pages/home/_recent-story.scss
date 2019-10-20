@@ -5,6 +5,7 @@
 
 .recent-story {
   position: relative;
+  overflow: hidden;
   
   &-preview {
     display: block;
@@ -53,9 +54,22 @@
 
     .rolling {
       @include wh(calc(100% + 60px), 138px);
-      @include background();
-      @include pos(160px, $left: -30px, $z: -1);
+      @include pos(200px, $left: -30px, $z: -1);
+      @include flex(space-between, $direction: column);
       transform: rotate(-4deg);
+
+      .top,
+      .bottom {
+        @include wh(100%, 66px);
+      }
+
+      .top {
+        @include background('page-home/rolling-new.svg', $size: contain, $repeat: repeat-x);
+      }
+
+      .bottom {
+        @include background('page-home/rolling-story.svg', $size: contain, $repeat: repeat-x);
+      }
     }
   }
 }

@@ -4,5 +4,10 @@
  */
 
 .more-stories {
-  
+
+  @include mq-after(small) {
+    .story-preview + .story-preview {
+      margin-top: 24px;
+    }
+  }
 }
