@@ -22,7 +22,7 @@
   }
 
   .divider {
-    @include wh(calc(100% - 40px), 2px, 1200px);
+    @include wh(calc(100% - 40px), 2px, 1300px);
     @include pos(0, $left: 20px);
     background-color: get-color(text, primary);
   }

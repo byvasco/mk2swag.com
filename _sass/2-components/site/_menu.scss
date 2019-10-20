@@ -37,7 +37,17 @@
 
     .menu-link {
       opacity: 1;
-      margin-left: 56px;
+
+      &:not(:last-child) {
+        margin-right: 56px;
+      }
+    }
+  }
+
+  @media (hover: hover) {
+    .menu-link:hover {
+      text-decoration: underline;
+      text-decoration-thickness: 2px;
     }
   }
 }
