@@ -7,6 +7,7 @@
 // Titles
 .title {
   font-family: $font-titles;
+  font-weight: 400;
 
   &-1 {
     @extend .title;
@@ -30,7 +31,6 @@
   
   &-5 {
     @extend .title;
-    text-transform: uppercase;
     @include font(22, 24, -0.1);
   }
 
@@ -58,7 +58,7 @@
     }
 
     &-5 {
-      @include font(24, 24, 0);
+      @include font(26, 24, 0);
     }
   }
 }

@@ -5,11 +5,11 @@
 
 .page-content {
   .image {
-    @include wh(100%, $m-width: 380px);
+    @include wh(100%, $m-width: $col-4);
   }
 
   .text {
-    max-width: 484px;
+    max-width: $col-5;
     padding: 56px 0 32px;
 
     .title {

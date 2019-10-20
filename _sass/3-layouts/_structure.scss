@@ -6,7 +6,7 @@
 // Main container
 .container {
   width: 100%;
-  max-width: calc(1300px + 40px);
+  max-width: calc(#{$container-width} + #{$container-padding * 2});
   padding: 0 20px;
   margin: auto;
   position: relative;
@@ -18,7 +18,7 @@
 
   &-small {
     @extend .container;
-    max-width: calc(586px + 40px);
+    max-width: calc(#{$col-6} + #{$container-padding * 2});
   }
 }
 

@@ -6,9 +6,17 @@
 // Fonts
 $font-titles: 'Archivo Black';
 $font-body: 'Chivo';
-
 $text: 450;
 $bold: 700;
+
+//Layout
+$container-width: 1340px;
+$container-padding: 20px;
+$column-width: 82px;
+$gap-width: 30px;
+$col-4: ($column-width * 4) + ($gap-width * 3);
+$col-5: ($column-width * 5) + ($gap-width * 4);
+$col-6: ($column-width * 6) + ($gap-width * 5);
 
 // Colors
 @function get-color($main, $variation: null, $palette: null) {
@@ -25,21 +33,18 @@ $bold: 700;
 
 $colors: (
   basic: (
-    white: #FFF,
+    white: #fff,
     black: #000
   ),
-
   brand: (
-    accent: #E53026
+    accent: #e53026
   ),
-
   text: (
-    primary: #060C1A,
-    secondary: #31394B,
-    light: #7B8292
+    primary: #060c1a,
+    secondary: #31394b,
+    light: #7b8292
   ),
-
   border: (
-    primary: #F0F0F0
+    primary: #f0f0f0
   )
 );

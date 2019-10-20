@@ -45,9 +45,16 @@
   }
 
   @media (hover: hover) {
-    .menu-link:hover {
-      text-decoration: underline;
-      text-decoration-thickness: 2px;
+    .menu-link {
+      position: relative;
+    }
+    
+    .menu-link:hover::after {
+      content: '';
+      display: block;
+      @include wh(100%, 2px);
+      background-color: black;
+      position: absolute;
     }
   }
 }
