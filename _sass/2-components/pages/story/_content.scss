@@ -51,7 +51,11 @@
     }
 
     figure {
-      margin: 48px  0;
+      margin: 56px 0 48px;
+
+      & + figure {
+        margin-top: -28px;
+      }
     }
   }
 }

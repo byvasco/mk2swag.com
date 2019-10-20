@@ -72,11 +72,11 @@
       }
 
       .top {
-        @include background('page-home/rolling-new.svg', $size: contain, $repeat: repeat-x);
+        @include background('page-home/rolling-new.png', $size: contain, $repeat: repeat-x);
       }
 
       .bottom {
-        @include background('page-home/rolling-story.svg', $size: contain, $repeat: repeat-x);
+        @include background('page-home/rolling-story.png', $size: contain, $repeat: repeat-x);
       }
     }
   }

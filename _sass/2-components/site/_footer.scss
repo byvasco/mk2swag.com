@@ -10,11 +10,7 @@
     padding-top: 56px;
     padding-bottom: 56px;
   }
-
-  .menu-main {
-    margin-bottom: 24px;
-  }
-
+  
   .social-buttons {
     .button-social {
       margin: 0 10px;
@@ -29,13 +25,8 @@
 
   @include mq-after(medium) {
     .container {
-      @include grid(1fr 1fr);
       padding-top: 80px;
       padding-bottom: 80px;
-    }
-
-    .menu-main {
-      margin-bottom: 0px;
     }
 
     .social-buttons {

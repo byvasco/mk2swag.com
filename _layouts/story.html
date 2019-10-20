@@ -4,22 +4,27 @@ page_title: story
 ---
 
 <header class="story-header">
-  <div class="story-intro">
-    <div class="container-small">
+  <div class="container">
+    <div class="header-content">
       <div class="story-categories">
         {% for category in page.categories %}
-          <a href="#" class="story-category label">{{ category }}</a>
+        <a href="#" class="story-category label">{{ category }}</a>
         {% endfor %}
       </div>
 
-      <h1 class="story-title title-1">{{page.title}}</h1>
+      <h1 class="story-title title-1">{{ page.title }}</h1>
+
+      <p class="story-intro body-large">{{ page.intro }}</p>
     </div>
-  </div>
-  
-  <div class="story-cover">
-    <div class="container-narrow">
+
+    <div class="header-cover">
       <figure class="story-cover">
-        <img alt="" src="/assets/images/stories/{{page.title | remove: '’' | slugify}}/cover.jpg">
+        <img
+          alt=""
+          src="/assets/images/stories/{{
+            page.title | remove: '’' | slugify
+          }}/cover.jpg"
+        />
       </figure>
     </div>
   </div>
@@ -27,7 +32,7 @@ page_title: story
 
 <section class="story-content">
   <div class="container-small">
-    {{page.content}}
+    {{ page.content }}
   </div>
 </section>
 
@@ -50,21 +55,12 @@ page_title: story
     </header>
 
     <div class="stories grid">
-      {% if page.next.title %}
-        {% assign story = page.next %}
-        {% include cards/story-preview.html %}
-      {% else %}
-        {% assign story = site.stories.first %}
-        {% include cards/story-preview.html %}
-      {% endif %}
-
-      {% if page.previous.title %}
-        {% assign story = page.previous %}
-        {% include cards/story-preview.html %}
-      {% else %}
-        {% assign story = site.stories.last %}
-        {% include cards/story-preview.html %}
-      {% endif %}
+      {% if page.next.title %} {% assign story = page.next %} {% include
+      cards/story-preview.html %} {% else %} {% assign story =
+      site.stories.first %} {% include cards/story-preview.html %} {% endif %}
+      {% if page.previous.title %} {% assign story = page.previous %} {% include
+      cards/story-preview.html %} {% else %} {% assign story = site.stories.last
+      %} {% include cards/story-preview.html %} {% endif %}
     </div>
   </div>
 </section>

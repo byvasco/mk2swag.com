@@ -29,10 +29,15 @@ collections:
     output: true
     permalink: /stories/:title
     sort_by: date
+
+  stories_categories:
+    output: true
+    permalink: /stories/:title
   
   pages:
     output: true
     permalink: /:title
+
 
 defaults:
   -
@@ -49,3 +54,10 @@ defaults:
     values:
       layout: "story"
       type: "story"
+  
+  -
+    scope:
+      path: ""
+      type: "stories_categories"
+    values:
+      layout: category

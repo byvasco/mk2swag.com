@@ -4,6 +4,12 @@
 <header class="page-header">
   <div class="container-small">
     <h1 class="page-title title-1">Stories</h1>
+
+    <div class="filters">
+      <a href="/stories" class="all selected button-text-small">All</a>
+      <a href="/stories/golf" class="golf button-text-small">Golf</a>
+      <a href="/stories/jetta" class="jetta button-text-small">Jetta</a>
+    </div>
   </div>
 </header>
 
@@ -11,7 +17,7 @@
   <div class="container flex-center-all">
     {% assign stories = site.stories | sort: 'date' | reverse %}
     {% for story in stories %}
-      {% include cards/story-preview.html %}
+      {% include cards/story-preview.html size='small' %}
     {% endfor %}
   </div>
 </section>

@@ -7,12 +7,11 @@
   text-align: center;
   padding: 56px 0 48px;
 
-  .story-intro {
+  .header-content {
     margin-bottom: 32px;
   }
 
   .story-categories {
-    @include flex($justify: center);
     margin-bottom: 16px;
   }
 
@@ -28,7 +27,7 @@
     }
   }
 
-  .story-cover {
+  .header-cover {
     .container-narrow {
       max-width: 790px;
       padding: 0;
@@ -36,14 +35,29 @@
   }
 
   @include mq-after(medium) {
-    padding: 120px 0 80px;
+    text-align: left;
+    padding: 40px 0 80px;
 
-    .story-categories {
-      margin-bottom: 24px;
+    .container {
+      @include grid($col-5 1fr);
     }
 
-    .story-intro {
-      margin-bottom: 56px;
+    .story-categories {
+      margin-bottom: 40px;
+    }
+
+    .header-content {
+      margin-bottom: 0px;
+      align-self: center;
+
+      .story-title {
+        max-width: 400px;
+        margin-bottom: 16px;
+      }
+
+      .story-intro {
+        max-width: 420px;
+      }
     }
   }
 }

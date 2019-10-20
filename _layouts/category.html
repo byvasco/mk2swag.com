@@ -1,6 +1,28 @@
 ---
 layout: default
-page_name: category
+page_title: stories
 ---
 
-{{site.stories}}
+<header class="page-header">
+  <div class="container-small">
+    <h1 class="page-title title-1">Stories</h1>
+
+    <div class="filters">
+      <a href="/stories" class="all button-text-small">All</a>
+      <a href="/stories/golf" class="golf {% if page.title == 'Golf' %}selected{% endif %} button-text-small">Golf</a>
+      <a href="/stories/jetta" class="jetta {% if page.title == 'Jetta' %}selected{% endif %} button-text-small">Jetta</a>
+    </div>
+  </div>
+</header>
+
+<section class="page-content">
+  <div class="container flex-center-all">
+    {% assign stories = site.stories | sort: 'date' | reverse %}
+    
+    {% for story in stories %}
+      {% if story.categories contains page.title %}
+        {% include cards/story-preview.html size='small' %}
+      {% endif %}
+    {% endfor %}
+  </div>
+</section>

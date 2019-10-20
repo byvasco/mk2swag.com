@@ -37,10 +37,30 @@
     }
   }
 
+  &.-small {
+    .story-details {
+      .story-title {
+        margin: 10px 0 6px;
+      }
+    }
+  }
+
   @include mq-after(small) {
     .story-details {
       .story-categories {
         margin-bottom: 12px;
+      }
+    }
+
+    &.-small {
+      .story-details {
+        .story-title {
+          margin: 12px 0 8px;
+        }
+
+        .story-intro {
+          max-width: 380px;
+        }
       }
     }
   }
