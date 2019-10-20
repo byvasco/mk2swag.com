@@ -4,29 +4,40 @@
  */
 
 .menu-main {
-  @include wh(100%, 100vh);
-  background-color: white;
-  @include pos(-100vh, $left: 0, $z: 10);
-  @include flex($align: center, $direction: column);
-  padding-top: 136px;
-  transition: all 320ms .3s;
-  visibility: hidden;
+  @include mq-before(small) {
+    @include wh(100%, 100vh);
+    background-color: white;
+    @include pos(-100vh, $left: 0, $z: 10);
+    @include flex($align: center, $direction: column);
+    padding-top: 136px;
+    transition: all 320ms 0.3s;
+    visibility: hidden;
 
-  .menu-link {
-    @extend .title-5;
-    margin-bottom: 40px;
-    opacity: 0;
-    transition: opacity .1s;
+    .menu-link {
+      @include font(22, 24, -0.1);
+      margin-bottom: 40px;
+      opacity: 0;
+      transition: opacity 0.1s;
+    }
+
+    &.open {
+      top: 0;
+      transition: all 320ms;
+      visibility: visible;
+
+      .menu-link {
+        opacity: 1;
+        transition: opacity 0.4s 0.3s;
+      }
+    }
   }
 
-  &.open {
-    top: 0;
-    transition: all 320ms;
-    visibility: visible;
+  @include mq-after(small) {
+    @include flex();
 
     .menu-link {
       opacity: 1;
-      transition: opacity .4s .3s;
+      margin-left: 56px;
     }
   }
 }

@@ -20,6 +20,10 @@ html {
 body {
   font-family: $font-body;
   -webkit-font-smoothing: antialiased;
+
+  &.locked {
+    overflow: hidden;
+  }
 }
 
 ol,

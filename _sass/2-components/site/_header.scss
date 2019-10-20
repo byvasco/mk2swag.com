@@ -6,10 +6,6 @@
 .header-main {
   padding: 48px 0;
 
-  .menu-main {
-    order: -1;
-  }
-
   .button-menu {
     @include pos($pos: absolute, $right: 20px, $z: 100);
   }
@@ -19,14 +15,10 @@
     justify-self: center;
   }
 
-  .grid {
-    grid-gap: 28px;
-  }
-
   @include mq-after(small) {
     padding: 40px 0;
 
-    .grid {
+    .container {
       @include grid(200px 1fr, $align: center);
     }
 
@@ -37,6 +29,10 @@
     .menu-main {
       justify-self: end;
       order: 1;
+    }
+
+    .button-menu {
+      display: none;
     }
   }
 }
