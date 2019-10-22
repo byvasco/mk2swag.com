@@ -26,7 +26,7 @@ fields:
     wysiwyg: false
     schema:
       format: markdown
-  label: 'Page Content '
+  label: 'Content '
 pages:
 - about.html
 - collections/_pages/about.html
