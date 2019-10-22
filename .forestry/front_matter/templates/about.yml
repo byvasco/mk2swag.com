@@ -29,3 +29,4 @@ fields:
   label: 'Page Content '
 pages:
 - about.html
+- _pages/about.md
