@@ -16,10 +16,11 @@ sections:
   create: all
   match: "**/*"
 - type: directory
-  path: _stories
+  path: collections/_stories
   label: Stories
-  create: all
+  create: documents
   match: "**/*"
+  new_doc_ext: ".md"
 upload_dir: images
 public_path: "/images"
 front_matter_path: ''
