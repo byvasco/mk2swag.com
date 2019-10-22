@@ -4,7 +4,7 @@ categories:
 - Jetta
 title: Sam’s ’88 Coupe
 date: 2019-09-15 23:00:00 +0000
-intro: A Westy coupe Jetta with some wide RS's.
+intro: A Westy coupe Jetta and wide RS's.
 image_path: stories/sams-88-coupe
 
 ---
