@@ -3,8 +3,8 @@ layout: story
 categories:
 - Golf
 title: Tom’s ’88 Golf CL
-date: 2019-09-13 23:00:00 +0000
-intro: ''
+date: 2019-09-13T23:00:00.000+00:00
+intro: An overall superb build. Wait until you see that engine bay!
 image_path: stories/toms-88-golf-cl
 
 ---
