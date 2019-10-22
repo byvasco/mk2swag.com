@@ -1,6 +1,7 @@
 ---
 layout: story
-categories: []
+categories:
+- Golf
 title: Heather’s ’90 Golf
 date: 2019-09-11 23:00:00 +0000
 intro: Green & Golf combining in this piece of beauty.
