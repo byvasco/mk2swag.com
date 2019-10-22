@@ -17,7 +17,7 @@ After my daughter was born I took her off the road for a rebuild, and turn her i
 
 I love muscle cars and Nascar, so that was the basic inspiration for how she looks now. The build took 7 years, with a bit of wiring help from friends. And after those 7 years, I finally achieved a look that I love and wanted.
 
-{% include story/image.html src="intro.jpg" %}
+{% include story/image.html src="chris-nascar-golf-intro.jpg" %}
 
 #### What changed after you bought her?
 
