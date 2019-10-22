@@ -5,7 +5,6 @@ date: 2019-10-15 23:00:00 +0000
 image_path: stories/chris-g60-westy
 categories: Golf
 intro: A G60 US Spec Golf in Austria.
-published: false
 
 ---
 I’m Chris, from South Wales in the UK, and I’ve owned ‘Heidi’ for 16 years.
