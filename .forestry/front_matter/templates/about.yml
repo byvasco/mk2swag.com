@@ -28,4 +28,5 @@ fields:
       format: html-blocks
   label: Text
 pages:
+- collections/_stories/test-story.md
 - collections/_pages/about.html
