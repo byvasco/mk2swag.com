@@ -1,6 +1,6 @@
 ---
 layout: ''
-title: About Pag
+title: About
 intro: About intro
 content: About content
 published: false
