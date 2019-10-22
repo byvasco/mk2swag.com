@@ -13,3 +13,4 @@ fields:
   label: Title
 pages:
 - collections/_pages/stories.html
+- collections/_stories/chris-g60-westy.md
