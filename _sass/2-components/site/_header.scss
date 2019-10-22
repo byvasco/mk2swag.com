@@ -4,7 +4,7 @@
  */
 
 .header-main {
-  padding: 48px 0;
+  padding: 64px 0;
 
   .button-menu {
     @include pos($pos: absolute, $right: 20px, $z: 100);

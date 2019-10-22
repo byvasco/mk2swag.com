@@ -44,6 +44,8 @@
   }
 
   @include mq-after(medium) {
+    overflow: hidden;
+    
     &-preview {
       .story-details {
         margin: auto;
