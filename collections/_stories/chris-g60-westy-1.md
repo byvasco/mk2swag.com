@@ -2,7 +2,7 @@
 layout: story
 title: Chris’ Nascar Golf
 date: 2019-10-15T23:00:00.000+00:00
-image_path: stories/chris-g60-westy
+image_path: stories/chris-nascar-golf
 categories: Golf
 intro: A G60 US Spec Golf in Austria.
 
