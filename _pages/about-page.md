@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: about
 title: About Page
 intro: About intro
 content: About content
