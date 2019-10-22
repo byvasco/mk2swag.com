@@ -26,4 +26,4 @@ fields:
     wysiwyg: false
     schema:
       format: markdown
-  label: Content
+  label: 'Page Content '
