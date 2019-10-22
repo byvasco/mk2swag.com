@@ -22,7 +22,7 @@ Anyway, the car was written off and I was paid £2100 for it and I bought the ca
 
 I wanted to get this Mk2 to show standard, but with it being my daily / a rolling project it’s still far off.
 
-{% include story/image.html src="kavirs-89-daily-golf-intro-1.jpg" %}
+{% include story/image.html src="kavirs-89-daily-golf-intro.jpg" %}
 
 #### Viewing from the exterior
 
@@ -44,7 +44,7 @@ The only reason for the straight through to the backbox is because I drive the c
 
 I’m sitting my bottom in a set of Mk3 VR6 heated Recaro leathers, it has a Votex center console, with a pioneer flip-out screen, [**Airlift v2 Slam Kit**](https://www.airliftperformance.com/product-lines/slam-air-suspension/) controller fitted in the heater vent, a Momo 300mm steering wheel, fitted black headliner, black carpets, boot build, and a 12″ kicker subwoofer.
 
-{% include story/image.html src="kavirs-89-daily-golf-interior.jpg" %}
+{% include story/image.html src="kavirs-89-daily-golf-inside.jpg" %}
 
 #### What are your plans for the future?
 
