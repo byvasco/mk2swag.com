@@ -17,5 +17,12 @@ fields:
 - type: text
   name: categories
   label: categories
+- name: layout
+  type: text
+  config:
+    required: false
+  label: layout
+  default: story
+  hidden: true
 pages:
 - collections/_stories/chris-g60-westy.md
