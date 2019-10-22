@@ -1,5 +1,5 @@
 ---
-layout: about
+layout: default
 title: About
 intro: All about sharing the passion for MK2 Golfs and Jettas, from all around the
   world.
