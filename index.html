@@ -35,8 +35,8 @@ custom_js: [ rolling.js ]
 
 <section class="more-stories">
   <div class="container flex-center-all">
-    {% assign stories = site.stories | sort: 'date' | reverse %}
-    {% for story in stories | offset: 1 %}
+    {% assign stories = site.stories | sort: 'date' | reverse | %}
+    {% for story in stories | offset: 1 | limit: 3 %}
       {% include cards/story-preview.html %}
     {% endfor %}
   </div>
