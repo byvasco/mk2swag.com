@@ -15,6 +15,6 @@ At this time the Westy was completely inconspicuous.
 
 Mine comes with a KW Static suspension, and it’s rolling on custom 17“ Sebrings. It has 1991 widening and G60 fenders all around. It has the Westmoreland front-end with, and in the back, it has a set of smoked US taillights. The paint is also quite recent, being made back in 2013, with the original Tornado Red (Y3D) color.
 
-{% include story/image.html src="exterior-1.jpg" %}
+{% include story/image.html src="outside-1.jpg" %}
 
-{% include story/image.html src="exterior-2.jpg" %}
+{% include story/image.html src="outside-2.jpg" %}
