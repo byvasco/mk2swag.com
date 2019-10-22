@@ -35,3 +35,4 @@ fields:
   default: "/:title"
 pages:
 - about.html
+- collections/_pages/about.html
