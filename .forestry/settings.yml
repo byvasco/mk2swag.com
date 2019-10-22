@@ -8,10 +8,11 @@ sections:
   label: Pages
   create: all
 - type: directory
-  path: _pages
+  path: collections/_pages
   label: Pages
   create: all
   match: "**/*"
+  new_doc_ext: ".html"
 - type: jekyll-posts
   label: Posts
   create: all
