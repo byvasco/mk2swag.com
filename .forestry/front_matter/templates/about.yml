@@ -27,12 +27,6 @@ fields:
     schema:
       format: markdown
   label: 'Page Content '
-- name: permalink
-  type: text
-  config:
-    required: false
-  label: Permalink
-  default: "/:title"
 pages:
 - about.html
 - collections/_pages/about.html
