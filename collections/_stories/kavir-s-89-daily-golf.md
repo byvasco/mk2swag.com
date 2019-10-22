@@ -4,7 +4,7 @@ categories:
 - Golf
 title: Kavir’s ’89 Daily Golf
 date: 2019-09-12 23:00:00 +0000
-intro: ''
+intro: I just wished my daily looked half as good as this one!
 image_path: stories/kavirs-89-daily-golf
 
 ---
