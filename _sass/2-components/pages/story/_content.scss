@@ -24,6 +24,10 @@
     margin-top: 48px;
   }
 
+  p + ul {
+    margin-top: 16px;
+  }
+
   h4 + p {
     margin-top: 12px;
   }
@@ -51,6 +55,17 @@
     margin: 48px 0;
     border: 0;
     border-bottom: 1px solid get-color(border, primary);
+  }
+
+  ul,
+  ol {
+    padding-left: 32px;
+  }
+
+  li {
+    @extend p;
+    line-height: 24px;
+    list-style: initial;
   }
   
   @include mq-after(medium) {
