@@ -35,4 +35,3 @@ fields:
   default: "/:title"
 pages:
 - about.html
-- _pages/about.md
