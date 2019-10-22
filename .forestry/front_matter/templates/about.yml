@@ -27,6 +27,12 @@ fields:
     schema:
       format: markdown
   label: 'Page Content '
+- name: permalink
+  type: text
+  config:
+    required: false
+  label: Permalink
+  default: "/:title"
 pages:
 - about.html
 - _pages/about.md
