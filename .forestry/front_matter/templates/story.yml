@@ -25,4 +25,5 @@ fields:
   default: story
   hidden: true
 pages:
+- collections/_stories/chris-g60-westy-1.md
 - collections/_stories/chris-g60-westy.md
