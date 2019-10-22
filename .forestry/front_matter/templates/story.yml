@@ -23,6 +23,6 @@ fields:
     required: false
   label: layout
   default: story
-  hidden: false
+  hidden: true
 pages:
 - collections/_stories/chris-g60-westy.md
