@@ -29,5 +29,4 @@ fields:
       format: markdown
   label: 'Page Content '
 pages:
-- _pages/about-page.md
 - about.html
