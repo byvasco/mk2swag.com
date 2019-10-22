@@ -14,9 +14,6 @@ fields:
 - type: text
   name: image_path
   label: image_path
-- type: text
-  name: categories
-  label: categories
 - name: layout
   type: text
   config:
@@ -24,5 +21,9 @@ fields:
   label: layout
   default: story
   hidden: true
+- name: categories
+  type: tag_list
+  default: []
+  label: Categories
 pages:
 - collections/_stories/chris-g60-westy.md
