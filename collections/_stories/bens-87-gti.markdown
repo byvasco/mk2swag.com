@@ -1,6 +1,6 @@
 ---
 title: Ben’s ’87 GTI
-date: 2019-09-19T15:04:15.000+00:00
+date: 2019-09-19 15:04:15 +0000
 intro: A superb build with countless mods and mad atention to detail.
 image_path: stories/bens-87-gti
 categories: Golf
