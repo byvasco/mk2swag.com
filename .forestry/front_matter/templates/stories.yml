@@ -5,6 +5,7 @@ fields:
 - type: text
   name: layout
   label: Layout
+  hidden: true
 - name: title
   type: text
   config:
