@@ -28,5 +28,4 @@ fields:
       format: html-blocks
   label: Text
 pages:
-- about.html
 - collections/_pages/about.html
