@@ -10,15 +10,15 @@ image_path: stories/kavirs-89-daily-golf
 ---
 My name is Kavir Singh and I’m the proud owner of @G2VAG, my daily 1989 Volkswagen Golf Mk2.
 
-It’s a funny story how I ended up with this Mk2, coming from a family who are heavy enthusiasts including my Mum, anyone who knows me knows I’ve always said my first car will be a Mk2 Golf, and it was!
+It’s a funny story how I ended up with this Mk2, coming from a family who are heavy enthusiasts including my Mum, anyone who knows me knows I’ve always said my first car will be an Mk2 Golf, and it was!
 
-#### How did you got it?
+#### How did you get it?
 
-I saw a 1.6 Mk2 Golf Driver on eBay for sale, I was 16 at the time and tried to save as much money as possible. I offered the guy on eBay £1000 at the time, probably only had half of that saved up! But he rudely declined my offer when the buy it now price was £1250 anyway. I was sitting at college one day and I remember seeing a watched reminder pop up on my phone from eBay, there was 15 minutes remaining and the Mk2 was on £600 bidding. I slapped £660 on bidding and ended up winning the car for £650. My mum drove the car home for me that day, as I had no licence, not even my provisional yet.
+I saw a 1.6 Mk2 Golf Driver on eBay for sale, I was 16 at the time and tried to save as much money as possible. I offered the guy on eBay £1000 at the time, probably only had half of that saved up! But he rudely declined my offer when the buy it now price was £1250 anyway. I was sitting at college one day and I remember seeing a watched reminder pop up on my phone from eBay, there were 15 minutes remaining and the Mk2 was on £600 bidding. I slapped £660 on bidding and ended up winning the car for £650. My mum drove the car home for me that day, as I had no license, not even my provisional yet.
 
-I worked on that Mk2 every night and day from then, but was sadly written off a year and a half later after a woman pulled out on me. I was gutted, after all that time and effort I put into it, some people will never understand the bond you build with your car.
+I worked on that Mk2 every night and day from then but was sadly written off a year and a half later after a woman pulled out on me. I was gutted, after all that time and effort I put into it, some people will never understand the bond you build with your car.
 
-Anyway, the car was written off and I was paid £2100 for it and I bought the car back for £60 and stripped it. I then saw this Mk2 for sale, it was pretty much stock. It was about 3 hours away from me but the number plate and the colour really caught my eye. I ended up buying it for £2000 (Till this day, the previous owner still wants to buy it back).
+Anyway, the car was written off and I was paid £2100 for it and I bought the car back for £60 and stripped it. I then saw this Mk2 for sale, it was pretty much stock. It was about 3 hours away from me but the number plate and the color really caught my eye. I ended up buying it for £2000 (Till this day, the previous owner still wants to buy it back).
 
 I wanted to get this Mk2 to show standard, but with it being my daily / a rolling project it’s still far off.
 
