@@ -1,5 +1,5 @@
 ---
-layout: ''
+layout: story
 title: Chris’ G60 Westy
 date: 2019-10-16 23:00:00 +0000
 image_path: stories/chris-g60-westy
