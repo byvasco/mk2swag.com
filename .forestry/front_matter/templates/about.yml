@@ -28,3 +28,5 @@ fields:
     schema:
       format: markdown
   label: 'Page Content '
+pages:
+- _pages/about-page.md
