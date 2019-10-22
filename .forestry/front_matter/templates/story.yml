@@ -1,0 +1,19 @@
+---
+label: Story
+hide_body: false
+fields:
+- type: text
+  name: title
+  label: title
+- type: datetime
+  name: date
+  label: date
+- type: text
+  name: intro
+  label: intro
+- type: text
+  name: image_path
+  label: image_path
+- type: text
+  name: categories
+  label: categories

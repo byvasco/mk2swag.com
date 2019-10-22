@@ -11,18 +11,13 @@ sections:
   match: "**/*"
   new_doc_ext: html
 - type: directory
-  path: _stories_categories
-  label: Stories categories
-  create: all
-  match: "**/*"
-- type: directory
   path: collections/_stories
   label: Stories
   create: documents
   match: "**/*"
   new_doc_ext: md
-upload_dir: images
-public_path: "/images"
+upload_dir: assets/images
+public_path: "/assets/images"
 front_matter_path: ''
 use_front_matter_path: false
 file_template: ":filename:"

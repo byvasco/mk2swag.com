@@ -1,12 +1,11 @@
 ---
-title:  Brendan’s ’89 Golf
-date:   2019-09-21 16:04:15 +0100
+title: Brendan’s ’89 Golf
+date: 2019-09-21 15:04:15 +0000
 intro: Large bumper 3 door spreading magic all over California.
 image_path: stories/brendans-89-golf/
-
 categories: Golf
----
 
+---
 My name is Brendan, I’m from Simi Valley CA, and I own a 1989 Volkswagen Golf.
 
 I used to ride by this car on my bike every day when I was 15 years old. It never moved. The last time it had been registered was 1999. I would knock on the door every few months, trying to convince the owner to sell it to me.
