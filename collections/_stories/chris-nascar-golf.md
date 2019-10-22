@@ -40,3 +40,35 @@ Here’s the list of parts she now has:
 * Boot Top Spoiler Delete
 * Custom Side Trim
 * Custom Headlight Covers
+
+{% include story/image.html src="chris-nascar-golf-exterior-1.jpg" %}
+
+{% include story/image.html src="chris-nascar-golf-exterior-2.jpg" caption="Picture by @pjfairman" %}
+
+She started with a modest 8V… but she deserved a VR6 growl — it went with the muscle car theme!
+
+So it’s a 2.8 Obd2 VR6, with a stainless steel 6-1 exhaust manifold (ending with a stainless steel twin-tip in the back), and a [**Pipercross**](http://www.pipercross.net/) air filter. It’s currently making 182bhp and 172lb of torque.
+
+{% include story/image.html src="chris-nascar-golf-engine.jpg" %}
+
+#### The Interiors
+
+To get the most performance possible, I stripped away everything that wasn’t needed. So the whole interior went off!
+
+The carpets and rear seats were removed, and in the front I’ve installed a set of Sparco seats with fixed bases (retrimmed with original seat fabric/material). The heater core and sound system were also removed.
+
+It has carbon fiber door cards, vents and speaker blanks, an OMP deep-dish steering wheel, the battery was relocated to behind the driver’s seat and the washer bottle was placed under the dashboard. And for extra safety, it has a 6-point Sparco Roll Cage.
+
+{% include story/image.html src="chris-nascar-golf-interior.jpg" %}
+
+#### Next plans? Is it finished?
+
+To be honest, it will never be finished. I’m hoping to add some more things, as I’ll never sell her.
+
+I hope one day I can get a throttle body setup and some real Nascar wheels and wider arches. But the main thing for the future is a re-spray, and then is just a matter of enjoying the car.
+
+Got to mention my good mate [**Gareth Leyshon**](https://www.instagram.com/garethleyshon/) and Jon Chapman for all their help along the way — top friends!
+
+***
+
+Thank you for reading! Keep an eye on Chris’ fabulous build in his Instagram: [**@thatnascarmk2**](https://www.instagram.com/thatnascarmk2/)
