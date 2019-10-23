@@ -5,35 +5,23 @@
 
 .story-preview {
   display: block;
-  padding: 24px 0;
-  max-width: 586px;
+  padding-top: 24px;
+  max-width: $col-6;
 
   .story-cover {
     margin-bottom: -4px;
   }
 
   .story-details {
-    padding-top: 24px;
-
-    .story-categories {
-      @include flex();
-      margin-bottom: 8px;
-    }
-
-    .story-category + .story-category {
-      @include flex(center, center);
-
-      &::before {
-        content: '';
-        display: block;
-        @include wh(12px, 2px);
-        background-color: get-color(text, primary);
-        margin: 0 8px;
-      }
-    }
+    padding: 24px 16px;
 
     .story-title {
-      margin: 12px 0;
+      margin-bottom: 12px;
+    }
+
+    .story-intro {
+      margin-bottom: 16px;
+      max-width: $col-4;
     }
   }
 
@@ -48,26 +36,35 @@
 
     .story-details {
       .story-title {
-        margin: 10px 0 6px;
+        margin-bottom: 8px;
       }
+    }
+
+    .story-categories .tag {
+      font-size: 16px;
     }
   }
 
   @include mq-after(small) {
     .story-details {
-      .story-categories {
-        margin-bottom: 12px;
+      padding: 32px 24px 48px;
+
+      .story-intro {
+        margin-bottom: 24px;
       }
     }
 
     &.-small {
       .story-details {
+        padding: 24px 16px 32px;
+
         .story-title {
-          margin: 12px 0 8px;
+          margin-bottom: 8px;
         }
 
         .story-intro {
           max-width: 380px;
+          margin-bottom: 16px;
         }
       }
     }

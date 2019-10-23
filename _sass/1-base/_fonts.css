@@ -1,58 +1,53 @@
-/*
- * Base
- * Fonts
- */
-
 @import url("https://fonts.googleapis.com/css?family=Archivo+Black&display=swap");
-
 @font-face {
   font-family: "Chivo";
   src: url("/assets/fonts/Chivo/Chivo-Regular.eot");
-  src: url("/assets/fonts/Chivo/Chivo-Regular.eot?#iefix") format("embedded-opentype"),
+  src: url("/assets/fonts/Chivo/Chivo-Regular.eot?#iefix")
+      format("embedded-opentype"),
     url("/assets/fonts/Chivo/Chivo-Regular.woff2") format("woff2"),
     url("/assets/fonts/Chivo/Chivo-Regular.woff") format("woff"),
     url("/assets/fonts/Chivo/Chivo-Regular.ttf") format("truetype");
   font-style: normal;
   font-weight: 400;
 }
-
 @font-face {
   font-family: "Chivo";
   src: url("/assets/fonts/Chivo/Chivo-Italic.eot");
-  src: url("/assets/fonts/Chivo/Chivo-Italic.eot?#iefix") format("embedded-opentype"),
+  src: url("/assets/fonts/Chivo/Chivo-Italic.eot?#iefix")
+      format("embedded-opentype"),
     url("/assets/fonts/Chivo/Chivo-Italic.woff2") format("woff2"),
     url("/assets/fonts/Chivo/Chivo-Italic.woff") format("woff"),
     url("/assets/fonts/Chivo/Chivo-Italic.ttf") format("truetype");
   font-style: italic;
   font-weight: 400;
 }
-
 @font-face {
   font-family: "Chivo";
   src: url("/assets/fonts/Chivo/Chivo-Medium.eot");
-  src: url("/assets/fonts/Chivo/Chivo-Medium.eot?#iefix") format("embedded-opentype"),
+  src: url("/assets/fonts/Chivo/Chivo-Medium.eot?#iefix")
+      format("embedded-opentype"),
     url("/assets/fonts/Chivo/Chivo-Medium.woff2") format("woff2"),
     url("/assets/fonts/Chivo/Chivo-Medium.woff") format("woff"),
     url("/assets/fonts/Chivo/Chivo-Medium.ttf") format("truetype");
   font-style: normal;
   font-weight: 500;
 }
-
 @font-face {
   font-family: "Chivo";
   src: url("/assets/fonts/Chivo/Chivo-Bold.eot");
-  src: url("/assets/fonts/Chivo/Chivo-Bold.eot?#iefix") format("embedded-opentype"),
+  src: url("/assets/fonts/Chivo/Chivo-Bold.eot?#iefix")
+      format("embedded-opentype"),
     url("/assets/fonts/Chivo/Chivo-Bold.woff2") format("woff2"),
     url("/assets/fonts/Chivo/Chivo-Bold.woff") format("woff"),
     url("/assets/fonts/Chivo/Chivo-Bold.ttf") format("truetype");
   font-style: normal;
   font-weight: 700;
 }
-
 @font-face {
   font-family: "Chivo";
   src: url("/assets/fonts/Chivo/ChivoBoldItalic.eot");
-  src: url("/assets/fonts/Chivo/ChivoBoldItalic.eot?#iefix") format("embedded-opentype"),
+  src: url("/assets/fonts/Chivo/ChivoBoldItalic.eot?#iefix")
+      format("embedded-opentype"),
     url("/assets/fonts/Chivo/ChivoBoldItalic.woff2") format("woff2"),
     url("/assets/fonts/Chivo/ChivoBoldItalic.woff") format("woff"),
     url("/assets/fonts/Chivo/ChivoBoldItalic.ttf") format("truetype");

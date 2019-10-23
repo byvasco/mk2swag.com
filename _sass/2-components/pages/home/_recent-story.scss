@@ -7,23 +7,39 @@
   position: relative;
   
   &-preview {
-    display: block;
     position: relative;
     @include wh(calc(100% + 40px), $m-width: 870px);
     padding: 0;
     margin-left: -20px;
 
     .story-details {
-      padding: 28px 20px;
-      max-width: 646px;
+      padding: 32px 20px 56px;
+      max-width: $col-6;
+      display: grid;
+      grid-template-areas: "title title" "intro intro" "categories action";
     }
 
     .story-title {
-      margin: 8px 0 6px;
+      margin-bottom: 12px;
+      grid-area: title;
     }
 
     .story-intro {
-      margin-bottom: 24px;
+      margin-bottom: 32px;
+      font-weight: 500;
+      grid-area: intro;
+      max-width: none;
+    }
+
+    .story-categories {
+      grid-area: categories;
+      margin: 0;
+    }
+
+    .story-action {
+      grid-area: action;
+      justify-self: end;
+      align-self: center;
     }
 
     &::before {
@@ -49,10 +65,14 @@
     &-preview {
       .story-details {
         margin: auto;
-        padding: 48px 0 56px;
+        padding: 48px 0 80px;
 
         .story-title {
-          margin: 16px 0 12px;
+          margin: 0 0 16px;
+        }
+
+        .story-intro {
+          margin-bottom: 40px;
         }
       }
 

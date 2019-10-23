@@ -5,14 +5,17 @@
 
 .story-header {
   padding: 24px 0 32px;
-  text-align: center;
 
   .header-content {
     margin-bottom: 32px;
   }
 
   .story-title {
-    margin: 16px 0;
+    margin-bottom: 16px;
+  }
+
+  .story-intro {
+    margin-bottom: 32px;
   }
 
   .story-category + .story-category {
@@ -36,23 +39,21 @@
 
   @include mq-after(medium) {
     text-align: left;
-    padding: 40px 0 80px;
-
-    .story-categories {
-      margin-bottom: 48px;
-    }
+    padding: 56px 0;
 
     .header-content {
       max-width: $col-6;
-      margin-bottom: 100px;
+      margin-bottom: 72px;
       align-self: center;
 
       .story-title {
-        margin-bottom: 32px;
+        margin-bottom: 24px;
       }
 
       .story-intro {
-        max-width: $col-4;
+        margin-bottom: 40px;
+        line-height: 36px;
+        font-weight: 500;
       }
     }
   }

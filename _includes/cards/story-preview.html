@@ -5,13 +5,7 @@
     <img alt="" src="/assets/images/stories/{{story.title | remove: '’' | slugify}}/cover.jpg">
   </figure>
 
-  <div class="story-details">
-    <div class="story-categories">
-      {% for category in story.categories %}
-        <p class="story-category label">{{ category }}</p>
-      {% endfor %}
-    </div>
-    
+  <div class="story-details">    
     {% if include.size == 'small' %}
       <h2 class="story-title title-4">{{ story.title }}</h2>
     {% else %}
@@ -24,8 +18,10 @@
       <p class="story-intro body">{{ story.intro }}</p>
     {% endif %}
     
-    {% if story.show_action %}
-      <p class="story-action button-text underlined">Read Story</p>
-    {% endif %}
+    <div class="story-categories">
+      {% for category in story.categories %}
+        <p class="story-category tag">{{ category }}</p>
+      {% endfor %}
+    </div>
   </div>
 </a>

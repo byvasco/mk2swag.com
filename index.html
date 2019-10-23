@@ -14,18 +14,18 @@ custom_js: [ rolling.js ]
         <img src="/assets/images/{{story.image_path}}{{story.cover}}" alt="">
       </figure>
 
-      <div class="story-details">
-        <div class="story-categories">
-          {% for category in story.categories %}
-            <p class="story-category label">{{category}}</p>
-          {% endfor %}
-        </div>
-        
+      <div class="story-details">       
         <h1 class="story-title title-2">{{story.title}}</h1>
 
         <p class="story-intro body-large">{{story.intro}}</p>
+
+        <div class="story-categories">
+          {% for category in story.categories %}
+            <p class="story-category tag">{{category}}</p>
+          {% endfor %}
+        </div>
         
-        <p class="story-action button-text accent underlined">Read Story</p>
+        <p class="story-action body link">Read Story</p>
       </div>
     </a>
   </div>
