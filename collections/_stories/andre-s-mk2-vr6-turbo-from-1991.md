@@ -28,7 +28,7 @@ It has mostly stock parts and its making around 500PS (493BHP) and 700NM (516FT-
 
 The whole interior is in a club Clubsport racing style.
 
-It has Recaro Pole Position seats, racing steering wheel, [OMP](https://www.ompracing.com/ "Accessori racing, kart e rally | Abbigliamento tecnico | OMP Racing") seatbelts, a [CAE](https://cae-racing.de/ "CAE Shifting Technology") shifter, and many many carbon fiber parts. Even the whole Clubsport cage is covered in real carbon fiber.
+It has Recaro Pole Position seats, racing steering wheel, OMP seatbelts, a CAE shifter, and many many carbon fiber parts. Even the whole Clubsport cage is covered in real carbon fiber.
 
 #### To finish things any, last thoughts?
 
