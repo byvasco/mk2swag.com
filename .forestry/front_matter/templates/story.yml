@@ -25,6 +25,11 @@ fields:
   type: tag_list
   default: []
   label: Categories
+- name: permalink
+  type: text
+  config:
+    required: false
+  label: permalink
 pages:
 - collections/_stories/andre-s-mk2-vr6-turbo-from-1991.md
 - collections/_stories/chris-g60-westy.md
