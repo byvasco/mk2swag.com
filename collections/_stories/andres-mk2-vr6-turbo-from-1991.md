@@ -1,10 +1,11 @@
 ---
 layout: story
-categories: []
+categories:
+- Golf
 title: Andre's MK2 VR6 Turbo from 1991
 date: 2019-11-06T00:00:00.000+00:00
 intro: ''
-image_path: ''
+image_path: andres-mk2-vr6-turbo-from-1991-cover
 permalink: draft/:title/p2z6b6w0y2v5y1d4n3g8
 published: false
 
