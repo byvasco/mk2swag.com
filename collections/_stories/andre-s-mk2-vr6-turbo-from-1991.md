@@ -6,6 +6,7 @@ date: 2019-11-06T00:00:00.000+00:00
 intro: ''
 image_path: ''
 permalink: draft/:title/p2z6b6w0y2v5y1d4n3g8
+published: false
 
 ---
 My name is Andre. I'm from Nuremberg, Germany and I own a '91 Mk2 Vr6 Turbo. I own the car for 8 years and it's my first Volkswagen.
