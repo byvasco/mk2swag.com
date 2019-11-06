@@ -16,7 +16,7 @@ sections:
   create: documents
   match: "**/*"
   new_doc_ext: md
-upload_dir: assets/images
+upload_dir: assets/images/stories
 public_path: "/assets/images"
 front_matter_path: ''
 use_front_matter_path: false
