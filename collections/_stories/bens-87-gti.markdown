@@ -1,9 +1,11 @@
 ---
 title: Ben’s ’87 GTI
-date: 2019-09-19 15:04:15 +0000
+date: 2019-09-19T15:04:15.000+00:00
 intro: A superb build with countless mods and mad atention to detail.
 image_path: stories/bens-87-gti
-categories: Golf
+categories:
+- Golf
+layout: story
 
 ---
 My name is Ben Hobson and I’m from Wichita, KS, USA.
