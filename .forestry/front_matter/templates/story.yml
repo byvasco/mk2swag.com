@@ -30,10 +30,7 @@ fields:
   config:
     required: false
   label: permalink
-- name: hidden
-  type: boolean
-  label: hidden
 pages:
-- collections/_stories/andres-mk2-vr6-turbo-from-1991.md
 - collections/_stories/bens-87-gti.markdown
+- collections/_stories/andres-mk2-vr6-turbo-from-1991.md
 - collections/_stories/chris-g60-westy.md
