@@ -7,6 +7,7 @@ date: 2019-11-06T00:00:00.000+00:00
 intro: ''
 image_path: andres-mk2-vr6-turbo-from-1991-cover
 permalink: draft/:title/p2z6b6w0y2v5y1d4n3g8
+hidden: true
 published: false
 
 ---
