@@ -18,6 +18,7 @@ title: Stories
 <section class="page-content">
   <div class="container flex-center-all">
     {% assign stories = site.stories | sort: 'date' | reverse %}
+    
     {% for story in stories %}
       {% include cards/story-preview.html size='small' %}
     {% endfor %}

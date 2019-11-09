@@ -6,7 +6,6 @@ image_path: stories/bens-87-gti
 categories:
 - Golf
 layout: story
-hidden: false
 
 ---
 My name is Ben Hobson and I’m from Wichita, KS, USA.
