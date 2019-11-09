@@ -24,7 +24,7 @@ fields:
 - name: categories
   type: tag_list
   default: []
-  label: Categories
+  label: categories
 - name: permalink
   type: text
   config:
