@@ -17,6 +17,8 @@ src="intro.jpg"
 caption="Picture by Emilio Rocha"
 %}
 
+![](/assets/images/uploads/bens-87-gti-intro.jpg)
+
 You have to realize that the car you see today isn’t anything close to the car I started with back in 1998 – When I bought this mk2, it had no bumpers, small doors, the grill was missing and dinged up pretty good. Thankfully I kept with the project and met some great friends along the way to help out.
 
 #### Starting from the exterior
