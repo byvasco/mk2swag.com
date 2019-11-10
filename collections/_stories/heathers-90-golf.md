@@ -5,7 +5,6 @@ categories:
 title: Heather’s ’90 Golf
 date: 2019-09-11 23:00:00 +0000
 intro: Green & Golf combining in this piece of beauty.
-image_path: stories/heathers-90-golf
 
 ---
 My name is Heather Tucker, I live in Georgia and this is my 1990 Volkswagen Golf.
@@ -18,7 +17,7 @@ I really wanted the car to make it to SOWO 2013, which was 130 days away. I got 
 
 It’s sitting on 3 piece OZ Vega Fittipaldi’s wheels with Airlift V2 air ride. Changed the front end to the single round headlights and smoked indicator lights.
 
-{% include story/image.html src="heathers-90-golf-wheels.jpg" %}
+![](/assets/images/uploads/heathers-90-golf-wheels.jpg)
 
 I also shaved the rear wiper and also replaced my rear emblem with a smaller, chromed one I found at VWcity (now [**Twincity VW parts**](https://www.facebook.com/twincityvwparts/)).
 
@@ -32,7 +31,7 @@ It has a [**Pacesetter**](https://pacesetterexhaust.com/) header and a Eurosport
 
 I’m a sucker for OEM+, I have a full Recaro interior, recovered headliner in suede, and OEM radio. The steering wheel is a black leather Nardi and a golf ball shift knob.
 
-{% include story/image.html src="heathers-90-golf-interior.jpg" %}
+![](/assets/images/uploads/heathers-90-golf-interior.jpg)
 
 For the air tank, I polished copper tubing and had [**@vwhooptie**](https://www.instagram.com/vwhooptie/) bend it around the tank.
 
@@ -40,6 +39,6 @@ For the air tank, I polished copper tubing and had [**@vwhooptie**](https://www.
 
 There is always something I’ll want to change on this car. I’m obsessed with the small details, and slowly working on them. I want to get a different engine set up, get another set of Recaro’s to get recovered, new dash, and pop out windows just to name a few.
 
-{% include story/image.html src="heathers-90-golf-exterior.jpg" %}
+![](/assets/images/uploads/heathers-90-golf-exterior.jpg)
 
 I’m shocked to see how far this car has come and excited to see how it will change.

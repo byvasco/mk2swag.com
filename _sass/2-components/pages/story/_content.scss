@@ -34,7 +34,7 @@
   }
 
   figure {
-    margin: 32px  0;
+    margin: 32px 0;
   }
 
   figure + h4 {
@@ -42,6 +42,7 @@
   }
 
   figcaption {
+    @extend .body-small;
     text-align: center;
     padding: 8px 0;
     color: get-color(text, light);

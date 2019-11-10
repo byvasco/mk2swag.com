@@ -5,7 +5,6 @@ categories:
 title: Sam’s ’88 Coupe
 date: 2019-09-15 23:00:00 +0000
 intro: A Westy coupe Jetta and wide RS's.
-image_path: stories/sams-88-coupe
 
 ---
 I’m Sam and I’m originally from Devon, England but I currently live in upstate New York.
@@ -18,17 +17,18 @@ The main part of the car I remember wanting and sticking with, even when people 
 
 It has a set of euro black stripe bumpers, front and rear, with a Kamei x1 front lip and side skirts (I also have the rear that I haven’t got round to fitting yet) that fit with the original 8V flares.
 
-{% include story/image.html src="sams-88-coupe-outside.jpg" caption="Picture by Sadie Fortin" %}
+![Picture by Sadie Fortin](/assets/images/uploads/sams-88-coupe-outside.jpg)
 
 Those Mattig cup mirrors are another cool rare part of the car that I absolutely love and always wanted along with the Metalplast hood vent and mono wiper. All the lights around the car are all genuine Hella lights, including the NOS smoked front bumper lights and smoked tails.
 
 The front fenders/wings have been welded and shaved off the original side markers and repeaters. The rest of the body of the car is mainly original except for the work put into making the wheels fit under the arches.
 
 {% include story/image.html src="sams-88-coupe-outside-2.jpg" %}
+![](/assets/images/uploads/sams-88-coupe-outside-2.jpg)
 
 It sits on a set of BBS RS001 with 3.5” lips and 6” barrels in the front, and 4.5” lips with 5” barrels on the rear, making them 10j all round with a front offset of 0 before a 5mm spacer, and rear offset of -25. Obviously to make them fit it was quite a bit of work so I had to have the rear beam narrowed, which my good friend Tom Clark took care of. Then I had it powder coated and fitted new bushings before refitting it along with camber shims. The fronts also took a fair amount of work to fit but were definitely easier.
 
-{% include story/image.html src="sams-88-coupe-wheels.jpg" %}
+![](/assets/images/uploads/sams-88-coupe-wheels.jpg)
 
 The car runs Airlift 3P management and is sitting on full adjustable Broadway pneumatic air struts all round with camber adjustable top mounts in the front with Neuspeed front and rear lower arb’s and upper strut braces.
 
@@ -42,11 +42,11 @@ It has a Schrick valve cover with a PCV delete and a hidden catch can, aluminum 
 
 The inside of the car is actually still very original. Because the car is a special edition, it came with a rare interior trim the same as the Pirelli coupe so I’ve kept the original seats and carpet as they’re in such good condition. However, there are a few small other touches on the inside that make it a nice place to be.
 
-{% include story/image.html src="sams-88-coupe-interior.jpg" %}
+![](/assets/images/uploads/sams-88-coupe-interior.jpg)
 
 It has a Momo prototipo black leather steering with white stitching, a VW Motorsport shift knob, Euro lower dash and console, VW Motorsport white dials, Digifiz mini voltmeter, chrome early style steering wheel hub, chrome interior door handles. The car also has a few little carbon touches here and there such as a carbon steering cowl, carbon interior mirror plates, window winder arms, door pulls and handbrake surround.
 
-{% include story/image.html src="sams-88-coupe-interior-2.jpg" %}
+![](/assets/images/uploads/sams-88-coupe-interior-2.jpg)
 
 The controller for the 3P management is hidden under the dash in a cubby hole with easy access so I can still get to it when I need to but I think hiding it helps keep the interior more period correct and more subtle.
 
@@ -54,7 +54,7 @@ The controller for the 3P management is hidden under the dash in a cubby hole wi
 
 The project is never finished obviously, and this is really only the start of the car. My next project is to tidy and overhaul the engine bay then go through and powder coat everything underneath and replace every bushing possible so it’s all fresh underneath.
 
-{% include story/image.html src="sams-88-coupe-conclusion.jpg" caption="Picture by Fraud" %}
+![Picture by Fraud](/assets/images/uploads/sams-88-coupe-conclusion.jpg)
 
 I plan to take the car to England with me for some shows but I’m not entirely sure when I can do that so we shall see about that.
 

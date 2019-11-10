@@ -5,7 +5,6 @@ categories:
 title: Kavir’s ’89 Daily Golf
 date: 2019-09-11 23:00:00 +0000
 intro: I just wished my daily looked half as good as this one!
-image_path: stories/kavirs-89-daily-golf
 
 ---
 My name is Kavir Singh and I’m the proud owner of @G2VAG, my daily 1989 Volkswagen Golf Mk2.
@@ -22,15 +21,14 @@ Anyway, the car was written off and I was paid £2100 for it and I bought the ca
 
 I wanted to get this Mk2 to show standard, but with it being my daily / a rolling project it’s still far off.
 
-{% include story/image.html src="kavirs-89-daily-golf-intro.jpg" %}
+![](/assets/images/uploads/kavirs-89-daily-golf-intro.jpg)
 
 #### Viewing from the exterior
 
 It’s sitting on 9.5j squared BBS RM’s with [**Radinox dishes**](http://www.schmidt-wheels.com/radinox/), gold spiked hardware and chrome flat caps, G60 arches, Porsche engraved door handles, cruise lights, custom quad grill with eyebrow... Also, the car is bagged, running on [**Airlift v2 Slam Kit**](https://www.airliftperformance.com/product-lines/slam-air-suspension/).
 
-{% include story/image.html src="kavirs-89-daily-golf-exterior-1.jpg" %}
-
-{% include story/image.html src="kavirs-89-daily-golf-exterior-2.jpg" %}
+![](/assets/images/uploads/kavirs-89-daily-golf-exterior-1.jpg)
+![](/assets/images/uploads/kavirs-89-daily-golf-exterior-2.jpg)
 
 In the back it has a set Hella from the 16V and a Hella spoiler that I bought from a friend of mine for really cheap, setting the rear end off nicely.
 
@@ -44,13 +42,13 @@ The only reason for the straight through to the backbox is because I drive the c
 
 I’m sitting my bottom in a set of Mk3 VR6 heated Recaro leathers, it has a Votex center console, with a pioneer flip-out screen, [**Airlift v2 Slam Kit**](https://www.airliftperformance.com/product-lines/slam-air-suspension/) controller fitted in the heater vent, a Momo 300mm steering wheel, fitted black headliner, black carpets, boot build, and a 12″ kicker subwoofer.
 
-{% include story/image.html src="kavirs-89-daily-golf-inside.jpg" %}
+![](/assets/images/uploads/kavirs-89-daily-golf-inside.jpg)
 
 #### What are your plans for the future?
 
 From where I am with the car I am actually content, although it’s still a baby engine, the looks you get while sweeping the floor is unbeatable.
 
-{% include story/image.html src="kavirs-89-daily-golf-exterior-3.jpg" %}
+![](/assets/images/uploads/kavirs-89-daily-golf-exterior-3.jpg)
 
 My future plans would have to definitely be an engine swap, VR6 is my route and is firm as of now. A tidy up of paintwork, rebuilding the BBS RM’s and a revamp of the interior would be a must.
 

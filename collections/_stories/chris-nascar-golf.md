@@ -2,7 +2,6 @@
 layout: story
 title: Chris’ Nascar Golf
 date: 2019-09-15 23:00:00 000+00:00
-image_path: stories/chris-nascar-golf
 categories:
 - Golf
 intro: A G60 US Spec Golf in Austria.
@@ -18,7 +17,7 @@ After my daughter was born I took her off the road for a rebuild, and turn her i
 
 I love muscle cars and Nascar, so that was the basic inspiration for how she looks now. The build took 7 years, with a bit of wiring help from friends. And after those 7 years, I finally achieved a look that I love and wanted.
 
-{% include story/image.html src="chris-nascar-golf-intro.jpg" %}
+![](/assets/images/uploads/chris-nascar-golf-intro.jpg)
 
 #### What changed after you bought her?
 
@@ -44,13 +43,14 @@ Here’s the list of parts she now has:
 
 {% include story/image.html src="chris-nascar-golf-exterior-1.jpg" %}
 
-{% include story/image.html src="chris-nascar-golf-exterior-2.jpg" caption="Picture by @pjfairman" %}
+![](/assets/images/uploads/chris-nascar-golf-exterior-1.jpg)
+![Picture by @pjfairman](/assets/images/uploads/chris-nascar-golf-exterior-2.jpg)
 
 She started with a modest 8V… but she deserved a VR6 growl — it went with the muscle car theme!
 
 So it’s a 2.8 Obd2 VR6, with a stainless steel 6-1 exhaust manifold (ending with a stainless steel twin-tip in the back), and a [**Pipercross**](http://www.pipercross.net/) air filter. It’s currently making 182bhp and 172lb of torque.
 
-{% include story/image.html src="chris-nascar-golf-engine.jpg" %}
+![](/assets/images/uploads/chris-nascar-golf-engine.jpg)
 
 #### The Interiors
 
@@ -60,7 +60,7 @@ The carpets and rear seats were removed, and in the front I’ve installed a set
 
 It has carbon fiber door cards, vents and speaker blanks, an OMP deep-dish steering wheel, the battery was relocated to behind the driver’s seat and the washer bottle was placed under the dashboard. And for extra safety, it has a 6-point Sparco Roll Cage.
 
-{% include story/image.html src="chris-nascar-golf-interior.jpg" %}
+![](/assets/images/uploads/chris-nascar-golf-interior.jpg)
 
 #### Next plans? Is it finished?
 

@@ -14,7 +14,7 @@ Before this Jetta I owned an ’89 Golf that unfortunately got rear-ended after 
 
 I wanted a project of some sort and was looking to go down the air-cooled route, however, I still had the itch for another Mk2. I was scrolling through Facebook and came across this bone stock, unmolested Jetta with only 47k miles on the clock. It was only about half an hour away from my house and was up for a very reasonable price. Would have been rude not to go have a look right?
 
-{% include story/image.html src="joshs-89-jetta-intro.jpg" caption="Photo by @jriddex" %}
+![Photo by @jriddex](/assets/images/uploads/joshs-89-jetta-intro.jpg)
 
 #### Starting from the exterior, what changed after you bought it?
 
@@ -24,11 +24,11 @@ Firstly, the car is sitting on Renault Speedlines, originally from an MK1 Renaul
 
 Suspension wise it’s running with AP coilovers, and for a fairly low car, the ride quality isn’t all that bad. Comparing with other low cars I’ve been in, some of their suspension’s quality was absolutely dreadful and the comfort was next to none. So, I’m satisfied with these coilovers.
 
-{% include story/image.html src="joshs-89-jetta-exterior-1.jpg" caption="Photo by @alfiejcox" %}
+![Photo by @alfiejcox](/assets/images/uploads/joshs-89-jetta-exterior-1.jpg)
 
 I’ve changed the bumpers to the to chrome trim ones, as the others were tatty and scratched. By the looks of things, one of the previous owners had backed into something and dented the rear bumper so it was a good excuse to get a new pair. I was really lucky to find a brand new original chrome trim bumper for the rear. I also swapped out the front grill to an earlier spec 7 slat grill as I prefer the look of an earlier model.
 
-{% include story/image.html src="joshs-89-jetta-exterior-2.jpg" caption="Photo by @alfiejcox" %}
+![Photo by @alfiejcox](/assets/images/uploads/joshs-89-jetta-exterior-2.jpg)
 
 For the exterior, there isn’t really much more to say. I’m far from finished with the outside of the car as its been a slow project, but I have a few plans up my sleeve (all will be revealed in good time).
 
@@ -40,11 +40,11 @@ Unfortunately at this stage it’s currently still running the ridiculously slug
 
 The inside of the car is totally original, except for the Grip Royal ‘Woodie’ steering wheel. Also, I managed to pick up a different heater switch panel out of an early Westmoreland Golf. I’ve been told they’re pretty rare, and I’ve never seen another in the UK yet! I do not plan on changing anything else in the interior as I feel it’s way too mint, and I absolutely love the blue seats and carpet.
 
-{% include story/image.html src="joshs-89-jetta-interior.jpg" %}
+![](/assets/images/uploads/joshs-89-jetta-interior.jpg)
 
 At this moment of time, the Jetta is currently off the road a little neglected. Like other people and their projects, I’m nowhere near satisfied with the build yet! In the future, I plan on doing an engine swap, whether that will be a 20VT, a 2.0 ABF, VR6, g60, etc. Who knows?! This 1.3 4 speed will not be staying as I hate the lack of power with these little engines, but that’s to be expected of course haha.
 
-{% include story/image.html src="joshs-89-jetta-exterior-3.jpg" caption="Photo by @alfiejcox" %}
+![Photo by @alfiejcox](/assets/images/uploads/joshs-89-jetta-exterior-3.jpg)
 
 Active suspension is definitely on the list, hydros preferably as I just think they’re cooler than bags, plus you don’t see many Jetta’s on juice as air ride is much more common.
 
