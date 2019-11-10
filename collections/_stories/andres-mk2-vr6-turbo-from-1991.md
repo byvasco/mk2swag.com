@@ -29,6 +29,8 @@ In the rear, it also has a rare set of Red&White tail lights.
 
 And overall, there are some more parts in carbon fiber.
 
+![](/assets/images/uploads/andres-mk2-vr6-turbo-from-1991-exterior-detail-6.jpg)![](/assets/images/uploads/andres-mk2-vr6-turbo-from-1991-exterior-detail-5.jpg)
+
 #### What's under the hood?
 
 The engine is a 2.8 VR6 (AAA) with a Garrett gtx3076 turbocharger and a full 3" catless exhaust system.
