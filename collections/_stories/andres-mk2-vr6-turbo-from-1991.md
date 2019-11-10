@@ -35,7 +35,11 @@ And overall, there are some more parts in carbon fiber.
 
 The engine is a 2.8 VR6 (AAA) with a Garrett gtx3076 turbocharger and a full 3" catless exhaust system.
 
+![](/assets/images/uploads/andres-mk2-vr6-turbo-from-1991-engine-1.jpg)![](/assets/images/uploads/andres-mk2-vr6-turbo-from-1991-engine-2-1.jpg)
+
 It has mostly stock parts and its making around 500PS (493BHP) and 700NM (516FT-LB) of torque.
+
+![](/assets/images/uploads/andres-mk2-vr6-turbo-from-1991-engine-details.jpg)
 
 #### The only thing left is the interiors. What can you tell us about it?
 
