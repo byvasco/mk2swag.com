@@ -4,7 +4,7 @@ categories:
 - Golf
 title: Andre’s MK2 VR6 Turbo from 1991
 date: 2019-11-06T00:00:00.000+00:00
-intro: A MK2 from the motherland Germany, and a glorious VR6 under the hood.
+intro: A MK2 from motherland Germany, and a glorious VR6 under the hood.
 image_path: ''
 permalink: draft/:title/p2z6b6w0y2v5y1d4n3g8
 hidden: false
