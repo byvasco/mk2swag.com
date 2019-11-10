@@ -60,3 +60,5 @@ Even the whole Clubsport cage is covered in real carbon fiber.
 There are many things I have to do – such a project is never ready.
 
 It's all about details. 😊
+
+![](/assets/images/uploads/andres-mk2-vr6-turbo-from-1991-conclusion.jpg)
