@@ -45,6 +45,8 @@ It has mostly stock parts and its making around 500PS (493BHP) and 700NM (516FT-
 
 The whole interior is in a club Clubsport racing style.
 
+![](/assets/images/uploads/andres-mk2-vr6-turbo-from-1991-interior-1.jpg)![](/assets/images/uploads/andres-mk2-vr6-turbo-from-1991-interior-2.jpg)
+
 It has Recaro Pole Position seats, racing steering wheel, OMP seatbelts, a CAE shifter, and many many carbon fiber parts. Even the whole Clubsport cage is covered in real carbon fiber.
 
 #### To finish things any, last thoughts?
