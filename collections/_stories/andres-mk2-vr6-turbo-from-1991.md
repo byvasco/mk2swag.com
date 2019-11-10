@@ -5,7 +5,7 @@ categories:
 title: Andre’s MK2 VR6 Turbo from 1991
 date: 2019-11-06T00:00:00.000+00:00
 intro: ''
-image_path: andres-mk2-vr6-turbo-from-1991-cover
+image_path: ''
 permalink: draft/:title/p2z6b6w0y2v5y1d4n3g8
 hidden: false
 published: false
@@ -52,6 +52,8 @@ It has Recaro Pole Position seats, racing steering wheel, OMP seatbelts, a CAE s
 ![](/assets/images/uploads/andres-mk2-vr6-turbo-from-1991-inside-details.jpg)
 
 Even the whole Clubsport cage is covered in real carbon fiber.
+
+![](/assets/images/uploads/andres-mk2-vr6-turbo-from-1991-interior-6.jpg)
 
 #### To finish things any, last thoughts?
 
