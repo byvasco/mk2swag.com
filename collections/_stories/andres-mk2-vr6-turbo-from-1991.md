@@ -17,11 +17,11 @@ My name is Andre. I'm from Nuremberg, Germany and I own a '91 Mk2 Vr6 Turbo. I o
 
 It's painted with an 18 years old color named Petrol Blue Metallic from Ford.
 
-![](/assets/images/uploads/andres-mk2-vr6-turbo-from-1991-exterior-1.jpg)![](/assets/images/uploads/andres-mk2-vr6-turbo-from-1991-exterior.jpg)
+![](/assets/images/uploads/andres-mk2-vr6-turbo-from-1991-exterior-1.jpg)![](/assets/images/uploads/andres-mk2-vr6-turbo-from-1991-exterior.jpg)![](/assets/images/uploads/andres-mk2-vr6-turbo-from-1991-exterior-detail.jpg)
 
 The car stands on 17" BBS E87 lightweight racing wheels, it has fully painted front and rear bumpers from the GL model and also a Votex rear spoiler, refined with real carbon fiber. In the rear, it also has a rare set of Red&White tail lights.
 
-![](/assets/images/uploads/andres-mk2-vr6-turbo-from-1991-wheels.jpg)
+![](/assets/images/uploads/andres-mk2-vr6-turbo-from-1991-wheels.jpg)![](/assets/images/uploads/andres-mk2-vr6-turbo-from-1991-exterior-tails.jpg)
 
 And overall, there are some more parts in carbon fiber.
 
