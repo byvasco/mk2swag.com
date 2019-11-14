@@ -20,7 +20,9 @@ title: Stories
     {% assign stories = site.stories | sort: 'date' | reverse %}
     
     {% for story in stories %}
-      {% include cards/story-preview.html size='small' %}
+      {% if story.draft != true %}
+        {% include cards/story-preview.html size='small' %}
+      {% endif %}
     {% endfor %}
   </div>
 </section>

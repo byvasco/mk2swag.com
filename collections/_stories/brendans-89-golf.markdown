@@ -2,8 +2,8 @@
 title: Brendan’s ’89 Golf
 date: 2019-09-21 15:04:15 +0000
 intro: Large bumper 3 door spreading magic all over California.
-categories: Golf
-
+categories:
+- Golf
 ---
 My name is Brendan, I’m from Simi Valley CA, and I own a 1989 Volkswagen Golf.
 

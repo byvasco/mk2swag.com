@@ -54,7 +54,6 @@ defaults:
     values:
       layout: "story"
       type: "story"
-      cover: "cover.jpg"
   
   -
     scope:

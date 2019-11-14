@@ -11,7 +11,7 @@ custom_js: [ rolling.js ]
 
     <a class="recent-story-preview story-preview" href="{{story.url}}">
       <figure class="story-cover">
-        <img src="/assets/images/uploads/{{story.title | remove: '’' | slugify}}-cover.jpg">
+        <img src="{% if story.cover %}{{story.cover}}{% else %}/assets/images/uploads/{{story.title | remove: '’' | slugify}}-cover.jpg{% endif %}">
       </figure>
 
       <div class="story-details">       
