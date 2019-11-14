@@ -21,12 +21,7 @@ page_title: story
 
     <div class="header-cover">
       <figure class="story-cover">
-        <img
-          alt=""
-          src="/assets/images/uploads/{{
-            page.title | remove: '’' | slugify
-          }}-cover.jpg"
-        />
+        <img src="{% if page.cover %}{{page.cover}}{% else %}/assets/images/uploads/{{page.title | remove: '’' | slugify}}-cover.jpg{% endif %}">
       </figure>
     </div>
   </div>

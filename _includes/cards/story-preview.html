@@ -2,7 +2,7 @@
 
 <a class="story-preview {% if include.size == 'small' %}-small{% endif %}" href="{{ story.url }}">
   <figure class="story-cover">
-    <img alt="" src="/assets/images/uploads/{{story.title | remove: '’' | slugify}}-cover.jpg">
+    <img src="{% if story.cover %}{{story.cover}}{% else %}/assets/images/uploads/{{story.title | remove: '’' | slugify}}-cover.jpg{% endif %}">
   </figure>
 
   <div class="story-details">    
