@@ -4,7 +4,9 @@ title: Chris’ G60 Westy
 date: 2019-09-16 23:00:00 +0000
 categories: Golf
 intro: A G60 US Spec Golf in Austria.
-
+cover: https://mk2swag.s3.eu-west-3.amazonaws.com/stories/chris-g60-westy-cover.jpg
+categories:
+- Golf
 ---
 Hi, I’m Chris and I come from Austria. I bought my US Golf in 2012 on the World Wide Web, actually by an accident.
 
@@ -14,15 +16,15 @@ At this time the Westy was completely inconspicuous.
 
 Mine comes with a KW Static suspension, and it’s rolling on custom 17“ Sebrings. It has 1991 widening and G60 fenders all around. It has the Westmoreland front-end with, and in the back, it has a set of smoked US taillights. The paint is also quite recent, being made back in 2013, with the original Tornado Red (Y3D) color.
 
-![](/assets/images/uploads/chris-g60-westy-outside-1.jpg)
-![](/assets/images/uploads/chris-g60-westy-outside-2.jpg)
+![](https://mk2swag.s3.eu-west-3.amazonaws.com/stories/chris-g60-westy-outside-1.jpg)
+![](https://mk2swag.s3.eu-west-3.amazonaws.com/stories/chris-g60-westy-outside-2.jpg)
 
 
 #### What about its engine?
 
 At the beginning, it was an automatic, 1.8L RV. It was first my daily driver, so I changed from the 1.8 RV engine to a 2.0 2E, but kept the automatic transmission. After a while, and because I was looking for that G60 sound, I decided to build this Westy as good as I could, keeping it original, simple and classic.
 
-![](/assets/images/uploads/chris-g60-westy-engine-1.jpg)
+![](https://mk2swag.s3.eu-west-3.amazonaws.com/stories/chris-g60-westy-engine-1.jpg)
 
 Swapped the engine for a 1.8L G60 PG, and fitted a manual 5 speed gearbox. Regarding engine mods, it had a [**Schrick Camshaft**](http://www.schrick.com/index.php), a 4bar petrol pressure regulator and adapted the control unit.
 
@@ -30,7 +32,7 @@ Swapped the engine for a 1.8L G60 PG, and fitted a manual 5 speed gearbox. Regar
 #### How is it inside the car?
 It came fully equipped for that time!
 
-![](/assets/images/uploads/chris-g60-westy-inside-1.jpg)
+![](https://mk2swag.s3.eu-west-3.amazonaws.com/stories/chris-g60-westy-inside-1.jpg)
 
 Currently it has:
 
@@ -46,12 +48,12 @@ Currently it has:
 * Headlight washers
 * And the black roof headliner
 
-![](/assets/images/uploads/chris-g60-westy-inside-2.jpg)
+![](https://mk2swag.s3.eu-west-3.amazonaws.com/stories/chris-g60-westy-inside-2.jpg)
 
 #### Some final thoughts?
 I’m actually very happy with my Golf! All the missing things and parts are now there and complete, and there’s nothing I would change right now.
 
-![](/assets/images/uploads/chris-g60-westy-conclusion.jpg)
+![](https://mk2swag.s3.eu-west-3.amazonaws.com/stories/chris-g60-westy-conclusion.jpg)
 
 Maybe, in the future, I might give the braking system an upgrade, or perhaps get a new set of wheels!
 
