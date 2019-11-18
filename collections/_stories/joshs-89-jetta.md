@@ -3,7 +3,7 @@ title: Josh’s '89 Jetta
 date: 2019-09-14 23:00:00 +0000
 intro: Classy looking Jetta, from England to the world.
 cover: https://mk2swag.s3.eu-west-3.amazonaws.com/stories/joshs-89-jetta-cover.jpg
-categories:
+tags:
 - Jetta
 ---
 My name is Josh Burkitt, I live in a small village just outside of Cambridge, England and this is my 1989 Mk2 Jetta.

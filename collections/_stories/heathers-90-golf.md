@@ -3,7 +3,7 @@ title: Heather’s '90 Golf
 date: 2019-09-11 23:00:00 +0000
 intro: Green & Golf combining in this piece of beauty.
 cover: https://mk2swag.s3.eu-west-3.amazonaws.com/stories/heathers-90-golf-cover.jpg
-categories:
+tags:
 - Golf
 ---
 My name is Heather Tucker, I live in Georgia and this is my 1990 Volkswagen Golf.

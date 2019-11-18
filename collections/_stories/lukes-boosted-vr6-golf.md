@@ -3,7 +3,7 @@ title: Luke’s Boosted VR6 Golf
 date: 2019-09-10 23:00:00 +0000
 intro: A powerful VR6 Turbo for the first MK2Swag Story.
 cover: https://mk2swag.s3.eu-west-3.amazonaws.com/stories/lukes-boosted-vr6-golf-cover.jpg
-categories:
+tags:
 - Golf
 ---
 I’m Luke Rocknak and I’m from Milford, NH. My car is a 1988 Volkswagen Gti VRT aka Gwen.

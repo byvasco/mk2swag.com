@@ -3,7 +3,7 @@ title: Kavir’s '89 Daily Golf
 date: 2019-09-11 23:00:00 +0000
 intro: I just wished my daily looked half as good as this one!
 cover: https://mk2swag.s3.eu-west-3.amazonaws.com/stories/kavirs-89-daily-golf-cover.jpg
-categories:
+tags:
 - Golf
 ---
 My name is Kavir Singh and I’m the proud owner of @G2VAG, my daily 1989 Volkswagen Golf Mk2.

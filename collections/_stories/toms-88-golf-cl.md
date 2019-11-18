@@ -3,7 +3,7 @@ title: Tom’s '88 Golf CL
 date: 2019-09-13T23:00:00.000+00:00
 intro: An overall superb build. Wait until you see that engine bay!
 cover: https://mk2swag.s3.eu-west-3.amazonaws.com/stories/toms-88-golf-cl-cover.jpg
-categories:
+tags:
 - Golf
 ---
 My name is Tom, I’m from Ipswich Suffolk UK and I own a 1988 Mk2 Golf CL.

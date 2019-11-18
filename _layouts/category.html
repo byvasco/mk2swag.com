@@ -20,7 +20,7 @@ page_title: stories
     {% assign stories = site.stories | sort: 'date' | reverse %}
     
     {% for story in stories %}
-      {% if story.categories contains page.title %}
+      {% if story.tags contains page.title %}
         {% include cards/story-preview.html size='small' %}
       {% endif %}
     {% endfor %}

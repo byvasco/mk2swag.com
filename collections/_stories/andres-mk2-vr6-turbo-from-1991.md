@@ -1,11 +1,10 @@
 ---
-categories:
+tags:
 - Golf
 title: Andre’s MK2 VR6 Turbo from 1991
-date: 2019-01-06T00:00:00.000+00:00
+date: 2019-11-17 T00:00:00.000+00:00
 intro: A MK2 from motherland Germany, and a glorious VR6 under the hood.
 cover: https://mk2swag.s3.eu-west-3.amazonaws.com/stories/andres-mk2-vr6-turbo-from-1991-cover.jpg
-draft: true
 ---
 
 My name is Andre. I'm from Nuremberg, Germany and I own a '91 Mk2 Vr6 Turbo. I own the car for 8 years and it's my first Volkswagen.
@@ -63,3 +62,9 @@ There are many things I have to do – such a project is never ready.
 It's all about details. 😊
 
 ![](https://mk2swag.s3.eu-west-3.amazonaws.com/stories/andres-mk2-vr6-turbo-from-1991-conclusion.jpg)
+
+----
+
+Hope you liked this new MK2Swag Story! All pictures where taken by the owner itself – you can take a look at his Instagram [@speedyshots](https://www.instagram.com/speedyshots/) .
+
+See you next time!

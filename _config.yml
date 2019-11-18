@@ -52,6 +52,7 @@ defaults:
       path: ""
       type: "stories"
     values:
+      category: "Story"
       layout: "story"
       type: "story"
   

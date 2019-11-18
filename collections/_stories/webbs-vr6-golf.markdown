@@ -3,7 +3,7 @@ title: Webb’s VR6 Golf
 date: 2019-09-18 16:04:15 +0100
 intro: The story of an old school MK2 build that has Porsche soul into it.
 cover: https://mk2swag.s3.eu-west-3.amazonaws.com/stories/webbs-vr6-golf-cover.jpg
-categories:
+tags:
 - Golf
 ---
 
