@@ -29,6 +29,11 @@ collections:
     output: true
     permalink: /stories/:title
     sort_by: date
+  
+  drafts:
+    output: true
+    permalink: /drafts/:title
+    sort_by: date
 
   stories_categories:
     output: true
@@ -55,6 +60,16 @@ defaults:
       category: "Story"
       layout: "story"
       type: "story"
+  
+  -
+    scope:
+      path: ""
+      type: "drafts"
+    values:
+      category: "Story"
+      layout: "story"
+      type: "story"
+      draft: true
   
   -
     scope:
