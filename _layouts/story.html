@@ -44,6 +44,7 @@ page_title: story
   </div>
 </footer>
 
+{% if page.draft != true %}
 <section class="more-stories">
   <div class="container-narrow">
     <header class="section-header">
@@ -52,14 +53,23 @@ page_title: story
     </header>
 
     <div class="stories grid">
-      {% if page.next.title %} {% assign story = page.next %} {% include
-      cards/story-preview.html size='small' %} {% else %} {% assign story =
-      site.stories.first %} {% include cards/story-preview.html size='small' %} {% endif %}
-      {% if page.previous.title %} {% assign story = page.previous %} {% include
-      cards/story-preview.html size='small' %} {% else %} {% assign story = site.stories.last
-      %} {% include cards/story-preview.html size='small' %} {% endif %}
+      {% if page.next.title %}
+        {% assign story = page.next %} {% include cards/story-preview.html size='small' %}
+      {% else %}
+        {% assign story = site.stories.first %}
+        {% include cards/story-preview.html size='small' %}
+      {% endif %}
+
+      {% if page.previous.title %}
+        {% assign story = page.previous %}
+        {% include cards/story-preview.html size='small' %}
+      {% else %}
+        {% assign story = site.stories.last %}
+        {% include cards/story-preview.html size='small' %}
+      {% endif %}
     </div>
   </div>
 </section>
+{% endif %}
 
 <script src="/assets/javascript/story.js"></script>

@@ -1,7 +1,7 @@
 ---
 tags:
 - Golf
-title: Jack's Stealth Looking Golf
+title: Jack’s Stealth Looking Golf
 date: 2019-12-04 00:00:00.000+00:00
 intro: 
 cover: 
