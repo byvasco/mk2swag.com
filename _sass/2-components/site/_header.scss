@@ -4,30 +4,30 @@
  */
 
 .header-main {
-  padding: 64px 0;
+  &-mobile {
+    padding: 64px 0;
 
-  .button-menu {
-    @include pos($pos: absolute, $right: 20px, $z: 100);
-  }
-
-  .logo {
-    @include pos($pos: relative, $z: 100);
-    justify-self: center;
-  }
-
-  @include mq-after(small) {
-
-    .container {
-      @include grid(200px 1fr, $align: center);
+    .button-menu {
+      @include pos($pos: absolute, $right: 20px, $z: 100);
     }
 
     .logo {
-      justify-self: start;
+      @include pos($pos: relative, $z: 100);
+    }
+  }
+
+  @include mq-after(small) {
+    .logo {
+      justify-self: center;
     }
 
-    .menu-main {
+    .menu-main,
+    .menu-socials {
+      align-self: center;
+    }
+
+    .menu-socials {
       justify-self: end;
-      order: 1;
     }
 
     .button-menu {

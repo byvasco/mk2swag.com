@@ -5,22 +5,25 @@
 
 .footer-main {
   position: relative;
+  background-color: get-color(basic, black);
 
   .container {
-    padding-top: 56px;
-    padding-bottom: 56px;
+    padding-top: 100px;
+    padding-bottom: 88px;
+  }
+
+  .menu-footer {
+    margin-bottom: 32px;
+  }
+
+  .menu-link {
+    margin: 0 20px;
   }
   
   .social-buttons {
     .button-social {
       margin: 0 10px;
     }
-  }
-
-  .divider {
-    @include wh(calc(100% - 40px), 2px, 1300px);
-    @include pos(0, $left: 20px);
-    background-color: get-color(text, primary);
   }
 
   @include mq-after(medium) {

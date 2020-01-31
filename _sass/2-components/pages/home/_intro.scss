@@ -1,0 +1,22 @@
+/*
+ * Component
+ * Home - Intro
+ */
+
+.site-intro {
+  padding: 24px 0 56px;
+
+  .intro-text {
+    max-width: 345px;
+    text-align: center;
+    color: get-color(brand, accent);
+  }
+
+  @include mq-after(small) {
+    padding: 48px 0 120px;
+    
+    .intro-text {
+      max-width: 400px;
+    }
+  }
+}

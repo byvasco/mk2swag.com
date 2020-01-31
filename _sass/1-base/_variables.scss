@@ -4,19 +4,20 @@
  */
 
 // Fonts
-$font-titles: 'Archivo Black';
-$font-body: 'Chivo';
-$text: 450;
+$font-titles: 'Public Sans', system-ui, Helvetica, Roboto, sans-serif;
+$font-body: 'Vollkorn';
+$text: 400;
 $bold: 700;
 
 //Layout
-$container-width: 1340px;
+$container-width: 1290px;
 $container-padding: 20px;
-$column-width: 82px;
+$column-width: 80px;
 $gap-width: 30px;
 $col-4: ($column-width * 4) + ($gap-width * 3);
 $col-5: ($column-width * 5) + ($gap-width * 4);
 $col-6: ($column-width * 6) + ($gap-width * 5);
+$col-7: ($column-width * 7) + ($gap-width * 6);
 
 // Colors
 @function get-color($main, $variation: null, $palette: null) {
@@ -37,7 +38,7 @@ $colors: (
     black: #000
   ),
   brand: (
-    accent: #e53026
+    accent: #000CBE
   ),
   text: (
     primary: #060c1a,

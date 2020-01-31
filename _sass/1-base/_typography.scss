@@ -6,31 +6,31 @@
 // Titles
 .title {
   font-family: $font-titles;
-  font-weight: 400;
+  font-weight: 900;
 
   &-1 {
     @extend .title;
-    @include font(42, 40, 0);
+    @include font(42, 44, -1.2);
   }
 
   &-2 {
     @extend .title;
-    @include font(36, 36, 0);
+    @include font(36, 36, -1.2);
   }
 
   &-3 {
     @extend .title;
-    @include font(32, 28, 0);
+    @include font(32, 32, -0.6);
   }
 
   &-4 {
     @extend .title;
-    @include font(28, 32, -0.1);
+    @include font(28, 28, -1);
   }
 
   &-5 {
     @extend .title;
-    @include font(22, 24, -0.1);
+    @include font(24, 24, -0.21);
   }
 
   &-6 {
@@ -41,23 +41,23 @@
 
   @include mq-after(small) {
     &-1 {
-      @include font(62, 56, -0.9);
+      @include font(68, 72, -2.6);
     }
 
     &-2 {
-      @include font(56, 56, -1);
+      @include font(60, 56, -2.4);
     }
 
     &-3 {
-      @include font(42, 40, -0.4);
+      @include font(42, 40, -1);
     }
 
     &-4 {
-      @include font(32, 32, -0.1);
+      @include font(32, 32, -0.6);
     }
 
     &-5 {
-      @include font(26, 24, 0);
+      @include font(26, 28, -0.5);
     }
   }
 }
@@ -80,10 +80,20 @@
 
 // Body
 .body {
-  @include font(18, 24, 0);
+  @include font(20, 24, -0.2);
+
+  &-long {
+    @include font(20, 32, -0.07);
+  }
 
   &-large {
-    @include font(20, 28, 0);
+    @include font(24, 32, -0.4, 400);
+
+    &.-bold {
+      @extend .body-large;
+      font-weight: 600;
+      letter-spacing: -0.6px;
+    }
   }
 
   &-small {
@@ -91,16 +101,27 @@
   }
 
   @include mq-after(small) {
-    @include font(18, 28, 0);
+    @include font(18, 28, -0.09);
 
     &-large {
-      @include font(26, 32, 0);
+      @include font(28, 36, -0.7);
     }
   }
 }
 
 p {
   @extend .body;
+}
+
+// Caption
+.caption {
+  @include font(16, 20, -0.2);
+}
+
+.category {
+  @extend .caption;
+  color: get-color(brand, accent);
+  text-decoration: underline;
 }
 
 // Links
@@ -116,24 +137,33 @@ p {
   display: inline-block;
   font-family: $font-titles;
   text-transform: uppercase;
-  @include font(12, 12, 0);
+  @include font(14, 12, 0, 900);
 
-  &.underlined {
-    // border-bottom: 2px solid transparentize(get-color(text, primary), $amount: 0.86);
-    border-bottom: 2px solid get-color(text, primary);
+  &.-underlined {
+    color: get-color(brand, accent);
+    transition: all 420ms;
 
-    &.accent {
-      border-bottom: 2px solid get-color(brand, accent);
+    &::after {
+      display: block;
+      content: '';
+      @include wh(100%, 2px);
+      background-image: linear-gradient(90deg, rgba(0,12,190,0.50) 0%, rgba(0,12,190,0.00) 100%);
+      margin-top: 2px;
+      transition: all 420ms;
+    }
+
+    &:hover::after {
+      background-image: linear-gradient(90deg, rgba(0,12,190,0.50) 100%, rgba(0,12,190,0.00) 100%);
     }
   }
 
   &-small {
     @extend .button-text;
-    @include font(12, 12, 0);
+    @include font(12, 12, 0.1);
   }
 
   @include mq-after(small) {
-    @include font(14, 14, 0);
+    @include font(14, 12, 0);
   }
 }
 
@@ -143,6 +173,10 @@ p {
 }
 
 // Transformers
-.accent {
+.-accent {
   color: get-color(brand, accent);
+}
+
+.-white {
+  color: get-color(basic, white);
 }

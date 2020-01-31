@@ -2,3 +2,31 @@
  * Component
  * More Stories
  */
+
+.more-stories {
+  padding-bottom: 72px;
+  
+  .section-title {
+    margin-bottom: 48px;
+  }
+
+  .cards {
+    margin-bottom: 32px;
+  }
+
+  .story-preview + .story-preview {
+    margin-top: 16px;
+  }
+
+  @include mq-after(small) {
+    .cards {
+      @include grid($gap: $gap-width);
+    }
+  }
+
+  @include mq-after(large) {
+    .cards {
+      @include grid(repeat(3, 1fr), $gap: $gap-width);
+    }
+  }
+}

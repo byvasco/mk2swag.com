@@ -1,12 +1,18 @@
-<header class="header-main">
+<header class="header-main-mobile">
   <div class="container flex-center-all">
-    <a href="/" class="logo">MK2SWAG</a>
-
     <nav class="menu-main">
       {% for doc in site.data.navigation.docs %}
-        {% if doc.show %}<a href="{{doc.url}}" class="menu-link button-text">{{doc.title}}</a>{% endif %}
+        {% if doc.show %}<a href="{{doc.url}}" class="menu-link button-text -basic">{{doc.title}}</a>{% endif %}
       {% endfor %}
     </nav>
+
+    <a href="/" class="logo">MK2SWAG</a>
+
+    <!-- <ul class="menu-socials">
+      {% for doc in site.data.navigation.socials %}
+        {% if doc.show %}<li><a href="{{doc.url}}" class="menu-link button-text -basic">{{doc.title}}</a></li>{% endif %}
+      {% endfor %}
+    </ul> -->
 
     <a href="#" class="button-menu"></a>
   </div>

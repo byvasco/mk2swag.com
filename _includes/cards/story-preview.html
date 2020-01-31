@@ -5,23 +5,13 @@
     <img src="{% if story.cover %}{{story.cover}}{% else %}/assets/images/uploads/{{story.title | remove: '’' | slugify}}-cover.jpg{% endif %}">
   </figure>
 
-  <div class="story-details">    
-    {% if include.size == 'small' %}
-      <h2 class="story-title title-4">{{ story.title }}</h2>
-    {% else %}
-      <h2 class="story-title title-3">{{ story.title }}</h2>
-    {% endif %}
-
-    {% if include.size == 'small' %}
-      <p class="story-intro body-small">{{ story.intro }}</p>
-    {% else %}
-      <p class="story-intro body">{{ story.intro }}</p>
-    {% endif %}
-    
+  <div class="story-details">  
     <div class="story-categories">
       {% for category in story.categories %}
-        <p class="story-category tag">{{ category }}</p>
+        <p class="story-category category">{{ category }}</p>
       {% endfor %}
     </div>
+
+    <h2 class="story-title title-4">{{ story.title }}</h2>
   </div>
 </a>

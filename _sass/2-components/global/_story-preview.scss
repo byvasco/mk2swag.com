@@ -5,7 +5,6 @@
 
 .story-preview {
   display: block;
-  padding-top: 24px;
   max-width: $col-6;
 
   .story-cover {
@@ -13,72 +12,22 @@
   }
 
   .story-details {
-    padding: 24px 16px;
+    padding: 20px 16px;
 
     .story-title {
-      margin-bottom: 12px;
-    }
-
-    .story-intro {
-      margin-bottom: 16px;
-      max-width: $col-4;
-    }
-  }
-
-  &.-small {
-    .story-cover {
-      img {
-        width: 100%;
-        max-height: 260px;
-        object-fit: cover;
-      }
-    }
-
-    .story-details {
-      .story-title {
-        margin-bottom: 8px;
-      }
-    }
-
-    .story-categories .tag {
-      font-size: 16px;
+      max-width: 240px;
+      margin-top: 12px;
     }
   }
 
   @include mq-after(small) {
     .story-details {
-      padding: 32px 24px 48px;
-
-      .story-intro {
-        margin-bottom: 24px;
-      }
-    }
-
-    &.-small {
-      .story-details {
-        padding: 24px 16px 32px;
-
-        .story-title {
-          margin-bottom: 8px;
-        }
-
-        .story-intro {
-          max-width: 380px;
-          margin-bottom: 16px;
-        }
-      }
-    }
-  }
-
-  @media (hover: hover) {
-    &:hover {
+      padding: 20px 16px;
+  
       .story-title {
-        text-decoration: underline;
+        max-width: 240px;
+        margin-top: 12px;
       }
-    }
-
-    .story-title:hover {
-      opacity: .7;
     }
   }
 }

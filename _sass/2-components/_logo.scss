@@ -6,10 +6,10 @@
 .logo {
   display: block;
   @include wh(86px, 46px);
-  @include background('logo/logo-dark.svg', $size: 100%);
+  @include background('logo/logo-color.svg', $size: 100%);
   font-size: 0;
 
   @include mq-after(small) {
-    @include wh(104px, 56px);
+    @include wh(116px, 64px);
   }
 }

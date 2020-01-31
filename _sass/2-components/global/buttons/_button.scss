@@ -6,14 +6,19 @@
 .button {
   @extend .button-text;
   color: get-color(basic, white);
-  background-color: get-color(basic,black);
+  background-color: get-color(brand, accent);
   padding: 16px 24px;
 
-  &-outline {
+  &-small {
     @extend .button;
+    @extend .button-text-small;
+    padding: 10px 14px;
+  }
+
+  &.-outline {
     background-color: get-color(basic, white);
-    color: get-color(basic, black);
-    border: 2px solid get-color(basic, black);
+    border: 2px solid get-color(brand, accent);
+    color: get-color(brand, accent);
   }
 
   &-menu {
@@ -25,7 +30,7 @@
       display: block;
       content: '';
       @include wh(18px, 3px);
-      background-color: get-color(text, primary);
+      background-color: get-color(brand, accent);
       margin: 2px 0;
       transition: all 120ms;
     }

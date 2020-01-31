@@ -18,7 +18,7 @@
 
   &-small {
     @extend .container;
-    max-width: calc(#{$col-6} + #{$container-padding * 2});
+    max-width: calc(#{$col-4} + #{$container-padding * 2});
   }
 }
 
@@ -31,6 +31,11 @@
   &-2 {
     @extend .grid;
     grid-template-columns: repeat(2, 1fr);
+  }
+
+  &-3 {
+    @extend .grid;
+    grid-template-columns: repeat(3, 1fr);
   }
 }
 

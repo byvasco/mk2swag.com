@@ -3,6 +3,9 @@
  */
 
 .page-home {
+  @import 'intro';
   @import 'recent-story';
   @import 'more-stories';
+  @import 'about-teaser';
+  @import 'subscribe';
 }

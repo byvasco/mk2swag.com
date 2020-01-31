@@ -5,8 +5,14 @@ title: Home
 custom_js: [ rolling.js ]
 ---
 
+<section class="site-intro">
+  <div class="container flex-center-all">
+    <h2 class="intro-text body-large -bold">The community for lovers of the second gen. Golfs and Jettas.</h2>
+  </div>
+</section>
+
 <section class="recent-story">
-  <div class="container-narrow">
+  <div class="container">
     {% assign story = site.stories.last %}
 
     <a class="recent-story-preview story-preview" href="{{story.url}}">
@@ -14,18 +20,16 @@ custom_js: [ rolling.js ]
         <img src="{% if story.cover %}{{story.cover}}{% else %}/assets/images/uploads/{{story.title | remove: '’' | slugify}}-cover.jpg{% endif %}">
       </figure>
 
-      <div class="story-details">       
-        <h1 class="story-title title-2">{{story.title}}</h1>
-
-        <p class="story-intro body-large">{{story.intro}}</p>
-
+      <div class="story-details">
         <div class="story-categories">
           {% for category in story.categories %}
-            <p class="story-category tag">{{category}}</p>
+            <p class="story-category category">{{category}}</p>
           {% endfor %}
         </div>
+
+        <h1 class="story-title title-2">{{story.title}}</h1>
         
-        <p class="story-action body link">Read Story</p>
+        <p class="story-action button-text -underlined">Read Story</p>
       </div>
     </a>
   </div>
@@ -33,17 +37,32 @@ custom_js: [ rolling.js ]
   <div class="rolling"><div class="top"></div><div class="bottom"></div></div>
 </section>
 
-<section class="more-stories">
+<section class="about-teaser">
   <div class="container flex-center-all">
-    {% assign stories = site.stories | sort: 'date' | reverse %}
-    {% for story in stories | offset: 1 | limit: 3 %}
-      {% include cards/story-preview.html %}
-    {% endfor %}
+    <p class="body-large">A platform and a community to share the passion and knowledge for MK2 Golfs and Jettas.</p>
+    <a href="/about" class="button-text -underlined">Read More</a>
   </div>
 </section>
 
-<section class="view-more">
+<section class="more-stories">
   <div class="container flex-center-all">
-    <a href="/stories" class="button-outline">View More Stories</a>
+    <h3 class="section-title title-5">More Stories</h3>
+
+    <div class="cards">
+      {% assign stories = site.stories | sort: 'date' | reverse %}
+      {% for story in stories | offset: 1 | limit: 3 %}
+        {% include cards/story-preview.html %}
+      {% endfor %}
+    </div>
+
+    <a href="/stories" class="button-small -outline">View All Stories</a>
+  </div>
+</section>
+
+<section class="subscribe">
+  <div class="container-small">
+    <div class="card">
+      <h4 class="body-large -bold -accent">The Join the newsletter and get fresh MK2 content in your inbox.</h4>
+    </div>
   </div>
 </section>

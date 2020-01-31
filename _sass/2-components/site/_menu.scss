@@ -3,34 +3,40 @@
  * Menu
  */
 
-.menu-main {
-  @include mq-before(small) {
-    @include wh(100%, 100vh);
-    background-color: white;
-    @include pos(-100vh, $left: 0, $z: 10);
-    @include flex($align: center, $direction: column);
-    padding-top: 136px;
-    transition: all 320ms 0.3s;
-    visibility: hidden;
-
-    .menu-link {
-      @include font(22, 24, -0.1);
-      margin-bottom: 40px;
-      opacity: 0;
-      transition: opacity 0.1s;
-    }
-
-    &.open {
-      top: 0;
-      transition: all 320ms;
-      visibility: visible;
-
+.header-main {
+  &-mobile {
+    .menu-main {
+      @include wh(100%, 100vh);
+      background-color: white;
+      @include pos(-100vh, $left: 0, $z: 10);
+      @include flex($align: center, $direction: column);
+      padding-top: 136px;
+      transition: all 320ms 0.3s;
+      visibility: hidden;
+  
       .menu-link {
-        opacity: 1;
-        transition: opacity 0.4s 0.3s;
+        @include font(36, 36, -1.2);
+        margin-bottom: 40px;
+        opacity: 0;
+        transition: opacity 0.1s;
+        text-transform: initial;
+      }
+  
+      &.open {
+        top: 0;
+        transition: all 320ms;
+        visibility: visible;
+  
+        .menu-link {
+          opacity: 1;
+          transition: opacity 0.4s 0.3s;
+        }
       }
     }
   }
+}
+
+.menu-main {
 
   @include mq-after(small) {
     @include flex();
@@ -48,13 +54,27 @@
     .menu-link {
       position: relative;
     }
-    
+
     .menu-link:hover::after {
       content: '';
       display: block;
       @include wh(100%, 2px);
       background-color: black;
       position: absolute;
+    }
+  }
+}
+
+.menu-socials {
+  display: none;
+
+  @include mq-after(small) {
+    @include flex();
+
+    li {
+      &:not(:last-child) {
+        margin-right: 32px;
+      }
     }
   }
 }

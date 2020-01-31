@@ -1,7 +1,7 @@
 ---
 tags:
 - Golf
-title: Nick’s 1991 VR6 ITB Golf
+title: Nick’s 1991 VR6 Golf
 date: 2019-12-01 00:00:00.000+00:00
 intro: Simplicity and attention to detail from a whole new level. Get to know this superb, never-ending build!
 cover: https://mk2swag.s3.eu-west-3.amazonaws.com/stories/nicks-1991-vr6-itb-golf-cover.jpg

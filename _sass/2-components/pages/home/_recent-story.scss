@@ -8,97 +8,54 @@
   
   &-preview {
     position: relative;
-    @include wh(calc(100% + 40px), $m-width: 870px);
+    width: 100%;
+    max-width: 100%;
     padding: 0;
     margin-left: -20px;
 
     .story-details {
-      padding: 32px 20px 56px;
-      max-width: $col-6;
-      display: grid;
-      grid-template-areas: "title title" "intro intro" "categories action";
+      padding: 16px 24px 56px;
+      max-width: 260px;
     }
 
     .story-title {
-      margin-bottom: 12px;
-      grid-area: title;
+      margin: 16px 0;
+      max-width: 100%;
     }
 
-    .story-intro {
-      margin-bottom: 32px;
-      font-weight: 500;
-      grid-area: intro;
-      max-width: none;
+    .story-cover {
+      width: calc(100% + 40px);
+      max-width: $col-7;
     }
+  }
 
-    .story-categories {
-      grid-area: categories;
-      margin: 0;
-    }
+  @include mq-after(small) {
+    &-preview {
+      .story-details {
+        max-width: $col-4;
+      }
 
-    .story-action {
-      grid-area: action;
-      justify-self: end;
-      align-self: center;
-    }
-
-    &::before {
-      content: '';
-      display: block;
-      @include wh(48px, 48px);
-      @include background('misc/stamp-new.svg', $size: 100%);
-      @include pos(-36px, 20px);
-      transform: rotate(30deg);
+      .story-title {
+        margin: 24px 0 32px;
+      }
     }
   }
 
   @include mq-after(870px) {
     &-preview {
-      width: 100%;
-      margin-left: 0;
+      @include grid(1fr 1fr);
+
+      .story-details {
+        padding: 0;
+        align-self: center;
+        justify-self: end;
+      }
     }
   }
 
-  @include mq-after(medium) {
-    overflow: hidden;
-    
+  @include mq-after(1290px) {
     &-preview {
-      .story-details {
-        margin: auto;
-        padding: 48px 0 80px;
-
-        .story-title {
-          margin: 0 0 16px;
-        }
-
-        .story-intro {
-          margin-bottom: 40px;
-        }
-      }
-
-      &::before {
-        display: none;
-      }
-    }
-
-    .rolling {
-      @include wh(calc(100% + 60px), 138px);
-      @include pos(200px, $left: -30px, $z: -1);
-      @include flex(space-between, $direction: column);
-      transform: rotate(-4deg);
-
-      .top,
-      .bottom {
-        @include wh(100%, 66px);
-      }
-
-      .top {
-        @include background('page-home/rolling-new.png', $size: contain, $repeat: repeat-x);
-      }
-
-      .bottom {
-        @include background('page-home/rolling-story.png', $size: contain, $repeat: repeat-x);
-      }
+      @include grid($col-7 $col-5);
     }
   }
 }

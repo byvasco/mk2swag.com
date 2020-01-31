@@ -1,8 +1,10 @@
 <footer class="footer-main">
   <div class="container flex-center-all">
-    {% if divider != false %}
-    <div class="divider"></div>
-    {% endif %}
+    <nav class="menu-footer">
+      {% for doc in site.data.navigation.docs %}
+        {% if doc.show %}<a href="{{doc.url}}" class="menu-link button-text -white">{{doc.title}}</a>{% endif %}
+      {% endfor %}
+    </nav>
 
     <div class="social-buttons">
       <a href="https://www.facebook.com/mk2swag/" class="button-social facebook"></a>

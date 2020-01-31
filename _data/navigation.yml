@@ -1,13 +1,21 @@
 docs:
+  - title: Recent
+    url: /
+    show: true
 
-- title: Recent
-  url: /
-  show: true
+  - title: Stories
+    url: /stories
+    show: true
 
-- title: Stories
-  url: /stories
-  show: true
+  - title: About
+    url: /about
+    show: true
 
-- title: About
-  url: /about
-  show: true
+socials:
+  - title: IG
+    url: /
+    show: true
+
+  - title: FB
+    url: /
+    show: true
