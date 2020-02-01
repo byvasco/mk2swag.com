@@ -1,7 +1,7 @@
 ---
 tags:
 - Golf
-title: Andre’s MK2 VR6 Turbo from 1991
+title: Andre’s 1991 Golf VRT
 date: 2019-11-17 T00:00:00.000+00:00
 intro: A MK2 from motherland Germany, and a glorious VR6 under the hood.
 cover: https://mk2swag.s3.eu-west-3.amazonaws.com/stories/andres-mk2-vr6-turbo-from-1991-cover.jpg

@@ -1,6 +1,6 @@
 ---
 layout: story
-title: Chris’ Nascar Golf
+title: Chris’ Nascar Golf VR6
 date: 2019-09-15 23:00:00 000+00:00
 intro: A G60 US Spec Golf in Austria.
 cover: https://mk2swag.s3.eu-west-3.amazonaws.com/stories/chris-nascar-golf-cover.jpg

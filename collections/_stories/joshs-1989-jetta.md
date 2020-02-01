@@ -1,5 +1,5 @@
 ---
-title: Josh’s '89 Jetta
+title: Josh’s 1989 Jetta
 date: 2019-09-14 23:00:00 +0000
 intro: Classy looking Jetta, from England to the world.
 cover: https://mk2swag.s3.eu-west-3.amazonaws.com/stories/joshs-89-jetta-cover.jpg

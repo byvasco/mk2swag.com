@@ -18,6 +18,7 @@ $col-4: ($column-width * 4) + ($gap-width * 3);
 $col-5: ($column-width * 5) + ($gap-width * 4);
 $col-6: ($column-width * 6) + ($gap-width * 5);
 $col-7: ($column-width * 7) + ($gap-width * 6);
+$col-8: ($column-width * 8) + ($gap-width * 7);
 
 // Colors
 @function get-color($main, $variation: null, $palette: null) {

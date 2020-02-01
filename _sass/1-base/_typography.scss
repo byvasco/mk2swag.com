@@ -161,10 +161,6 @@ p {
     @extend .button-text;
     @include font(12, 12, 0.1);
   }
-
-  @include mq-after(small) {
-    @include font(14, 12, 0);
-  }
 }
 
 // Labels

@@ -1,5 +1,5 @@
 ---
-title: Heather’s '90 Golf
+title: Heather’s 1990 Golf G60
 date: 2019-09-11 23:00:00 +0000
 intro: Green & Golf combining in this piece of beauty.
 cover: https://mk2swag.s3.eu-west-3.amazonaws.com/stories/heathers-90-golf-cover.jpg
@@ -21,13 +21,11 @@ It’s sitting on 3 piece OZ Vega Fittipaldi’s wheels with Airlift V2 air ride
 I also shaved the rear wiper and also replaced my rear emblem with a smaller, chromed one I found at VWcity (now [**Twincity VW parts**](https://www.facebook.com/twincityvwparts/)).
 
 #### The Engine
-
 I had a G60 waiting to be placed in a car. The motor was owned by Danny from SNS tuning. It has been ported and polished with a 68mm wide-toothed pulley, 260/268 i-symmetrical cam, TT adjustable cam gear, SNS 30lb tun, and a B RSR Charger outlet.
 
 It has a [**Pacesetter**](https://pacesetterexhaust.com/) header and a Eurosport exhaust. The battery tray was removed and a Deka 11lb battery placed in its spot. Everything has been tucked so the bay looks super clean.
 
 #### Interiors
-
 I’m a sucker for OEM+, I have a full Recaro interior, recovered headliner in suede, and OEM radio. The steering wheel is a black leather Nardi and a golf ball shift knob.
 
 ![](https://mk2swag.s3.eu-west-3.amazonaws.com/stories/heathers-90-golf-interior.jpg)

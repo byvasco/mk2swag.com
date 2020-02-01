@@ -1,0 +1,40 @@
+/*
+ * Component
+ * Inputs
+ */
+
+input {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  border: 0;
+  display: block;
+  box-sizing: border-box;
+  outline: none;
+}
+
+input[type=text],
+input[type=email] {
+  @include font(16, 24, -0.32, 700);
+  color: get-color(brand, accent);
+  padding: 7px 16px 9px;
+  border: 2px solid get-color(brand, accent);
+  background-color: transparent;
+}
+
+input[type=submit] {
+  cursor: pointer;
+}
+
+::placeholder {
+  color: get-color(brand, accent);
+  opacity: 1;
+}
+
+:-ms-input-placeholder {
+  color: get-color(brand, accent);
+}
+
+::-ms-input-placeholder {
+  color: get-color(brand, accent);
+}

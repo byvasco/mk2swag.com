@@ -1,5 +1,5 @@
 ---
-title: Gavin’s '91 GTI
+title: Gavin’s 1991 Golf GTI
 date: 2019-09-20 16:04:15 +0100
 intro: 16 valves from the 90’s with its OEM look.
 cover: https://mk2swag.s3.eu-west-3.amazonaws.com/stories/gavins-91-gti-cover.jpg

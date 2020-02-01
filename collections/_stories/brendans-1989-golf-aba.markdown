@@ -1,5 +1,5 @@
 ---
-title: Brendan’s '89 Golf
+title: Brendan’s 1989 Golf ABA
 date: 2019-09-21 15:04:15 +0000
 intro: Large bumper 3 door spreading magic all over California.
 cover: https://mk2swag.s3.eu-west-3.amazonaws.com/stories/brendans-89-golf-cover.jpg

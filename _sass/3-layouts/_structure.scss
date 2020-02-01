@@ -18,7 +18,7 @@
 
   &-small {
     @extend .container;
-    max-width: calc(#{$col-4} + #{$container-padding * 2});
+    max-width: calc(#{$col-8} + #{$container-padding * 2});
   }
 }
 

@@ -1,6 +1,6 @@
 ---
 layout: story
-title: Chris’ G60 Westy
+title: Chris’ Golf G60 Westy
 date: 2019-09-16 23:00:00 +0000
 intro: A G60 US Spec Golf in Austria.
 cover: https://mk2swag.s3.eu-west-3.amazonaws.com/stories/chris-g60-westy-cover.jpg

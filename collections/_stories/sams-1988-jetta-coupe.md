@@ -1,5 +1,5 @@
 ---
-title: Sam’s '88 Coupe
+title: Sam’s 1988 Jetta Coupe
 date: 2019-09-15 23:00:00 +0000
 intro: A Westy coupe Jetta and wide RS's.
 cover: https://mk2swag.s3.eu-west-3.amazonaws.com/stories/sams-88-coupe-cover.jpg
