@@ -4,6 +4,8 @@
  */
 
 .header-main {
+  display: none;
+
   &-mobile {
     padding: 64px 0;
 
@@ -16,21 +18,23 @@
     }
   }
 
-  @include mq-after(small) {
-    .logo {
-      justify-self: center;
+  @include mq-after(medium) {
+    display: block;
+    padding: 80px 0;
+
+    .container {
+      align-items: center;
     }
 
-    .menu-main,
-    .menu-socials {
-      align-self: center;
+    .logo {
+      justify-self: center;
     }
 
     .menu-socials {
       justify-self: end;
     }
 
-    .button-menu {
+    &-mobile {
       display: none;
     }
   }

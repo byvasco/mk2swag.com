@@ -13,12 +13,17 @@
 
   &-narrow {
     @extend .container;
-    max-width: calc(870px + 40px);
+    max-width: calc(#{$col-10} + #{$container-padding * 2});
   }
 
   &-small {
     @extend .container;
     max-width: calc(#{$col-8} + #{$container-padding * 2});
+  }
+
+  &-smaller {
+    @extend .container;
+    max-width: calc(#{$col-6} + #{$container-padding * 2});
   }
 }
 
@@ -43,10 +48,6 @@
 // Flexbox helpers
 .flex {
   @include flex();
-
-  &-center-hor {
-    @include flex(center);
-  }
 
   &-center-all {
     @include flex(center, center, column);

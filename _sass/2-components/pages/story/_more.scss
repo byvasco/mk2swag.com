@@ -4,24 +4,22 @@
  */
 
 .more-stories {
-  padding-bottom: 80px;
+  padding: 40px 0 80px;
 
-  .section-header {
-    padding: 28px 0;
-    max-width: 586px;
-    margin: auto;
-    @include flex(space-between, center);
+  .section-title {
+    margin-bottom: 48px;
   }
 
-  .stories {
-    grid-gap: 0;
+  .cards {
+    grid-gap: 16px;
     justify-content: center;
+    margin-bottom: 32px;
   }
 
-  @include mq-after(medium) {
+  @include mq-after(small) {
     padding-bottom: 160px;
     
-    .stories {
+    .cards {
       @include grid(1fr 1fr);
     }
   }

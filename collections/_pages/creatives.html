@@ -1,0 +1,12 @@
+---
+title: Creatives
+intro: People behind the camera, at the workshop, and whoever, creating for and about the MK2.
+---
+
+<div class="container flex-center-all">
+  <div class="cards">
+    {% assign creatives = site.creatives | sort: 'date' | reverse %} {% for
+    creative in creatives %} {% if creative.draft != true %} {% include
+    cards/creative.html size='small' %} {% endif %} {% endfor %}
+  </div>
+</div>

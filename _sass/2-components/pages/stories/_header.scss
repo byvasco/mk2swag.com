@@ -4,10 +4,6 @@
  */
 
 .page-header {
-  .page-title {
-    margin-bottom: 20px;
-  }
-
   .filters {
     a {
       margin: 0 16px;
@@ -28,10 +24,6 @@
   }
 
   @include mq-after(small) {
-    .page-title {
-      margin-bottom: 32px;
-    }
-
     .filters .selected::before {
       @include wh(calc(100% + 8px), 19px);
       @include pos(-3px, $left: -4px);

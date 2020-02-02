@@ -1,10 +1,14 @@
 docs:
   - title: Recent
     url: /
-    show: true
-
+    show: false
+  
   - title: Stories
     url: /stories
+    show: true
+  
+  - title: Creatives
+    url: /creatives
     show: true
 
   - title: About

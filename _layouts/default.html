@@ -17,7 +17,7 @@
   {% include doc/head.html %}
 
   <body>
-    <main class="{{main_class}}">
+    <main class="{% if layout.general_class %}{{ layout.general_class }}{% endif %} {{ main_class }}">
       {% include structure/header.html %}
       {{content}}
       {% include structure/footer.html %}

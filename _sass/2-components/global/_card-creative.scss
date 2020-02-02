@@ -1,0 +1,42 @@
+/*
+ * Component
+ * Card Creative
+ */
+
+.card-creative {
+  display: block;
+  max-width: $col-6;
+
+  .card-cover {
+    margin-bottom: -4px;
+    position: relative;
+
+    .avatar {
+      @include wh(72px, 72px);
+      background: #EEE;
+      border: 3px solid white;
+      border-radius: 72px;
+      @include pos($bottom: -32px, $right: 16px);
+    }
+  }
+
+  .card-details {
+    padding: 20px 16px;
+
+    .card-title {
+      max-width: 240px;
+      margin-top: 12px;
+    }
+  }
+
+  @include mq-after(small) {
+    .card-details {
+      padding: 20px 16px;
+  
+      .card-title {
+        max-width: 240px;
+        margin-top: 12px;
+      }
+    }
+  }
+}

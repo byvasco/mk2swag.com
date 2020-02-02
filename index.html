@@ -15,7 +15,7 @@ custom_js: [ rolling.js ]
   <div class="container">
     {% assign story = site.stories.last %}
 
-    <a class="recent-story-preview story-preview" href="{{story.url}}">
+    <a class="recent-story-preview card-story" href="{{story.url}}">
       <figure class="story-cover">
         <img src="{% if story.cover %}{{story.cover}}{% else %}/assets/images/uploads/{{story.title | remove: '’' | slugify}}-cover.jpg{% endif %}">
       </figure>
@@ -37,13 +37,6 @@ custom_js: [ rolling.js ]
   <div class="rolling"><div class="top"></div><div class="bottom"></div></div>
 </section>
 
-<section class="about-teaser">
-  <div class="container flex-center-all">
-    <p class="body-large">A platform and a community to share the passion and knowledge for MK2 Golfs and Jettas.</p>
-    <a href="/about" class="button-text -underlined">Read More</a>
-  </div>
-</section>
-
 <section class="more-stories">
   <div class="container flex-center-all">
     <h3 class="section-title title-5">More Stories</h3>
@@ -51,11 +44,33 @@ custom_js: [ rolling.js ]
     <div class="cards">
       {% assign stories = site.stories | sort: 'date' | reverse %}
       {% for story in stories | offset: 1 | limit: 3 %}
-        {% include cards/story-preview.html %}
+        {% include cards/story.html %}
       {% endfor %}
     </div>
 
     <a href="/stories" class="button-small -outline">View All Stories</a>
+  </div>
+</section>
+
+<section class="about-teaser">
+  <div class="container flex-center-all">
+    <p class="body-large">A platform and a community to share the passion and knowledge for MK2 Golfs and Jettas.</p>
+    <a href="/about" class="button-text -underlined">Read More</a>
+  </div>
+</section>
+
+<section class="creatives">
+  <div class="container flex-center-all">
+    <h3 class="section-title title-5">Creatives</h3>
+
+    <div class="cards">
+      {% assign creatives = site.creatives | sort: 'date' | reverse %}
+      {% for creative in creatives | limit: 3 %}
+        {% include cards/creative.html %}
+      {% endfor %}
+    </div>
+
+    <a href="/creatives" class="button-small -outline">View All Creatives</a>
   </div>
 </section>
 

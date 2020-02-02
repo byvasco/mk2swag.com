@@ -3,20 +3,37 @@
  * Story - Content
  */
 
-.story-content { 
+.story-content {
+  p, h2, h3, h4, h5 {
+    width: calc(100% - 40px);
+  }
+
   h4 {
     @extend .title-4;
+  }
+
+  h5 {
+    @extend .title-5;
   }
   
   p {
     line-height: 32px;
+
+    figure:first-child {
+      margin-top: 40px;
+    }
+
+    figure:last-child {
+      margin-bottom: 28px;
+    }
   }
 
   p + p {
     margin-top: 12px;
   }
 
-  p + h4 {
+  p + h4,
+  p + h5 {
     margin-top: 48px;
   }
 
@@ -24,7 +41,8 @@
     margin-top: 16px;
   }
 
-  h4 + p {
+  h4 + p,
+  h5 + p {
     margin-top: 12px;
   }
 
@@ -34,7 +52,12 @@
   }
 
   figure {
-    margin: 32px 0;
+    margin: 10px 0;
+
+    img {
+      max-width: calc(100% + 40px);
+      margin-left: -20px;
+    }
   }
 
   figure + h4 {
@@ -42,10 +65,9 @@
   }
 
   figcaption {
-    @extend .body-small;
+    @extend .caption;
     text-align: center;
-    padding: 8px 0;
-    color: get-color(text, light);
+    padding: 4px 0;
   }
 
   hr {
@@ -66,20 +88,16 @@
   }
   
   @include mq-after(medium) {
-    p + h4 {
-      margin-top: 72px;
+    h4 {
+      margin-top: 32px;
     }
 
     h4 + p {
       margin-top: 20px;
     }
 
-    figure {
-      margin: 56px 0 48px;
-
-      & + figure {
-        margin-top: -28px;
-      }
+    figcaption {
+      padding: 8px 0;
     }
   }
 }

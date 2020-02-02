@@ -4,12 +4,7 @@
  */
 
 .page-home {
-  
-  // .recent-story {
-  //   margin-bottom: 32px;
-  // }
-
-  .about-teaser {
+  .recent-story {
     margin-bottom: 32px;
   }
 
@@ -17,15 +12,19 @@
     margin-bottom: 80px;
   }
 
+  .creatives {
+    margin-bottom: 24px;
+  }
+
   @include mq-after(small) {
     .about-teaser {
-      margin: 100px 0 80px 0;
+      margin: 24px 0 40px 0;
     }
   }
 
   @include mq-after(medium) {
     .recent-story {
-      margin-bottom: 40px;
+      margin-bottom: 64px;
     }
 
     .more-stories {

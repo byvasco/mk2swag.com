@@ -1,0 +1,18 @@
+/*
+ * Component - Pages - Creatives
+ * Cards
+ */
+
+.cards {
+  .card-creative + .card-creative {
+    margin-top: 32px;
+  }
+
+  @include mq-after(large) {
+    @include grid(repeat(3, 1fr), $gap: $gap-width, $gap-r: 72px);
+
+    .card-creative + .card-creative {
+      margin-top: 0px;
+    }
+  }
+}

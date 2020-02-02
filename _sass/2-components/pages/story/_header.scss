@@ -4,42 +4,25 @@
  */
 
 .story-header {
-  padding: 24px 0 32px;
+  padding: 40px 0;
 
   .header-content {
-    margin-bottom: 32px;
+    margin-bottom: 40px;
+    text-align: center;
   }
 
   .story-title {
-    margin-bottom: 16px;
-  }
-
-  .story-intro {
-    margin-bottom: 32px;
-  }
-
-  .story-category + .story-category {
-    @include flex(center, center);
-
-    &::before {
-      content: '';
-      display: block;
-      @include wh(12px, 2px);
-      background-color: get-color(text, primary);
-      margin: 0 8px;
-    }
+    max-width: 300px;
+    margin-top: 16px;
   }
 
   .header-cover {
-    .container-narrow {
-      max-width: 790px;
-      padding: 0;
-    }
+    max-width: $col-8;
   }
 
-  @include mq-after(medium) {
+  @include mq-after(small) {
     text-align: left;
-    padding: 56px 0;
+    padding: 100px 0 56px;
 
     .header-content {
       max-width: $col-6;
@@ -47,11 +30,8 @@
       align-self: center;
 
       .story-title {
-        margin-bottom: 24px;
-      }
-
-      .story-intro {
-        margin-bottom: 40px;
+        max-width: $col-6;
+        margin-top: 40px;
       }
     }
   }

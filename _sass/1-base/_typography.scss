@@ -83,7 +83,7 @@
   @include font(20, 24, -0.2);
 
   &-long {
-    @include font(20, 32, -0.07);
+    @include font(20, 32, -0.2);
   }
 
   &-large {
@@ -97,11 +97,22 @@
   }
 
   &-small {
-    @include font(16, 24, -0.02);
+    @include font(18, 24, -0.32);
+
+    a {
+      color: get-color(brand, accent);
+      letter-spacing: -0.42px;
+      text-decoration: underline;
+      font-weight: $semi;
+    }
   }
 
   @include mq-after(small) {
-    @include font(18, 28, -0.09);
+    @include font(20, 28, -0.09);
+
+    &-long {
+      @include font(20, 32, -0.1);
+    }
 
     &-large {
       @include font(28, 36, -0.7);
@@ -142,18 +153,28 @@ p {
   &.-underlined {
     color: get-color(brand, accent);
     transition: all 420ms;
+    position: relative;
 
-    &::after {
+    &::after,
+    &::before {
       display: block;
       content: '';
       @include wh(100%, 2px);
-      background-image: linear-gradient(90deg, rgba(0,12,190,0.50) 0%, rgba(0,12,190,0.00) 100%);
-      margin-top: 2px;
-      transition: all 420ms;
+      transition: all 140ms;
+    }
+
+    &::after {
+      background-image: linear-gradient(269deg, rgba(255,255,255,0.90) 1%, rgba(255,255,255,0.00) 100%);
+      @include pos($bottom: -4px);
+    }
+
+    &::before {
+      background-color: get-color(brand, accent);
+      @include pos($bottom: -4px);
     }
 
     &:hover::after {
-      background-image: linear-gradient(90deg, rgba(0,12,190,0.50) 100%, rgba(0,12,190,0.00) 100%);
+      transform: translateX(100%);
     }
   }
 

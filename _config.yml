@@ -30,6 +30,11 @@ collections:
     permalink: /stories/:title
     sort_by: date
   
+  creatives:
+    output: true
+    permalink: /creatives/:title
+    sort_by: date
+  
   drafts:
     output: true
     permalink: /drafts/:title
@@ -50,16 +55,24 @@ defaults:
       path: ""
       type: "pages"
     values:
-      layout: "default"
+      layout: "page"
 
   -
     scope:
       path: ""
       type: "stories"
     values:
-      category: "Story"
+      category: "Stories"
       layout: "story"
       type: "story"
+  
+  -
+    scope:
+      path: ""
+      type: "creatives"
+    values:
+      category: "Creatives"
+      layout: "story"
   
   -
     scope:

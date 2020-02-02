@@ -1,28 +1,12 @@
 ---
-layout: default
 title: Stories
-
+intro: There’s a story with every ride – these are the ones from our community.
 ---
-<header class="page-header">
-  <div class="container-small">
-    <h1 class="page-title title-1">{{page.title}}</h1>
 
-    <div class="filters">
-      <a href="/stories" class="all selected button-text-small">All</a>
-      <a href="/stories/golf" class="golf button-text-small">Golf</a>
-      <a href="/stories/jetta" class="jetta button-text-small">Jetta</a>
-    </div>
+<div class="container flex-center-all">
+  <div class="cards">
+    {% assign stories = site.stories | sort: 'date' | reverse %} {% for story in
+    stories %} {% if story.draft != true %} {% include cards/story.html
+    size='small' %} {% endif %} {% endfor %}
   </div>
-</header>
-
-<section class="page-content">
-  <div class="container flex-center-all">
-    {% assign stories = site.stories | sort: 'date' | reverse %}
-    
-    {% for story in stories %}
-      {% if story.draft != true %}
-        {% include cards/story-preview.html size='small' %}
-      {% endif %}
-    {% endfor %}
-  </div>
-</section>
+</div>

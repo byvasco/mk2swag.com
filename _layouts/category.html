@@ -21,7 +21,7 @@ page_title: stories
     
     {% for story in stories %}
       {% if story.tags contains page.title %}
-        {% include cards/story-preview.html size='small' %}
+        {% include cards/story.html size='small' %}
       {% endif %}
     {% endfor %}
   </div>

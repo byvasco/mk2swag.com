@@ -4,11 +4,12 @@
  */
 
 .page-header {
-  padding: 24px 0 48px;
+  padding: 80px 0 100px;
   text-align: center;
 
   .page-intro {
-    margin-top: 16px;
+    margin-top: 12px;
+    max-width: $col-6;
   }
 
   @include mq-after(small) {

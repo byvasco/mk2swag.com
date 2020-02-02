@@ -8,15 +8,13 @@ page_title: story
 <header class="story-header">
   <div class="container-narrow flex-center-all">
     <div class="header-content">
-      <h1 class="story-title title-1">{{ page.title }}</h1>
-
-      <p class="story-intro body-large">{{ page.intro }}</p>
-
       <div class="story-categories">
         {% for category in page.categories %}
-        <a href="/stories" class="story-category tag">{{ category }}</a>
+        <a href="/stories" class="story-category category">{{ category }}</a>
         {% endfor %}
       </div>
+
+      <h1 class="story-title title-1">{{ page.title }}</h1>
     </div>
 
     <div class="header-cover">
@@ -28,7 +26,7 @@ page_title: story
 </header>
 
 <section class="story-content">
-  <div class="container-small">
+  <div class="container-smaller flex-center-all">
     {{ page.content }}
   </div>
 </section>
@@ -46,28 +44,27 @@ page_title: story
 
 {% if page.draft != true %}
 <section class="more-stories">
-  <div class="container-narrow">
-    <header class="section-header">
-      <h5 class="title-5">More Stories</h5>
-      <a href="/stories" class="button-text accent underlined">View All</a>
-    </header>
+  <div class="container-small flex-center-all">
+    <h5 class="section-title title-5">More Stories</h5>
 
-    <div class="stories grid">
+    <div class="cards grid">
       {% if page.next.title %}
-        {% assign story = page.next %} {% include cards/story-preview.html size='small' %}
+        {% assign story = page.next %} {% include cards/story.html size='small' %}
       {% else %}
         {% assign story = site.stories.first %}
-        {% include cards/story-preview.html size='small' %}
+        {% include cards/story.html size='small' %}
       {% endif %}
 
       {% if page.previous.title %}
         {% assign story = page.previous %}
-        {% include cards/story-preview.html size='small' %}
+        {% include cards/story.html size='small' %}
       {% else %}
         {% assign story = site.stories.last %}
-        {% include cards/story-preview.html size='small' %}
+        {% include cards/story.html size='small' %}
       {% endif %}
     </div>
+
+    <a href="/stories" class="button-small -outline">View All Stories</a>
   </div>
 </section>
 {% endif %}
