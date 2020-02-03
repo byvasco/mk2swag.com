@@ -110,10 +110,6 @@
   @include mq-after(small) {
     @include font(20, 28, -0.09);
 
-    &-long {
-      @include font(20, 32, -0.1);
-    }
-
     &-large {
       @include font(28, 36, -0.7);
     }
@@ -121,18 +117,27 @@
 }
 
 p {
-  @extend .body;
+  @extend .body-long;
 }
 
 // Caption
 .caption {
-  @include font(16, 20, -0.2);
+  text-transform: uppercase;
+  @include font(12, 14, 0.12, $bold, $family: $font-titles);
 }
 
 .category {
+  display: inline-block;
   @extend .caption;
   color: get-color(brand, accent);
-  text-decoration: underline;
+  position: relative;
+
+  &::after {
+    display: block;
+    content: "";
+    @include wh(100%, 1px);
+    background-image: linear-gradient(90deg, rgba(0,12,190,0.80) 0%, rgba(0,12,190,0.20) 100%);
+  }
 }
 
 // Links
@@ -158,13 +163,13 @@ p {
     &::after,
     &::before {
       display: block;
-      content: '';
+      content: "";
       @include wh(100%, 2px);
       transition: all 140ms;
     }
 
     &::after {
-      background-image: linear-gradient(269deg, rgba(255,255,255,0.90) 1%, rgba(255,255,255,0.00) 100%);
+      background-image: linear-gradient(269deg, rgba(255, 255, 255, 0.9) 1%, rgba(255, 255, 255, 0) 100%);
       @include pos($bottom: -4px);
     }
 

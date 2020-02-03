@@ -28,5 +28,9 @@
     .cards {
       @include grid(repeat(3, 1fr), $gap: $gap-width);
     }
+
+    .card-story + .card-story {
+      margin-top: 0px;
+    }
   }
 }

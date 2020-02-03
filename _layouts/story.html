@@ -9,9 +9,11 @@ page_title: story
   <div class="container-narrow flex-center-all">
     <div class="header-content">
       <div class="story-categories">
-        {% for category in page.categories %}
-        <a href="/stories" class="story-category category">{{ category }}</a>
-        {% endfor %}
+        {% if page.story_type == "creative" %}
+          <a href="/creatives" class="story-category category">Creatives</a>
+        {% else %}
+          <a href="/stories" class="story-category category">Stories</a>
+        {% endif %}
       </div>
 
       <h1 class="story-title title-1">{{ page.title }}</h1>
@@ -43,30 +45,58 @@ page_title: story
 </footer>
 
 {% if page.draft != true %}
-<section class="more-stories">
-  <div class="container-small flex-center-all">
-    <h5 class="section-title title-5">More Stories</h5>
+  {% if page.story_type == "creative" %}
+    <section class="more-stories">
+      <div class="container-small flex-center-all">
+        <h5 class="section-title title-5">More Creatives</h5>
 
-    <div class="cards grid">
-      {% if page.next.title %}
-        {% assign story = page.next %} {% include cards/story.html size='small' %}
-      {% else %}
-        {% assign story = site.stories.first %}
-        {% include cards/story.html size='small' %}
-      {% endif %}
+        <div class="cards grid">
+          {% if page.next.title %}
+            {% assign creative = page.next %}
+            {% include cards/creative.html %}
+          {% else %}
+            {% assign creative = site.creatives.first %}
+            {% include cards/creative.html %}
+          {% endif %}
 
-      {% if page.previous.title %}
-        {% assign story = page.previous %}
-        {% include cards/story.html size='small' %}
-      {% else %}
-        {% assign story = site.stories.last %}
-        {% include cards/story.html size='small' %}
-      {% endif %}
-    </div>
+          {% if page.previous.title %}
+            {% assign creative = page.previous %}
+            {% include cards/creative.html %}
+          {% else %}
+            {% assign creative = site.creatives.last %}
+            {% include cards/creative.html %}
+          {% endif %}
+        </div>
 
-    <a href="/stories" class="button-small -outline">View All Stories</a>
-  </div>
-</section>
+        <a href="/creatives" class="button-small -outline">View All Creatives</a>
+      </div>
+    </section>
+  {% else %}
+    <section class="more-stories">
+      <div class="container-small flex-center-all">
+        <h5 class="section-title title-5">More Stories</h5>
+
+        <div class="cards grid">
+          {% if page.next.title %}
+            {% assign story = page.next %} {% include cards/story.html size='small' %}
+          {% else %}
+            {% assign story = site.stories.first %}
+            {% include cards/story.html size='small' %}
+          {% endif %}
+
+          {% if page.previous.title %}
+            {% assign story = page.previous %}
+            {% include cards/story.html size='small' %}
+          {% else %}
+            {% assign story = site.stories.last %}
+            {% include cards/story.html size='small' %}
+          {% endif %}
+        </div>
+
+        <a href="/stories" class="button-small -outline">View All Stories</a>
+      </div>
+    </section>
+  {% endif %}
 {% endif %}
 
 <script src="/assets/javascript/story.js"></script>

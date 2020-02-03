@@ -1,0 +1,72 @@
+---
+layout: default
+page_title: creative
+---
+
+{% capture image_path %}{% endcapture %}
+
+<header class="story-header">
+  <div class="container-narrow flex-center-all">
+    <div class="header-content">
+      <div class="story-categories">
+        {% for category in page.categories %}
+        <a href="/stories" class="story-category category">{{ category }}</a>
+        {% endfor %}
+      </div>
+
+      <h1 class="story-title title-1">{{ page.title }}</h1>
+    </div>
+
+    <div class="header-cover">
+      <figure class="story-cover">
+        <img src="{% if page.cover %}{{page.cover}}{% else %}/assets/images/uploads/{{page.title | remove: '’' | slugify}}-cover.jpg{% endif %}">
+      </figure>
+    </div>
+  </div>
+</header>
+
+<section class="story-content">
+  <div class="container-smaller flex-center-all">
+    {{ page.content }}
+  </div>
+</section>
+
+<footer class="story-footer">
+  <div class="container flex-center-all">
+    <h6 class="title title-6">Share Story</h6>
+
+    <div class="share-buttons">
+      <a href="https://www.facebook.com/sharer/sharer.php?u={{site.url}}{{page.url}}" onclick="window.open(this.href, 'pop-up', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" class="button-share facebook">Facebook</a>
+      <a href="https://twitter.com/intent/tweet?text={{page.title}}%20on%20MK2SWAG&url={{site.url}}{{page.url}}" onclick="window.open(this.href, 'pop-up', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" class="button-share twitter">Twitter</a>
+    </div>
+  </div>
+</footer>
+
+{% if page.draft != true %}
+<section class="more-stories">
+  <div class="container-small flex-center-all">
+    <h5 class="section-title title-5">More Creatives</h5>
+
+    <div class="cards grid">
+      {% if page.next.title %}
+        {% assign story = page.next %} {% include cards/story.html size='small' %}
+      {% else %}
+        {% assign story = site.stories.first %}
+        {% include cards/story.html size='small' %}
+      {% endif %}
+
+      {% if page.previous.title %}
+        {% assign story = page.previous %}
+        {% include cards/story.html size='small' %}
+      {% else %}
+        {% assign story = site.stories.last %}
+        {% include cards/story.html size='small' %}
+      {% endif %}
+    </div>
+
+    <a href="/creatives" class="button-small -outline">View All Creatives</a>
+  </div>
+</section>
+{% endif %}
+
+<script src="/assets/javascript/story.js"></script>

@@ -1,8 +1,8 @@
 ---
 tags:
 - Jetta
-title: Ted’s Alpine White 1988 Jetta
-date: 2019-12-09 00:00:00.000+00:00
+title: Ted’s 1988 Jetta VR6
+date: 2020-02-03 00:00:00.000+00:00
 intro: 
 cover: https://mk2swag.s3.eu-west-3.amazonaws.com/stories/teds-alpine-white-1988-jetta-cover.jpg
 ---

@@ -73,6 +73,7 @@ defaults:
     values:
       category: "Creatives"
       layout: "story"
+      story_type: "creative"
   
   -
     scope:
