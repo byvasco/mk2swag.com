@@ -11,9 +11,14 @@
     margin-bottom: -4px;
     position: relative;
 
+    img {
+      max-height: 230px;
+    }
+
     .avatar {
       @include wh(72px, 72px);
-      background: #EEE;
+      background-color: #EEE;
+      background-size: cover;
       border: 3px solid white;
       border-radius: 72px;
       @include pos($bottom: -32px, $right: 16px);

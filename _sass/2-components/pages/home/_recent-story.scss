@@ -5,7 +5,7 @@
 
 .recent-story {
   position: relative;
-  
+
   &-preview {
     position: relative;
     width: 100%;
@@ -50,6 +50,19 @@
         align-self: center;
         justify-self: end;
       }
+
+      .story-cover {
+        position: relative;
+  
+        &::before {
+          content: '';
+          display: block;
+          @include wh(80px, 80px);
+          @include background('page-home/badge-new-story.png', $size: cover);
+          @include pos(-40px, -40px);
+          animation: rotate 20s infinite linear;
+        }
+      }
     }
   }
 
@@ -57,5 +70,14 @@
     &-preview {
       @include grid($col-7 $col-5);
     }
+  }
+}
+
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
   }
 }

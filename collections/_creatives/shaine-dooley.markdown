@@ -4,7 +4,8 @@ type: Photographer
 location: Pennsylvania, USA.
 
 date: 2020-01-02
-cover: https://mk2swag.s3.eu-west-3.amazonaws.com/stories/brendans-89-golf-cover.jpg
+cover: https://mk2swag.s3.eu-west-3.amazonaws.com/creatives/shaine-dooley-cover.jpg
+avatar: https://mk2swag.s3.eu-west-3.amazonaws.com/creatives/shaine-dooley-avatar.jpg
 ---
 
 I really started to take pictures when my dad and I would go to car shows. He took pictures with his Canon Rebel and was always so intrigued on the whole idea of taking photos. Ever since it really stuck and I hope to be doing it as my profession.

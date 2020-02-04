@@ -37,6 +37,13 @@ custom_js: [ rolling.js ]
   <div class="rolling"><div class="top"></div><div class="bottom"></div></div>
 </section>
 
+<section class="about-teaser">
+  <div class="container flex-center-all">
+    <p class="body-large">A platform and a community to share the passion and knowledge for MK2 Golfs and Jettas.</p>
+    <a href="/about" class="button-text -underlined">Read More</a>
+  </div>
+</section>
+
 <section class="more-stories">
   <div class="container flex-center-all">
     <h3 class="section-title title-5">More Stories</h3>
@@ -49,41 +56,5 @@ custom_js: [ rolling.js ]
     </div>
 
     <a href="/stories" class="button-small -outline">View All Stories</a>
-  </div>
-</section>
-
-<section class="about-teaser">
-  <div class="container flex-center-all">
-    <p class="body-large">A platform and a community to share the passion and knowledge for MK2 Golfs and Jettas.</p>
-    <a href="/about" class="button-text -underlined">Read More</a>
-  </div>
-</section>
-
-<section class="creatives">
-  <div class="container flex-center-all">
-    <h3 class="section-title title-5">Creatives</h3>
-
-    <div class="cards">
-      {% assign creatives = site.creatives | sort: 'date' | reverse %}
-      {% for creative in creatives | limit: 3 %}
-        {% include cards/creative.html %}
-      {% endfor %}
-    </div>
-
-    <a href="/creatives" class="button-small -outline">View All Creatives</a>
-  </div>
-</section>
-
-<section class="subscribe">
-  <div class="container-small">
-    <div class="card">
-      <h4 class="section-title body-large -bold -accent">Join the newsletter and get fresh MK2 content in your inbox.</h4>
-
-      <form class="form-subscribe">
-        <input type="text" name="name" class="name" placeholder="First Name">
-        <input type="email" name="email" class="email" placeholder="Email Address">
-        <input type="submit" value="Let's Go" class="button">
-      </form>
-    </div>
   </div>
 </section>

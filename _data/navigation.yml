@@ -1,7 +1,7 @@
 docs:
   - title: Recent
     url: /
-    show: false
+    show: true
   
   - title: Stories
     url: /stories
@@ -9,7 +9,7 @@ docs:
   
   - title: Creatives
     url: /creatives
-    show: true
+    show: false
 
   - title: About
     url: /about
@@ -17,9 +17,9 @@ docs:
 
 socials:
   - title: IG
-    url: /
+    url: https://www.instagram.com/mk2swag/
     show: true
 
   - title: FB
-    url: /
+    url: https://www.facebook.com/mk2swag
     show: true
