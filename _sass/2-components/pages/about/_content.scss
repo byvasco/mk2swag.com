@@ -7,7 +7,7 @@
   @include grid($justify-c: center);
 
   .image {
-    @include wh(100%, $m-width: $col-4);
+    @include wh(100%, $max-w: $col-4);
     margin-bottom: 48px;
   }
 

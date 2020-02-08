@@ -1,0 +1,11 @@
+<div class="gallery">
+  <figure class="cover"><img src="{{include.cover}}" /></figure>
+
+  <div class="grid">
+    {% assign images = include.gallery | split: "," %}
+    
+    {% for image in images %}
+      <figure><img data-action="zoom" src="{{image }}"/></figure>
+    {% endfor %}
+  </div>
+</div>

@@ -16,7 +16,7 @@ page_title: story
         {% endif %}
       </div>
 
-      <h1 class="story-title title-1">{{ page.title }}</h1>
+      <h1 class="story-title title-1">{{page.title}}</h1>
     </div>
 
     <div class="header-cover">
@@ -29,7 +29,10 @@ page_title: story
 
 <section class="story-content">
   <div class="container-smaller flex-center-all">
-    {{ page.content }}
+    {% if page.story_type == "creative" %}
+      <p class="story-intro body-large">{{page.intro}}</p>
+    {% endif %}
+    {{page.content}}
   </div>
 </section>
 
@@ -100,3 +103,4 @@ page_title: story
 {% endif %}
 
 <script src="/assets/javascript/story.js"></script>
+<!-- <script src="/assets/javascript/zoom.js"></script> -->

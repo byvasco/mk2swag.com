@@ -1,19 +1,19 @@
-<a class="card-creative" href="{{ creative.url }}">
+<a class="card-creative" href="{{creative.url}}">
   <figure class="card-cover">
     <img
       src="{% if creative.cover %}{{creative.cover}}{% else %}/assets/images/uploads/{{creative.title | remove: '’' | slugify}}-cover.jpg{% endif %}"
     />
 
-    <div class="avatar" style="background-image: url({{ creative.avatar }})"></div>
+    <div class="avatar" style="background-image: url({{creative.avatar}})"></div>
   </figure>
 
   <div class="card-details">
     <div class="card-categories">
       {% for category in creative.categories %}
-      <p class="card-category category">{{ category }}</p>
+      <p class="card-category category">{{category}}</p>
       {% endfor %}
     </div>
 
-    <h2 class="card-title title-4">{{ creative.title }}</h2>
+    <h2 class="card-title title-4">{{creative.title}}</h2>
   </div>
 </a>

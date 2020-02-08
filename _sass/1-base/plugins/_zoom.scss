@@ -1,0 +1,33 @@
+/*
+ * Base - Plugin
+ * Zoom
+ */
+
+#lightbox {
+  @include pos(0, $z: 999, $pos: fixed);
+  @include wh(100%, 100%);
+  @include flex(center, center);
+  padding: 0 20px;
+  background-color: transparentize($color: white, $amount: 0);
+  visibility: hidden;
+  opacity: 0;
+  transition: all 180ms;
+
+  &.active {
+    visibility: visible;
+    opacity: 1;
+    cursor: zoom-out;
+  }
+
+  img {
+    @include wh(100%, $max-w: 850px);
+    transition: all 220ms;
+    opacity: 0;
+    margin-bottom: -12px;
+
+    &.visible {
+      opacity: 1;
+      margin-bottom: 0;
+    }
+  }
+}

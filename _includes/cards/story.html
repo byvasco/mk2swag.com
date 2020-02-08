@@ -1,6 +1,6 @@
 
 
-<a class="card-story {% if include.size == 'small' %}-small{% endif %}" href="{{ story.url }}">
+<a class="card-story {% if include.size == 'small' %}-small{% endif %}" href="{{story.url}}">
   <figure class="story-cover">
     <img src="{% if story.cover %}{{story.cover}}{% else %}/assets/images/uploads/{{story.title | remove: '’' | slugify}}-cover.jpg{% endif %}">
   </figure>
@@ -8,10 +8,10 @@
   <div class="story-details">  
     <div class="story-categories">
       {% for category in story.categories %}
-        <p class="story-category category">{{ category }}</p>
+        <p class="story-category category">{{category}}</p>
       {% endfor %}
     </div>
 
-    <h2 class="story-title title-4">{{ story.title }}</h2>
+    <h2 class="story-title title-4">{{story.title}}</h2>
   </div>
 </a>

@@ -2,11 +2,11 @@
   {%- if page.url == "/" -%}
     page-home
   {%- elsif layout.page_title -%}
-    page-{{ layout.page_title | downcase}}
+    page-{{layout.page_title | downcase}}
   {%- elsif page.title -%}
-    page-{{ page.title | downcase}}
+    page-{{page.title | downcase}}
   {%- elsif layout.title -%}
-    page-{{ layout.title | downcase}}
+    page-{{layout.title | downcase}}
   {%- else -%}
     page
   {%- endif -%}
@@ -17,7 +17,7 @@
   {% include doc/head.html %}
 
   <body>
-    <main class="{% if layout.general_class %}{{ layout.general_class }}{% endif %} {{ main_class }}">
+    <main class="{% if layout.general_class %}{{layout.general_class}}{% endif %} {{main_class}}">
       {% include structure/header.html %}
       {{content}}
       {% include structure/footer.html %}
@@ -27,9 +27,9 @@
     
     {% if page.custom_js %}
       {% for js in page.custom_js %}
-        {% capture src %}/assets/javascript/{{ js }}{% endcapture %}
+        {% capture src %}/assets/javascript/{{js}}{% endcapture %}
 
-        <script src="{{ src }}"></script>
+        <script src="{{src}}"></script>
       {% endfor %}
     {% endif %}
   </body>

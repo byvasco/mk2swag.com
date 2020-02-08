@@ -5,6 +5,8 @@ location: Bilbao, Spain
 
 date: 2020-01-02
 cover: https://mk2swag.s3.eu-west-3.amazonaws.com/stories/brendans-89-golf-cover.jpg
+
+draft: true
 ---
 
 ##### How/why did you started taking pictures?

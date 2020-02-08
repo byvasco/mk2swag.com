@@ -3,8 +3,10 @@ title: Tony Watson, Photographer
 type: Photographer
 location: New Jersey, USA.
 
-date: 2020-01-02
+date: 2020-01-05
 cover: https://mk2swag.s3.eu-west-3.amazonaws.com/stories/brendans-89-golf-cover.jpg
+
+draft: true
 ---
 
 I started taking pictures in high school it was awesome developing my film in the darkroom which later evolved into the digital world over the years.

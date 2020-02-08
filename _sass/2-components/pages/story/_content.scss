@@ -5,7 +5,7 @@
 
 .story-content {
   p, h2, h3, h4, h5 {
-    width: calc(100% - 40px);
+    width: 100%;
   }
 
   h4 {
@@ -16,7 +16,7 @@
     @extend .title-5;
   }
   
-  p {
+  p:not(.body-large) {
     line-height: 32px;
 
     figure:first-child {
@@ -51,7 +51,7 @@
     font-style: italic;
   }
 
-  figure {
+  p > figure {
     margin: 10px 0;
 
     img {
@@ -86,8 +86,28 @@
     line-height: 24px;
     list-style: initial;
   }
+
+  .gallery {
+    margin: 40px 0;
+
+    .cover {
+      margin-bottom: 10px;
+    }
+    
+    img {
+      margin-bottom: -7px;
+    }
+
+    .grid {
+      @include grid(1fr 1fr, $gap: 10px);
+    }
+  }
   
   @include mq-after(medium) {
+    p, h2, h3, h4, h5 {
+      width: calc(100% - 40px);
+    }
+
     h4 {
       margin-top: 32px;
     }
@@ -98,6 +118,23 @@
 
     figcaption {
       padding: 8px 0;
+    }
+
+    .gallery {
+      width: 850px;
+      margin: 56px 0;
+
+      .cover {
+        margin-bottom: 30px;
+      }
+
+      img[data-action="zoom"] {
+        cursor: zoom-in;
+      }
+
+      .grid {
+        @include grid(1fr 1fr);
+      }
     }
   }
 }

@@ -33,11 +33,11 @@ $breakpoints: (
   color: $color;
 }
 
-// Sets width and height, with 'px' as the default unir
-@mixin wh($width, $height: null, $m-width: null) {
+// Sets width and height, with 'px' as the default unit
+@mixin wh($width, $height: null, $max-w: null) {
   width: $width;
   height: $height;
-  max-width: $m-width;
+  max-width: $max-w;
 }
 
 // Sets display to flex, and assigns other properties

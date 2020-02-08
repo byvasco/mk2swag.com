@@ -50,11 +50,28 @@ custom_js: [ rolling.js ]
 
     <div class="cards">
       {% assign stories = site.stories | sort: 'date' | reverse %}
-      {% for story in stories | offset: 1 | limit: 3 %}
+      {% for story in stories offset: 1 limit: 3 %}
         {% include cards/story.html %}
       {% endfor %}
     </div>
 
     <a href="/stories" class="button-small -outline">View All Stories</a>
+  </div>
+</section>
+
+<section class="creatives">
+  <div class="container flex-center-all">
+    <h3 class="section-title title-5">Creatives</h3>
+
+    <div class="cards">
+      {% assign creatives = site.creatives | sort: 'date' | reverse %}
+      {% for creative in creatives limit: 3 %}
+        {% if creative.draft != true %}
+          {% include cards/creative.html %}
+        {% endif %}
+      {% endfor %}
+    </div>
+
+    <a href="/creatives" class="button-small -outline">View All Creatives</a>
   </div>
 </section>
