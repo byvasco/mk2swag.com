@@ -125,7 +125,7 @@
       margin: 56px 0;
 
       .cover {
-        margin-bottom: 30px;
+        margin-bottom: 12px;
       }
 
       img[data-action="zoom"] {
@@ -133,7 +133,7 @@
       }
 
       .grid {
-        @include grid(1fr 1fr);
+        @include grid(1fr 1fr, $gap: 12px);
       }
     }
   }

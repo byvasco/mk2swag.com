@@ -1,48 +1,84 @@
 ---
 title: Andoni Redondo, Photographer
 type: Photographer
-location: Bilbao, Spain
+intro: This is Andoni (aka Funtastic), Spanish photograper who gets busy with both taking pictures and working on his MK1 Jetta ABF.
 
-date: 2020-01-02
-cover: https://mk2swag.s3.eu-west-3.amazonaws.com/stories/brendans-89-golf-cover.jpg
+location: Bilbao, Spain
+country: Spain
+
+date: 2020-01-04
+cover: https://mk2swag.s3.eu-west-3.amazonaws.com/creatives/andoni-redondo-cover.jpg
 
 draft: true
 ---
 
 ##### How/why did you started taking pictures?
-I started taking pictures, about 2012, with very amateur results. At that time in my environment I didn't know any photographer and I didn't have much information either.
+I started taking pictures around 2012, with very amateur results. At that time in my environment I didn't know any photographer and I didn't have much information either.
 
-I don't know why I started in the world of photography, but it all started by photographing a mk1 golf that I had at that time. I liked having photos of him and at the beginning most of my photos and videos were from that car and the events he attended with him.
+I don't know why I started in the world of photography, but it all started by photographing a MK1 Golf that I had at that time. I liked having photos of him and at the beginning most of my photos and videos were from that car and the events he attended with him.
+
+{% include story/gallery.html
+   cover = "https://mk2swag.s3.eu-west-3.amazonaws.com/creatives/andoni-redondo-work-white-golf-1.jpg"
+   gallery = "https://mk2swag.s3.eu-west-3.amazonaws.com/creatives/andoni-redondo-work-white-golf-2.jpg,
+              https://mk2swag.s3.eu-west-3.amazonaws.com/creatives/andoni-redondo-work-white-golf-3.jpg"
+%}
 
 
-##### Is this your profession, side hustle, or just a hobby?
+##### Is this your profession, or just a hobby?
 Photography is not my profession. Yes, I've done different jobs in a "professional" way, but for now it's just my hobby.
 
-I really like to generate photographic content, and I would like that one day it could be more than a hobby. someday.
+I really like to generate photographic content, and I would like that one day it could be more than a hobby. Someday!
+
+{% include story/gallery.html
+   cover = "https://mk2swag.s3.eu-west-3.amazonaws.com/creatives/andoni-redondo-work-grey-golf-1.jpg"
+   gallery = "https://mk2swag.s3.eu-west-3.amazonaws.com/creatives/andoni-redondo-work-grey-golf-5.jpg,
+              https://mk2swag.s3.eu-west-3.amazonaws.com/creatives/andoni-redondo-work-grey-golf-2.jpg,
+              https://mk2swag.s3.eu-west-3.amazonaws.com/creatives/andoni-redondo-work-grey-golf-3.jpg,
+              https://mk2swag.s3.eu-west-3.amazonaws.com/creatives/andoni-redondo-work-grey-golf-4.jpg"
+%}
 
 
 ##### Do you specialize in automotive? Or do you also do other types of photography?
-I like different types of photography, landscapes, portraits, night photography seems impressive, and I really like building photography. But with none I have managed to devote as many hours as with car photography.
+I like different types of photography – landscapes, portraits, night photography seems impressive, and I really like building photography. But with none I have managed to devote as many hours as with car photography.
+
+{% include story/gallery.html
+   cover = "https://mk2swag.s3.eu-west-3.amazonaws.com/creatives/andoni-redondo-work-rallye-1.jpg"
+   gallery = "https://mk2swag.s3.eu-west-3.amazonaws.com/creatives/andoni-redondo-work-rallye-2.jpg,
+              https://mk2swag.s3.eu-west-3.amazonaws.com/creatives/andoni-redondo-work-jetta-1.jpg"
+%}
 
 
 ##### Have you ever owned, or own a MK2?
-In 2008 I bought my first car, it was an MK3 GTI. 6 months later I bought a mk2 gti, I have a nice memory because with everything started, the world of forums, meet people related to the world of golf, modifications ...
+In 2008 I bought my first car, it was a MK3 GTI. 6 months later I bought a MK2 GTI. I have a nice memory because of everything that started to know with the world of forums, meeting people related to the world of MK2s, etc.
 
-then I had a mk2 gtd as daily
+Then I had a MK2 GTD as daily and in 2010 I bought a MK1 Cabrio and it was with this car that I started seriously in the world of modifications, absurd suspension height, wide wheels and all that.
 
-In 2010, I bought an mk1 cabrio and it was with this car that I started seriously in the world of modifications, absurd suspension height, wide wheels ...
+I've been going to events without a car for a few years because I have an on-going project – a Jetta MK1 Coupe ABF. I hope it doesn't take much longer to get done!
 
-I've been going to events without a car for a few years.
-today I am with a project of a jetta mk1 coupe abf. I hope it doesn't take much longer to leave ...
+{% include story/gallery.html
+   cover = "https://mk2swag.s3.eu-west-3.amazonaws.com/creatives/andoni-redondo-work-red-golf-1.jpg"
+   gallery = "https://mk2swag.s3.eu-west-3.amazonaws.com/creatives/andoni-redondo-work-red-golf-2.jpg,
+              https://mk2swag.s3.eu-west-3.amazonaws.com/creatives/andoni-redondo-work-red-golf-3.jpg"
+%}
 
 
 ##### What gear do you use?
-I use a canon 60d. the 90% of time I use sigma 30mm 1.4 lens. I really love this lens. For the rollings usually use sigma 10-20mm f3.5.
+I use a Canon 60d. 90% of time I use a Sigma 30mm 1.4 lens. I really love it. For the rolling shots I usually use a Sigma 10-20mm f3.5.
 
+{% include story/gallery.html
+   cover = "https://mk2swag.s3.eu-west-3.amazonaws.com/creatives/andoni-redondo-work-other-9.jpg"
+   gallery = "https://mk2swag.s3.eu-west-3.amazonaws.com/creatives/andoni-redondo-work-other-1.jpg,
+            https://mk2swag.s3.eu-west-3.amazonaws.com/creatives/andoni-redondo-work-other-2.jpg,
+            https://mk2swag.s3.eu-west-3.amazonaws.com/creatives/andoni-redondo-work-other-5.jpg,
+            https://mk2swag.s3.eu-west-3.amazonaws.com/creatives/andoni-redondo-work-other-6.jpg,
+            https://mk2swag.s3.eu-west-3.amazonaws.com/creatives/andoni-redondo-work-other-7.jpg,
+            https://mk2swag.s3.eu-west-3.amazonaws.com/creatives/andoni-redondo-work-other-8.jpg,
+            https://mk2swag.s3.eu-west-3.amazonaws.com/creatives/andoni-redondo-work-other-4.jpg,
+            https://mk2swag.s3.eu-west-3.amazonaws.com/creatives/andoni-redondo-work-other-3.jpg"
+%}
 
 ##### How can people reach out to you for work?
-My instagram account is @funtastic.__ and my Facebook is funtastic.oficial – I will soon have a website.
-
+My Instagram account is [@funtastic](https://www.instagram.com/funtastic.__/) and my Facebook is [@funtasticoficial](https://www.facebook.com/funtasticoficial) – and I’ll soon have a website!
 
 ##### Anything you want to plug?
-In instagram you can see my work, soon I will start doing merchandising, stay tuned ;)
+Checkout my [Instagram](https://www.instagram.com/funtastic.__/) where you can see my work, and soon I’ll start doing merchandising, so stay tuned 😉
