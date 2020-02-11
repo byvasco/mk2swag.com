@@ -1,7 +1,9 @@
 <div class="gallery">
-  <figure class="cover"><img src="{{include.cover}}" /></figure>
+  {% if include.cover %}
+    <figure class="cover"><img src="{{include.cover}}" /></figure>
+  {% endif %}
 
-  <div class="grid">
+  <div class="grid grid-{% if include.gallery_cols %}{{include.gallery_cols}} {% else %}2{% endif %}">
     {% assign images = include.gallery | split: "," %}
     
     {% for image in images %}
