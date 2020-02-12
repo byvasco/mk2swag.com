@@ -6,11 +6,11 @@ intro: This is Jordan, an hobbyist photographer from the UK who started out taki
 location: Wiltshire, UK
 country: UK
 
-date: 2020-01-05
+date: 2020-02-06
 cover: https://mk2swag.s3.eu-west-3.amazonaws.com/creatives/jordan-crawford-cover.jpg
 ---
 
-##### How/why did you started taking pictures?
+##### How/why did you start taking pictures?
 That’s bit of a story, really
 
 Going back years and years ago now (I must’ve been around the age of 10 or so) I was on holiday with my dad in the Costa Del Sol and he had this fascination of trying to capture a picture of the full moon at the harbour/docks. As far as I can recall, we walked down there nearly every night for him to try and capture this shot.

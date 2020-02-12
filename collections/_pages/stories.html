@@ -3,7 +3,7 @@ title: Stories
 intro: There’s a story with every ride – these are the ones from our community.
 ---
 
-<div class="container flex-center-all">
+<div class="flex-center-all">
   <div class="cards">
     {% assign stories = site.stories | sort: 'date' | reverse %} {% for story in
     stories %} {% if story.draft != true %} {% include cards/story.html

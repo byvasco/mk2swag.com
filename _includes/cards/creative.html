@@ -3,8 +3,6 @@
     <img
       src="{% if creative.cover %}{{creative.cover}}{% else %}/assets/images/uploads/{{creative.title | remove: '’' | slugify}}-cover.jpg{% endif %}"
     />
-
-    <div class="avatar" style="background-image: url({{creative.avatar}})"></div>
   </figure>
 
   <div class="card-details">

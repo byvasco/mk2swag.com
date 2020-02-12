@@ -11,10 +11,6 @@
     margin-bottom: -4px;
     position: relative;
 
-    img {
-      max-height: 230px;
-    }
-
     .avatar {
       @include wh(72px, 72px);
       background-color: #EEE;

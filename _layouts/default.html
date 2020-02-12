@@ -2,11 +2,11 @@
   {%- if page.url == "/" -%}
     page-home
   {%- elsif layout.page_title -%}
-    page-{{layout.page_title | downcase}}
+    page-{{layout.page_title | downcase | replace: " ", "-"}}
   {%- elsif page.title -%}
-    page-{{page.title | downcase}}
+    page-{{page.title | downcase | replace: " ", "-"}}
   {%- elsif layout.title -%}
-    page-{{layout.title | downcase}}
+    page-{{layout.title | downcase | replace: " ", "-"}}
   {%- else -%}
     page
   {%- endif -%}

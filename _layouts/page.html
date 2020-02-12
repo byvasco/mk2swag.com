@@ -11,5 +11,11 @@ general_class: page
 </header>
 
 <section class="page-content">
-  {{content}}
+  {% if page.container %}
+  <div class="container{% if page.container_width %}-{{page.container_width}}{% endif %}">
+    <div class="content">{{content}}</div>
+  </div>
+  {% else %}
+    <div class="content">{{content}}</div>
+  {% endif %}
 </section>

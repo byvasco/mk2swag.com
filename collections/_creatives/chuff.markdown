@@ -6,7 +6,7 @@ intro: This is Chuff, aspiring full-time photographer from the UK who is contrib
 location: Bath, UK
 country: UK
 
-date: 2020-01-04
+date: 2020-02-05
 cover: https://mk2swag.s3.eu-west-3.amazonaws.com/creatives/chuff-cover.jpg
 ---
 
@@ -51,7 +51,7 @@ Currently I’m shooting with a Nikon D800 full frame and about 5 or 6 different
 
 I also carry a back up DSLR camera with me in case I’m on a shoot and have an issue.
 
-For editing, I mainly use Adobe Lightroom for editing and also Adobe Photoshop.
+For editing, I mainly use Adobe Lightroom and also Adobe Photoshop.
 
 {% include story/gallery.html
    cover = "https://mk2swag.s3.eu-west-3.amazonaws.com/creatives/chuff-work-mk2-golf-detail.jpg"
@@ -68,7 +68,6 @@ I’m contactable via my email or any of my social media – I’m on Instagram 
 Just drop me a message if you’d like to chat about a shoot of any kind, I’d be happy to help 👍🏻
 
 {% include story/gallery.html
-   cover = "https://mk2swag.s3.eu-west-3.amazonaws.com/creatives/chuff-work-porsche.jpg"
    gallery = "https://mk2swag.s3.eu-west-3.amazonaws.com/creatives/chuff-work-mk3.jpg,
               https://mk2swag.s3.eu-west-3.amazonaws.com/creatives/chuff-work-e30.jpg,
               https://mk2swag.s3.eu-west-3.amazonaws.com/creatives/chuff-work-other.jpg,

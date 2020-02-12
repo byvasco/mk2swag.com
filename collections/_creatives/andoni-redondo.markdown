@@ -6,13 +6,11 @@ intro: This is Andoni (aka Funtastic), Spanish photograper who gets busy with bo
 location: Bilbao, Spain
 country: Spain
 
-date: 2020-01-04
+date: 2020-02-04
 cover: https://mk2swag.s3.eu-west-3.amazonaws.com/creatives/andoni-redondo-cover.jpg
-
-draft: true
 ---
 
-##### How/why did you started taking pictures?
+##### How/why did you start taking pictures?
 I started taking pictures around 2012, with very amateur results. At that time in my environment I didn't know any photographer and I didn't have much information either.
 
 I don't know why I started in the world of photography, but it all started by photographing a MK1 Golf that I had at that time. I liked having photos of him and at the beginning most of my photos and videos were from that car and the events he attended with him.
