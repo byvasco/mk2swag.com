@@ -76,7 +76,7 @@ I use a Canon 60d. 90% of time I use a Sigma 30mm 1.4 lens. I really love it. Fo
 %}
 
 ##### How can people reach out to you for work?
-My Instagram account is [@funtastic](https://www.instagram.com/funtastic.__/) and my Facebook is [@funtasticoficial](https://www.facebook.com/funtasticoficial) – and I’ll soon have a website!
+My Instagram account is [@funtastic.\__](https://www.instagram.com/funtastic.__/) and my Facebook is [@funtastic.oficial](https://www.facebook.com/funtasticoficial) – and I’ll soon have a website!
 
 ##### Anything you want to plug?
 Checkout my [Instagram](https://www.instagram.com/funtastic.__/) where you can see my work, and soon I’ll start doing merchandising, so stay tuned 😉
