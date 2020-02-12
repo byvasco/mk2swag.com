@@ -1,7 +1,7 @@
 docs:
   - title: Recent
     url: /
-    show: true
+    show: false
   
   - title: Stories
     url: /stories
@@ -9,7 +9,7 @@ docs:
   
   - title: Creatives
     url: /creatives
-    show: false
+    show: true
 
   - title: About
     url: /about
