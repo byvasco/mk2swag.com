@@ -10,4 +10,8 @@
       <figure><img data-action="zoom" src="{{image }}"/></figure>
     {% endfor %}
   </div>
+
+  {% if include.caption %}
+    <figcaption>{{include.caption}}</figcaption>
+  {% endif %}
 </div>
