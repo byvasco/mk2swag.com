@@ -2,7 +2,7 @@
 tags:
 - Golf
 title: Giovanni's 1990 8V Golf
-date: 2020-01-04 T00:00:00.000+00:00
+date: 2019-01-04 T00:00:00.000+00:00
 cover: 
 draft: true
 ---
